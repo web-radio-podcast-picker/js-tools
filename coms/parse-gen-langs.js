@@ -92,12 +92,12 @@ export default class ParseGenLangs {
         fs.writeFile(
             this.unknownLangsFilename,
             JSON.stringify(this.unknownLangs, null, 2),
-            err => this.writeFileCB(err, this.unknownLangsFilename)
+            err => this.util.writeFileCB(err, this.unknownLangsFilename)
         )
         fs.writeFile(
             this.knownLangsFilename,
             JSON.stringify(this.gl2, null, 2),
-            err => this.writeFileCB(err, this.knownLangsFilename)
+            err => this.util.writeFileCB(err, this.knownLangsFilename)
         )
 
         console.log('unknown langs groups: ' + Object.getOwnPropertyNames(this.unknownLangs).length)
@@ -122,7 +122,7 @@ export default class ParseGenLangs {
         fs.writeFile(
             this.allUnkownLangsGroupsNamesFilname,
             JSON.stringify(allUnkownLangsGroupsNames, null, 2),
-            err => this.writeFileCB(err, this.allUnkownLangsGroupsNamesFilname)
+            err => this.util.writeFileCB(err, this.allUnkownLangsGroupsNamesFilname)
         )
     }
 
@@ -142,7 +142,7 @@ export default class ParseGenLangs {
         fs.writeFile(
             this.allKownLangsGroupsNamesFilname,
             JSON.stringify(allKownLangsGroupsNames, null, 2),
-            err => this.writeFileCB(err, this.allKownLangsGroupsNamesFilname)
+            err => this.util.writeFileCB(err, this.allKownLangsGroupsNamesFilname)
         )
     }
 
@@ -159,7 +159,7 @@ export default class ParseGenLangs {
             lst.forEach(x => {
 
                 // fix/translate lang key
-                x = this.normalizeName(x)       // normalized name (before translation)
+                x = this.util.normalizeName(x)       // normalized name (before translation)
                 var trsl = null                 // translated name if any (else null)
                 if (this.trs[x]) {
                     // translate the lang name
@@ -174,7 +174,7 @@ export default class ParseGenLangs {
                 // resolve splits from ISO referential
                 const prs = (s, t, q) => {
                     if (t.length != 2) return
-                    const baseName = this.normalizeName(t[0])
+                    const baseName = this.util.normalizeName(t[0])
                     if (this.langKeys.includes(baseName)) {
                         this.addToCat(baseName, s, q)
                     }
@@ -210,7 +210,7 @@ export default class ParseGenLangs {
         const trs = []
         var n = 0
         this.langs.forEach(tn => {
-            const nname = this.normalizeName(tn[0])
+            const nname = this.util.normalizeName(tn[0])
             this.langKeys.push(nname)
             if (this.langTrs[nname]) {
                 trs[nname] = this.langTrs[nname]
@@ -219,25 +219,6 @@ export default class ParseGenLangs {
         })
         this.trs = trs
         console.log('translate lang names: ' + n + ' translated')
-    }
-
-    normalizeName(s) {
-        if (s === undefined || s == null) return
-        return s
-            .replaceAll('"', '')
-            .replaceAll('[', '')
-            .replaceAll(']', '')
-            .replaceAll('(', '')
-            .replaceAll(')', '')
-            .replaceAll('.', '')
-            .replaceAll('$', '')
-            .replaceAll('#', '')
-            .replaceAll('<', '')
-            .replaceAll('>', '')
-            .replaceAll('?', '')
-            .replaceAll("'", '')
-            .toLowerCase()
-            .trim()
     }
 
     findLang(n) {
@@ -249,21 +230,12 @@ export default class ParseGenLangs {
                 || ln['639-2'] == n
                 || ln.de == n
                 || ln.en == n
-                || ln.fr == n
+                || ln.fr == nutil.writeFileCB
             ) {
                 res = ln
                 return res
             }
         }
         return res
-    }
-
-    writeFileCB(err, fileName) {
-        if (err) {
-            console.error(err)
-            console.error('error writing file: ' + fileName)
-        }
-        else
-            console.log('file saved: ' + fileName)
     }
 }

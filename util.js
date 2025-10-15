@@ -21,4 +21,12 @@ export default class Util {
             .trim()
     }
 
+    writeFileCB(err, fileName) {
+        if (err) {
+            console.error(err)
+            console.error('error writing file: ' + fileName)
+        }
+        else
+            console.log('file saved: ' + fileName)
+    }
 }

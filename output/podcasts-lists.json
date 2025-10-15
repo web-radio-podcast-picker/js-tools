@@ -1,0 +1,874 @@
+{
+  "eng": {
+    "items": [],
+    "count": 2607703
+  },
+  "spa": {
+    "items": [],
+    "count": 660175
+  },
+  "ron": {
+    "items": [],
+    "count": 4218
+  },
+  "?": {
+    "items": [],
+    "count": 240515
+  },
+  "zho": {
+    "items": [],
+    "count": 72760
+  },
+  "swe": {
+    "items": [],
+    "count": 18834
+  },
+  "ukr": {
+    "items": [],
+    "count": 4156
+  },
+  "heb": {
+    "items": [],
+    "count": 10740
+  },
+  "por": {
+    "items": [],
+    "count": 260735
+  },
+  "rus": {
+    "items": [],
+    "count": 47271
+  },
+  "deu": {
+    "items": [],
+    "count": 114674
+  },
+  "fra": {
+    "items": [],
+    "count": 113954
+  },
+  "dan": {
+    "items": [],
+    "count": 13158
+  },
+  "nor": {
+    "items": [],
+    "count": 7250
+  },
+  "ita": {
+    "items": [],
+    "count": 77546
+  },
+  "jpn": {
+    "items": [],
+    "count": 42709
+  },
+  "nld": {
+    "items": [],
+    "count": 34627
+  },
+  "kor": {
+    "items": [],
+    "count": 6535
+  },
+  "fin": {
+    "items": [],
+    "count": 6067
+  },
+  "ara": {
+    "items": [],
+    "count": 29929
+  },
+  "vie": {
+    "items": [],
+    "count": 13488
+  },
+  "ind": {
+    "items": [],
+    "count": 32383
+  },
+  "swa": {
+    "items": [],
+    "count": 2162
+  },
+  "mar": {
+    "items": [],
+    "count": 1850
+  },
+  "cat": {
+    "items": [],
+    "count": 12037
+  },
+  "pol": {
+    "items": [],
+    "count": 19231
+  },
+  "hin": {
+    "items": [],
+    "count": 30518
+  },
+  "tur": {
+    "items": [],
+    "count": 22521
+  },
+  "ell": {
+    "items": [],
+    "count": 4836
+  },
+  "afr": {
+    "items": [],
+    "count": 2306
+  },
+  "bre": {
+    "items": [],
+    "count": 86
+  },
+  "hau": {
+    "items": [],
+    "count": 717
+  },
+  "isl": {
+    "items": [],
+    "count": 1787
+  },
+  "hun": {
+    "items": [],
+    "count": 5861
+  },
+  "fas": {
+    "items": [],
+    "count": 14542
+  },
+  "aar": {
+    "items": [],
+    "count": 1280
+  },
+  "nep": {
+    "items": [],
+    "count": 1160
+  },
+  "srp": {
+    "items": [],
+    "count": 1676
+  },
+  "slk": {
+    "items": [],
+    "count": 3890
+  },
+  "tgl": {
+    "items": [],
+    "count": 2755
+  },
+  "ces": {
+    "items": [],
+    "count": 8744
+  },
+  "ben": {
+    "items": [],
+    "count": 2908
+  },
+  "slv": {
+    "items": [],
+    "count": 1428
+  },
+  "tam": {
+    "items": [],
+    "count": 8341
+  },
+  "ltz": {
+    "items": [],
+    "count": 341
+  },
+  "urd": {
+    "items": [],
+    "count": 3067
+  },
+  "gla": {
+    "items": [],
+    "count": 47
+  },
+  "bul": {
+    "items": [],
+    "count": 1611
+  },
+  "khm": {
+    "items": [],
+    "count": 488
+  },
+  "nob": {
+    "items": [],
+    "count": 3676
+  },
+  "sqi": {
+    "items": [],
+    "count": 1723
+  },
+  "mya": {
+    "items": [],
+    "count": 876
+  },
+  "fao": {
+    "items": [],
+    "count": 327
+  },
+  "est": {
+    "items": [],
+    "count": 1674
+  },
+  "gaa": {
+    "items": [],
+    "count": 224
+  },
+  "cym": {
+    "items": [],
+    "count": 247
+  },
+  "mon": {
+    "items": [],
+    "count": 984
+  },
+  "fil": {
+    "items": [],
+    "count": 1260
+  },
+  "pan": {
+    "items": [],
+    "count": 909
+  },
+  "bel": {
+    "items": [],
+    "count": 460
+  },
+  "tha": {
+    "items": [],
+    "count": 5767
+  },
+  "amh": {
+    "items": [],
+    "count": 1932
+  },
+  "mal": {
+    "items": [],
+    "count": 3081
+  },
+  "tel": {
+    "items": [],
+    "count": 3082
+  },
+  "kan": {
+    "items": [],
+    "count": 1043
+  },
+  "lit": {
+    "items": [],
+    "count": 996
+  },
+  "aka": {
+    "items": [],
+    "count": 1059
+  },
+  "kat": {
+    "items": [],
+    "count": 183
+  },
+  "msa": {
+    "items": [],
+    "count": 2489
+  },
+  "hye": {
+    "items": [],
+    "count": 607
+  },
+  "lav": {
+    "items": [],
+    "count": 1013
+  },
+  "guj": {
+    "items": [],
+    "count": 1050
+  },
+  "som": {
+    "items": [],
+    "count": 670
+  },
+  "bos": {
+    "items": [],
+    "count": 3677
+  },
+  "eus": {
+    "items": [],
+    "count": 1354
+  },
+  "yor": {
+    "items": [],
+    "count": 497
+  },
+  "orm": {
+    "items": [],
+    "count": 77
+  },
+  "roh": {
+    "items": [],
+    "count": 64
+  },
+  "glg": {
+    "items": [],
+    "count": 1798
+  },
+  "sme": {
+    "items": [],
+    "count": 60
+  },
+  "sin": {
+    "items": [],
+    "count": 751
+  },
+  "san": {
+    "items": [],
+    "count": 75
+  },
+  "iku": {
+    "items": [],
+    "count": 15
+  },
+  "ewe": {
+    "items": [],
+    "count": 174
+  },
+  "asm": {
+    "items": [],
+    "count": 256
+  },
+  "aze": {
+    "items": [],
+    "count": 542
+  },
+  "hrv": {
+    "items": [],
+    "count": 857
+  },
+  "sna": {
+    "items": [],
+    "count": 78
+  },
+  "ful": {
+    "items": [],
+    "count": 266
+  },
+  "sun": {
+    "items": [],
+    "count": 34
+  },
+  "nno": {
+    "items": [],
+    "count": 476
+  },
+  "pus": {
+    "items": [],
+    "count": 175
+  },
+  "uzb": {
+    "items": [],
+    "count": 1790
+  },
+  "ibo": {
+    "items": [],
+    "count": 46
+  },
+  "jav": {
+    "items": [],
+    "count": 242
+  },
+  "twi": {
+    "items": [],
+    "count": 45
+  },
+  "niu": {
+    "items": [],
+    "count": 3
+  },
+  "nau": {
+    "items": [],
+    "count": 8
+  },
+  "mul": {
+    "items": [],
+    "count": 206
+  },
+  "tgk": {
+    "items": [],
+    "count": 204
+  },
+  "lat": {
+    "items": [],
+    "count": 174
+  },
+  "cha": {
+    "items": [],
+    "count": 19
+  },
+  "que": {
+    "items": [],
+    "count": 30
+  },
+  "epo": {
+    "items": [],
+    "count": 187
+  },
+  "lug": {
+    "items": [],
+    "count": 405
+  },
+  "kas": {
+    "items": [],
+    "count": 46
+  },
+  "wol": {
+    "items": [],
+    "count": 370
+  },
+  "fry": {
+    "items": [],
+    "count": 15
+  },
+  "dzo": {
+    "items": [],
+    "count": 29
+  },
+  "kin": {
+    "items": [],
+    "count": 231
+  },
+  "nds": {
+    "items": [],
+    "count": 7
+  },
+  "ton": {
+    "items": [],
+    "count": 555
+  },
+  "smo": {
+    "items": [],
+    "count": 95
+  },
+  "ori": {
+    "items": [],
+    "count": 833
+  },
+  "scn": {
+    "items": [],
+    "count": 1
+  },
+  "kaz": {
+    "items": [],
+    "count": 427
+  },
+  "mkd": {
+    "items": [],
+    "count": 154
+  },
+  "che": {
+    "items": [],
+    "count": 241
+  },
+  "zul": {
+    "items": [],
+    "count": 970
+  },
+  "snd": {
+    "items": [],
+    "count": 14
+  },
+  "hat": {
+    "items": [],
+    "count": 267
+  },
+  "tir": {
+    "items": [],
+    "count": 740
+  },
+  "tuk": {
+    "items": [],
+    "count": 106
+  },
+  "ina": {
+    "items": [],
+    "count": 47
+  },
+  "bod": {
+    "items": [],
+    "count": 87
+  },
+  "kal": {
+    "items": [],
+    "count": 75
+  },
+  "kur": {
+    "items": [],
+    "count": 205
+  },
+  "bam": {
+    "items": [],
+    "count": 393
+  },
+  "run": {
+    "items": [],
+    "count": 9
+  },
+  "lin": {
+    "items": [],
+    "count": 14
+  },
+  "mlt": {
+    "items": [],
+    "count": 59
+  },
+  "ast": {
+    "items": [],
+    "count": 12
+  },
+  "mlg": {
+    "items": [],
+    "count": 32
+  },
+  "luo": {
+    "items": [],
+    "count": 5
+  },
+  "bis": {
+    "items": [],
+    "count": 7
+  },
+  "grn": {
+    "items": [],
+    "count": 10
+  },
+  "ipk": {
+    "items": [],
+    "count": 3
+  },
+  "ido": {
+    "items": [],
+    "count": 12
+  },
+  "ewo": {
+    "items": [],
+    "count": 4
+  },
+  "nbl": {
+    "items": [],
+    "count": 18
+  },
+  "kik": {
+    "items": [],
+    "count": 29
+  },
+  "cos": {
+    "items": [],
+    "count": 14
+  },
+  "lao": {
+    "items": [],
+    "count": 73
+  },
+  "uig": {
+    "items": [],
+    "count": 84
+  },
+  "gsw": {
+    "items": [],
+    "count": 29
+  },
+  "din": {
+    "items": [],
+    "count": 8
+  },
+  "ceb": {
+    "items": [],
+    "count": 8
+  },
+  "haw": {
+    "items": [],
+    "count": 8
+  },
+  "nde": {
+    "items": [],
+    "count": 44
+  },
+  "ang": {
+    "items": [],
+    "count": 2
+  },
+  "xho": {
+    "items": [],
+    "count": 56
+  },
+  "yid": {
+    "items": [],
+    "count": 81
+  },
+  "bak": {
+    "items": [],
+    "count": 42
+  },
+  "kam": {
+    "items": [],
+    "count": 1
+  },
+  "kir": {
+    "items": [],
+    "count": 121
+  },
+  "sot": {
+    "items": [],
+    "count": 25
+  },
+  "mri": {
+    "items": [],
+    "count": 28
+  },
+  "tat": {
+    "items": [],
+    "count": 20
+  },
+  "abk": {
+    "items": [],
+    "count": 46
+  },
+  "cor": {
+    "items": [],
+    "count": 28
+  },
+  "kau": {
+    "items": [],
+    "count": 7
+  },
+  "srd": {
+    "items": [],
+    "count": 17
+  },
+  "grc": {
+    "items": [],
+    "count": 44
+  },
+  "und": {
+    "items": [],
+    "count": 3
+  },
+  "ile": {
+    "items": [],
+    "count": 33
+  },
+  "enm": {
+    "items": [],
+    "count": 3
+  },
+  "kar": {
+    "items": [],
+    "count": 1
+  },
+  "div": {
+    "items": [],
+    "count": 5
+  },
+  "zha": {
+    "items": [],
+    "count": 5
+  },
+  "tsn": {
+    "items": [],
+    "count": 22
+  },
+  "kok": {
+    "items": [],
+    "count": 4
+  },
+  "chu": {
+    "items": [],
+    "count": 15
+  },
+  "oss": {
+    "items": [],
+    "count": 8
+  },
+  "sag": {
+    "items": [],
+    "count": 70
+  },
+  "oci": {
+    "items": [],
+    "count": 9
+  },
+  "chv": {
+    "items": [],
+    "count": 4
+  },
+  "chr": {
+    "items": [],
+    "count": 8
+  },
+  "vol": {
+    "items": [],
+    "count": 1
+  },
+  "tso": {
+    "items": [],
+    "count": 8
+  },
+  "ven": {
+    "items": [],
+    "count": 8
+  },
+  "glv": {
+    "items": [],
+    "count": 6
+  },
+  "nya": {
+    "items": [],
+    "count": 101
+  },
+  "ssw": {
+    "items": [],
+    "count": 11
+  },
+  "nso": {
+    "items": [],
+    "count": 1
+  },
+  "mos": {
+    "items": [],
+    "count": 81
+  },
+  "arg": {
+    "items": [],
+    "count": 7
+  },
+  "fij": {
+    "items": [],
+    "count": 6
+  },
+  "ave": {
+    "items": [],
+    "count": 3
+  },
+  "kon": {
+    "items": [],
+    "count": 1
+  },
+  "bih": {
+    "items": [],
+    "count": 21
+  },
+  "hil": {
+    "items": [],
+    "count": 2
+  },
+  "hsb": {
+    "items": [],
+    "count": 4
+  },
+  "aym": {
+    "items": [],
+    "count": 2
+  },
+  "iii": {
+    "items": [],
+    "count": 6
+  },
+  "lub": {
+    "items": [],
+    "count": 5
+  },
+  "her": {
+    "items": [],
+    "count": 5
+  },
+  "tah": {
+    "items": [],
+    "count": 2
+  },
+  "pap": {
+    "items": [],
+    "count": 3
+  },
+  "bas": {
+    "items": [],
+    "count": 4
+  },
+  "bho": {
+    "items": [],
+    "count": 1
+  },
+  "fur": {
+    "items": [],
+    "count": 2
+  },
+  "ilo": {
+    "items": [],
+    "count": 2
+  },
+  "zgh": {
+    "items": [],
+    "count": 1
+  },
+  "kab": {
+    "items": [],
+    "count": 1
+  },
+  "nav": {
+    "items": [],
+    "count": 1
+  },
+  "oji": {
+    "items": [],
+    "count": 1
+  },
+  "tkl": {
+    "items": [],
+    "count": 1
+  },
+  "cre": {
+    "items": [],
+    "count": 2
+  },
+  "kha": {
+    "items": [],
+    "count": 1
+  },
+  "rom": {
+    "items": [],
+    "count": 1
+  },
+  "wln": {
+    "items": [],
+    "count": 3
+  },
+  "hmo": {
+    "items": [],
+    "count": 3
+  },
+  "sah": {
+    "items": [],
+    "count": 1
+  },
+  "tet": {
+    "items": [],
+    "count": 1
+  },
+  "zxx": {
+    "items": [],
+    "count": 4
+  },
+  "lim": {
+    "items": [],
+    "count": 1
+  },
+  "ira": {
+    "items": [],
+    "count": 2
+  },
+  "ava": {
+    "items": [],
+    "count": 1
+  }
+}
