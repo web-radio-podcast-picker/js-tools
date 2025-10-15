@@ -8,6 +8,7 @@ const langs = (await import('./data/db-podcast-export-languages.js')).default
 import isoLangs from './data/iso-639-2.json' assert {type: 'json'};
 import BuildPodcastsLists from './coms/build-podcasts-lists.js';
 const langTrs = (await import('./data/langsTranslations.js')).default
+import Util from './util.js'
 
 console.log('loaded: db-podcast-export-languages')
 console.log('langs count: ' + langs.length)
@@ -54,11 +55,11 @@ const com = args[2]
 switch (com) {
   case 'parse-gen-langs':
     const parseGenLangs = new ParseGenLangs()
-    parseGenLangs.run(langs, langTrs, isoLangs)
+    parseGenLangs.run(langs, langTrs, isoLangs, new Util())
     break
   case 'build-podcasts-lists':
     const buildPodcastsLists = new BuildPodcastsLists()
-    buildPodcastsLists.run()
+    buildPodcastsLists.run(langs, langTrs, isoLangs, new Util())
     break
   default:
     console.error('unknown command: ' + com)

@@ -28,8 +28,9 @@ export default class ParseGenLangs {
     dumpUnknownLangCode = false
     dumpUnknownLangGroups = false
 
-    run(langs, langTrs, isoLangs) {
+    run(langs, langTrs, isoLangs, util) {
         console.log('> run')
+        this.util = util
         this.langs = langs
         this.langTrs = langTrs
         this.isoLangs = isoLangs

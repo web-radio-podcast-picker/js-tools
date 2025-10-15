@@ -3,6 +3,8 @@
 import fs from 'fs'
 import readline from 'readline'
 
+import knownLangs from '../output/kown-langs-groups-names-referential.json' assert {type: 'json'};
+
 export default class BuildPodcastsLists {
 
     //dbExportFilename = 'data/podcastindex_feeds.db.csv'
@@ -20,8 +22,9 @@ export default class BuildPodcastsLists {
         checkSeparator: false
     }
 
-    run(langs, langTrs, isoLangs) {
+    run(langs, langTrs, isoLangs, util) {
         console.log('> run')
+        this.util = util
         this.langs = langs
         this.langTrs = langTrs
         this.isoLangs = isoLangs
@@ -73,13 +76,16 @@ export default class BuildPodcastsLists {
             && row.includes(this.separator))
             console.warn(row)
         const t = row.split(this.separator)
-        const lang = t[17]
+        const lang = this.util.normalizeName(t[17])
         const tags = []
         for (var i = 0; i < 10; i++) {
             const c = t[29 + i]
             if (c != '""')
                 tags.push(c)
         }
-        console.warn(lang + ' | ' + tags.join(','))
+        var isoLang = knownLangs.map[lang]
+        if (isoLang === undefined)
+            isoLang = 'UNKNOWN (' + lang + ')'
+        console.warn(isoLang + ' | ' + tags.join(','))
     }
 }
