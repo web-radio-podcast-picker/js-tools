@@ -1,1 +1,1 @@
-launch (powserShell) : cls & node --trace-warnings main.js parse-gen-langs
+launch (powserShell) : cls ; node --trace-warnings main.js parse-gen-langs

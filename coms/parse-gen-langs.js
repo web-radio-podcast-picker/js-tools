@@ -1,9 +1,13 @@
 // parse gen langs
 // db.podcast langs groups export -> normalized langs groups
 
+import fs from 'fs'
+
 export default class ParseGenLangs {
 
-    gl = []
+    // langs groups
+    gl = {}     // with unknowns
+    gl2 = {}    // without unknowns
     // db translated langs groups
     langKeys = []
     // db langs groups export
@@ -15,16 +19,23 @@ export default class ParseGenLangs {
     // unclassified lang codes
     unknownLangs = {}
 
-    dumpTranslatedLangGroups = true
-    dumpUnknownLangCode = true
+    unknownLangsFilename = 'output/unknownLangs.json'
+    knownLangsFilename = 'output/knownLangs.json'
+
+    dumpTranslatedLangGroups = false
+    dumpUnknownLangCode = false
+    dumpUnknownLangGroups = false
 
     run(langs, langTrs, isoLangs) {
         console.log('> run')
         this.langs = langs
         this.langTrs = langTrs
         this.isoLangs = isoLangs
+        // normalize & substitute as much as possible not valid lang names (manually detected)
         this.translateLangNames()
+        // rebuild groups using translated names
         this.buildTranslatedLangGroups()
+        // rebuild groups keeping only ISO valid codes
         this.buildISOLangGroups()
     }
 
@@ -33,8 +44,9 @@ export default class ParseGenLangs {
         const gl2 = []
         var qt = 0
 
-        // langs -> unclassified
-        const grps = { en: this.gl['en'] }
+        // langs -> groups without any valid lang code (unknownLangs)
+
+        const grps = this.gl // { en: this.gl['en'] }
 
         for (const tnk in grps) {
             const tn = this.gl[tnk]
@@ -56,12 +68,36 @@ export default class ParseGenLangs {
                 this.unknownLangs[tnk] = tn
             } else {
                 // every lang code in the group is associated with the iso lang code
+                // push (index 2) the ISO lang descriptor
+                // tn ::= [ langsCodes, count, isoLang ]
                 tn.push(lang)
             }
         }
 
+        // build classification without unknowns
+
+        for (const tnk in this.gl) {
+            if (this.unknownLangs[tnk] === undefined)
+                this.gl2[tnk] = this.gl[tnk]
+        }
+
+        // store results in /out
+        fs.writeFile(
+            this.unknownLangsFilename,
+            JSON.stringify(this.unknownLangs, null, 2),
+            err => this.writeFileCB(err, this.unknownLangsFilename)
+        )
+        fs.writeFile(
+            this.knownLangsFilename,
+            JSON.stringify(this.gl2, null, 2),
+            err => this.writeFileCB(err, this.knownLangsFilename)
+        )
+
         console.log('unknown langs groups: ' + Object.getOwnPropertyNames(this.unknownLangs).length)
-        console.log(this.unknownLangs)
+        if (this.dumpTranslatedLangGroups)
+            console.log(this.gl['en'])
+        if (this.dumpUnknownLangGroups)
+            console.log(this.unknownLangs)
     }
 
     buildTranslatedLangGroups() {
@@ -161,7 +197,7 @@ export default class ParseGenLangs {
     findLang(n) {
         const t = this.isoLangs
         var res = null
-        for (lnk in t) {
+        for (const lnk in t) {
             const ln = t[lnk]
             if (ln['639-1'] == n
                 || ln['639-2'] == n
@@ -174,5 +210,14 @@ export default class ParseGenLangs {
             }
         }
         return res
+    }
+
+    writeFileCB(err, fileName) {
+        if (err) {
+            console.error(err)
+            console.error('error writing file: ' + fileName)
+        }
+        else
+            console.log('file saved: ' + fileName)
     }
 }

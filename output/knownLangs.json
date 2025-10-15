@@ -1,0 +1,6175 @@
+{
+  "en": [
+    [
+      "en",
+      "en-in",
+      "en-us",
+      "en-gb",
+      "en-en",
+      "en-eng",
+      "en -",
+      "en-",
+      "en-001",
+      "en-as",
+      "en-au",
+      "en-aus",
+      "en-be",
+      "en-bg",
+      "en-bw",
+      "en-bz",
+      "en-ca",
+      "en-cac",
+      "en-cy",
+      "en-de",
+      "en-es",
+      "en-fi",
+      "en-gb; a",
+      "en-gh",
+      "en-ie",
+      "en-il",
+      "en-it",
+      "en-jm",
+      "en-jp",
+      "en-ke",
+      "en-mx",
+      "en-my",
+      "en-na",
+      "en-ng",
+      "en-nl",
+      "en-nz",
+      "en-ph",
+      "en-pi",
+      "en-pk",
+      "en-se",
+      "en-sg",
+      "en-sz",
+      "en-tt",
+      "en-tz",
+      "en-ud",
+      "en-uk",
+      "en-us fa",
+      "en-usa",
+      "en-xa",
+      "en-za",
+      "en-zg",
+      "en-zm",
+      "en-zw",
+      "en-ar",
+      "en-cb",
+      "en-cc",
+      "en-cdn",
+      "en-fr",
+      "en-ga",
+      "en-gp",
+      "en-hi",
+      "en-ki",
+      "en-kr",
+      "en-modif",
+      "en-ru",
+      "en-ug",
+      "en-us es",
+      "en-uss",
+      "en_001",
+      "en_150",
+      "en_ar",
+      "en_as",
+      "en_au",
+      "en_ca",
+      "en_en",
+      "en_fr",
+      "en_gb",
+      "en_gh",
+      "en_ie",
+      "en_in",
+      "en_je",
+      "en_jm",
+      "en_jp",
+      "en_nz",
+      "en_ph",
+      "en_sx",
+      "en_ws",
+      "en_za"
+    ],
+    2603783,
+    {
+      "639-1": "en",
+      "639-2": "eng",
+      "de": [
+        "Englisch"
+      ],
+      "en": [
+        "English"
+      ],
+      "fr": [
+        "anglais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/English_language"
+    }
+  ],
+  "fr": [
+    [
+      "fr",
+      "fr-fr",
+      "fr-be",
+      "fr-bf",
+      "fr-bj",
+      "fr-ca",
+      "fr-ch",
+      "fr-ci",
+      "fr-ht",
+      "fr-ma",
+      "fr-mu",
+      "fr-en",
+      "fr-fra",
+      "fr-frs",
+      "fr-lu",
+      "fr-mc",
+      "fr_ca",
+      "fr_fr"
+    ],
+    113783,
+    {
+      "639-1": "fr",
+      "639-2": "fra",
+      "639-2/B": "fre",
+      "de": [
+        "Französisch"
+      ],
+      "en": [
+        "French"
+      ],
+      "fr": [
+        "français"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/French_language"
+    }
+  ],
+  "zh": [
+    [
+      "zh",
+      "zh-chs",
+      "zh-cht",
+      "zh-cn",
+      "zh-hk",
+      "zh-ha",
+      "zh-hans",
+      "zh-hant",
+      "zh-mo",
+      "zh-tw",
+      "zh-us",
+      "zh-zh",
+      "zh-rtw",
+      "zh-sg",
+      "zh-t",
+      "zh-yue",
+      "zh_cn",
+      "zh_tw"
+    ],
+    72753,
+    {
+      "639-1": "zh",
+      "639-2": "zho",
+      "639-2/B": "chi",
+      "de": [
+        "Chinesisch"
+      ],
+      "en": [
+        "Chinese"
+      ],
+      "fr": [
+        "chinois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chinese_language"
+    }
+  ],
+  "es": [
+    [
+      "es-es",
+      "es",
+      "es-gt",
+      "es-do",
+      "es-ve",
+      "es-cl",
+      "es-41",
+      "es-419",
+      "es-ar",
+      "es-bo",
+      "es-co",
+      "es-col",
+      "es-cr",
+      "es-dr",
+      "es-ec",
+      "es-hn",
+      "es-la",
+      "es-mx",
+      "es-ni",
+      "es-pa",
+      "es-pe",
+      "es-pr",
+      "es-py",
+      "es-sp",
+      "es-spa",
+      "es-sv",
+      "es-us",
+      "es-uy",
+      "es-ca",
+      "es-cat",
+      "es-en",
+      "es-xl",
+      "es_419",
+      "es_ar",
+      "es_cl",
+      "es_co",
+      "es_es",
+      "es_mx",
+      "es_ni",
+      "es_pe",
+      "es_pr",
+      "es_sv",
+      "es_us",
+      "es_ve",
+      "es_vi"
+    ],
+    660091,
+    {
+      "639-1": "es",
+      "639-2": "spa",
+      "de": [
+        "Spanisch"
+      ],
+      "en": [
+        "Spanish",
+        "Castilian"
+      ],
+      "fr": [
+        "espagnol",
+        "castillan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language"
+    }
+  ],
+  "eng": [
+    [
+      "eng",
+      "eng-en",
+      "eng-eng"
+    ],
+    4793,
+    {
+      "639-1": "en",
+      "639-2": "eng",
+      "de": [
+        "Englisch"
+      ],
+      "en": [
+        "English"
+      ],
+      "fr": [
+        "anglais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/English_language"
+    }
+  ],
+  "por": [
+    [
+      "por",
+      "por-br",
+      "por-pt"
+    ],
+    29,
+    {
+      "639-1": "pt",
+      "639-2": "por",
+      "de": [
+        "Portugiesisch"
+      ],
+      "en": [
+        "Portuguese"
+      ],
+      "fr": [
+        "portugais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Portuguese_language"
+    }
+  ],
+  "aa": [
+    [
+      "aa",
+      "aa-aa"
+    ],
+    1281,
+    {
+      "639-1": "aa",
+      "639-2": "aar",
+      "de": [
+        "Danakil-Sprache"
+      ],
+      "en": [
+        "Afar"
+      ],
+      "fr": [
+        "afar"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Afar_language"
+    }
+  ],
+  "af": [
+    [
+      "af",
+      "af-af",
+      "af-za"
+    ],
+    2307,
+    {
+      "639-1": "af",
+      "639-2": "afr",
+      "de": [
+        "Afrikaans"
+      ],
+      "en": [
+        "Afrikaans"
+      ],
+      "fr": [
+        "afrikaans"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Afrikaans_language"
+    }
+  ],
+  "ak": [
+    [
+      "ak"
+    ],
+    1059,
+    {
+      "639-1": "ak",
+      "639-2": "aka",
+      "de": [
+        "Akan-Sprache"
+      ],
+      "en": [
+        "Akan"
+      ],
+      "fr": [
+        "akan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Akan_language"
+    }
+  ],
+  "am": [
+    [
+      "am",
+      "am-et",
+      "am_et"
+    ],
+    1932,
+    {
+      "639-1": "am",
+      "639-2": "amh",
+      "de": [
+        "Amharisch"
+      ],
+      "en": [
+        "Amharic"
+      ],
+      "fr": [
+        "amharique"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Amharic_language"
+    }
+  ],
+  "ar": [
+    [
+      "ar",
+      "ar-ae",
+      "ar-ar",
+      "ar-dz",
+      "ar-eg",
+      "ar-fr",
+      "ar-iq",
+      "ar-jo",
+      "ar-kw",
+      "ar-lb",
+      "ar-ma",
+      "ar-qa",
+      "ar-sa",
+      "ar-sy",
+      "ar-ye",
+      "ar-ara",
+      "ar-bh",
+      "ar-ly",
+      "ar-om",
+      "ar-tn",
+      "ar-us",
+      "ar_iq",
+      "ar_sa"
+    ],
+    29926,
+    {
+      "639-1": "ar",
+      "639-2": "ara",
+      "de": [
+        "Arabisch"
+      ],
+      "en": [
+        "Arabic"
+      ],
+      "fr": [
+        "arabe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Arabic_language"
+    }
+  ],
+  "as": [
+    [
+      "as",
+      "as-in"
+    ],
+    255,
+    {
+      "639-1": "as",
+      "639-2": "asm",
+      "de": [
+        "Assamesisch"
+      ],
+      "en": [
+        "Assamese"
+      ],
+      "fr": [
+        "assamais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Assamese_language"
+    }
+  ],
+  "az": [
+    [
+      "az",
+      "az-az"
+    ],
+    542,
+    {
+      "639-1": "az",
+      "639-2": "aze",
+      "de": [
+        "Aserbeidschanisch"
+      ],
+      "en": [
+        "Azerbaijani"
+      ],
+      "fr": [
+        "azéri"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Azerbaijani_language"
+    }
+  ],
+  "ara": [
+    [
+      "ara"
+    ],
+    8,
+    {
+      "639-1": "ar",
+      "639-2": "ara",
+      "de": [
+        "Arabisch"
+      ],
+      "en": [
+        "Arabic"
+      ],
+      "fr": [
+        "arabe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Arabic_language"
+    }
+  ],
+  "aus": [
+    [
+      "aus"
+    ],
+    6,
+    {
+      "639-2": "aus",
+      "de": [
+        "Australische Sprachen"
+      ],
+      "en": [
+        "Australian languages"
+      ],
+      "fr": [
+        "australiennes, langues"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Australian_languages"
+    }
+  ],
+  "ba": [
+    [
+      "ba"
+    ],
+    42,
+    {
+      "639-1": "ba",
+      "639-2": "bak",
+      "de": [
+        "Baschkirisch"
+      ],
+      "en": [
+        "Bashkir"
+      ],
+      "fr": [
+        "bachkir"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bashkir_language"
+    }
+  ],
+  "bg": [
+    [
+      "bg",
+      "bg-bg",
+      "bg_bg"
+    ],
+    1612,
+    {
+      "639-1": "bg",
+      "639-2": "bul",
+      "de": [
+        "Bulgarisch"
+      ],
+      "en": [
+        "Bulgarian"
+      ],
+      "fr": [
+        "bulgare"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bulgarian_language"
+    }
+  ],
+  "bi": [
+    [
+      "bi"
+    ],
+    7,
+    {
+      "639-1": "bi",
+      "639-2": "bis",
+      "de": [
+        "Beach-la-mar"
+      ],
+      "en": [
+        "Bislama"
+      ],
+      "fr": [
+        "bichlamar"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bislama_language"
+    }
+  ],
+  "bm": [
+    [
+      "bm"
+    ],
+    393,
+    {
+      "639-1": "bm",
+      "639-2": "bam",
+      "de": [
+        "Bambara-Sprache"
+      ],
+      "en": [
+        "Bambara"
+      ],
+      "fr": [
+        "bambara"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bambara_language"
+    }
+  ],
+  "bn": [
+    [
+      "bn",
+      "bn-bd",
+      "bn-in",
+      "bn-mm",
+      "bn-bn",
+      "bn_bd"
+    ],
+    2887,
+    {
+      "639-1": "bn",
+      "639-2": "ben",
+      "de": [
+        "Bengali"
+      ],
+      "en": [
+        "Bengali"
+      ],
+      "fr": [
+        "bengali"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bengali_language"
+    }
+  ],
+  "br": [
+    [
+      "br",
+      "br-br",
+      "br-bzh",
+      "br-pt"
+    ],
+    86,
+    {
+      "639-1": "br",
+      "639-2": "bre",
+      "de": [
+        "Bretonisch"
+      ],
+      "en": [
+        "Breton"
+      ],
+      "fr": [
+        "breton"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Breton_language"
+    }
+  ],
+  "bs": [
+    [
+      "bs",
+      "bs-ba",
+      "bs-bs"
+    ],
+    3677,
+    {
+      "639-1": "bs",
+      "639-2": "bos",
+      "de": [
+        "Bosnisch"
+      ],
+      "en": [
+        "Bosnian"
+      ],
+      "fr": [
+        "bosniaque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bosnian_language"
+    }
+  ],
+  "ce": [
+    [
+      "ce"
+    ],
+    241,
+    {
+      "639-1": "ce",
+      "639-2": "che",
+      "de": [
+        "Tschetschenisch"
+      ],
+      "en": [
+        "Chechen"
+      ],
+      "fr": [
+        "tchétchène"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chechen_language"
+    }
+  ],
+  "cs": [
+    [
+      "cs",
+      "cs-cs",
+      "cs-cz"
+    ],
+    8742,
+    {
+      "639-1": "cs",
+      "639-2": "ces",
+      "639-2/B": "cze",
+      "de": [
+        "Tschechisch"
+      ],
+      "en": [
+        "Czech"
+      ],
+      "fr": [
+        "tchèque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Czech_language"
+    }
+  ],
+  "cat": [
+    [
+      "cat"
+    ],
+    3,
+    {
+      "639-1": "ca",
+      "639-2": "cat",
+      "de": [
+        "Katalanisch"
+      ],
+      "en": [
+        "Catalan",
+        "Valencian"
+      ],
+      "fr": [
+        "catalan",
+        "valencien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Catalan_language"
+    }
+  ],
+  "zho": [
+    [
+      "zho"
+    ],
+    107,
+    {
+      "639-1": "zh",
+      "639-2": "zho",
+      "639-2/B": "chi",
+      "de": [
+        "Chinesisch"
+      ],
+      "en": [
+        "Chinese"
+      ],
+      "fr": [
+        "chinois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chinese_language"
+    }
+  ],
+  "ces": [
+    [
+      "ces"
+    ],
+    9,
+    {
+      "639-1": "cs",
+      "639-2": "ces",
+      "639-2/B": "cze",
+      "de": [
+        "Tschechisch"
+      ],
+      "en": [
+        "Czech"
+      ],
+      "fr": [
+        "tchèque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Czech_language"
+    }
+  ],
+  "da": [
+    [
+      "da",
+      "da-dk",
+      "da-da",
+      "da_dk"
+    ],
+    13153,
+    {
+      "639-1": "da",
+      "639-2": "dan",
+      "de": [
+        "Dänisch"
+      ],
+      "en": [
+        "Danish"
+      ],
+      "fr": [
+        "danois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Danish_language"
+    }
+  ],
+  "dan": [
+    [
+      "dan"
+    ],
+    5,
+    {
+      "639-1": "da",
+      "639-2": "dan",
+      "de": [
+        "Dänisch"
+      ],
+      "en": [
+        "Danish"
+      ],
+      "fr": [
+        "danois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Danish_language"
+    }
+  ],
+  "de": [
+    [
+      "de",
+      "de-de",
+      "de-at",
+      "de-ch",
+      "de-sie",
+      "de-en",
+      "de-li",
+      "de-lu",
+      "de_at",
+      "de_ch",
+      "de_de"
+    ],
+    114502,
+    {
+      "639-1": "de",
+      "639-2": "deu",
+      "639-2/B": "ger",
+      "de": [
+        "Deutsch"
+      ],
+      "en": [
+        "German"
+      ],
+      "fr": [
+        "allemand"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/German_language"
+    }
+  ],
+  "deu": [
+    [
+      "deu"
+    ],
+    1172,
+    {
+      "639-1": "de",
+      "639-2": "deu",
+      "639-2/B": "ger",
+      "de": [
+        "Deutsch"
+      ],
+      "en": [
+        "German"
+      ],
+      "fr": [
+        "allemand"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/German_language"
+    }
+  ],
+  "el": [
+    [
+      "el",
+      "el-gr",
+      "el-el"
+    ],
+    4818,
+    {
+      "639-1": "el",
+      "639-2": "ell",
+      "639-2/B": "gre",
+      "de": [
+        "Neugriechisch"
+      ],
+      "en": [
+        "Greek, Modern (1453-)"
+      ],
+      "fr": [
+        "grec moderne (après 1453)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Modern_Greek_language"
+    }
+  ],
+  "eu": [
+    [
+      "eu",
+      "eu-es",
+      "eu-us"
+    ],
+    1354,
+    {
+      "639-1": "eu",
+      "639-2": "eus",
+      "639-2/B": "baq",
+      "de": [
+        "Baskisch"
+      ],
+      "en": [
+        "Basque"
+      ],
+      "fr": [
+        "basque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Basque_language"
+    }
+  ],
+  "fa": [
+    [
+      "fa",
+      "fa-persi",
+      "fa-af",
+      "fa-fa",
+      "fa-ir",
+      "fa-lb",
+      "fa-tj",
+      "fa-prd",
+      "fa_ir"
+    ],
+    14543,
+    {
+      "639-1": "fa",
+      "639-2": "fas",
+      "639-2/B": "per",
+      "de": [
+        "Persisch"
+      ],
+      "en": [
+        "Persian"
+      ],
+      "fr": [
+        "persan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Persian_language"
+    }
+  ],
+  "ff": [
+    [
+      "ff",
+      "ff-cm"
+    ],
+    266,
+    {
+      "639-1": "ff",
+      "639-2": "ful",
+      "de": [
+        "Ful"
+      ],
+      "en": [
+        "Fulah"
+      ],
+      "fr": [
+        "peul"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Fulah_language"
+    }
+  ],
+  "fo": [
+    [
+      "fo-fo",
+      "fo"
+    ],
+    327,
+    {
+      "639-1": "fo",
+      "639-2": "fao",
+      "de": [
+        "Färöisch"
+      ],
+      "en": [
+        "Faroese"
+      ],
+      "fr": [
+        "féroïen"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Faroese_language"
+    }
+  ],
+  "fas": [
+    [
+      "fas"
+    ],
+    1,
+    {
+      "639-1": "fa",
+      "639-2": "fas",
+      "639-2/B": "per",
+      "de": [
+        "Persisch"
+      ],
+      "en": [
+        "Persian"
+      ],
+      "fr": [
+        "persan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Persian_language"
+    }
+  ],
+  "fin": [
+    [
+      "fin"
+    ],
+    12,
+    {
+      "639-1": "fi",
+      "639-2": "fin",
+      "de": [
+        "Finnisch"
+      ],
+      "en": [
+        "Finnish"
+      ],
+      "fr": [
+        "finnois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Finnish_language"
+    }
+  ],
+  "français": [
+    [
+      "français"
+    ],
+    111,
+    {
+      "639-1": "fr",
+      "639-2": "fra",
+      "639-2/B": "fre",
+      "de": [
+        "Französisch"
+      ],
+      "en": [
+        "French"
+      ],
+      "fr": [
+        "français"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/French_language"
+    }
+  ],
+  "fra": [
+    [
+      "fra"
+    ],
+    73,
+    {
+      "639-1": "fr",
+      "639-2": "fra",
+      "639-2/B": "fre",
+      "de": [
+        "Französisch"
+      ],
+      "en": [
+        "French"
+      ],
+      "fr": [
+        "français"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/French_language"
+    }
+  ],
+  "ga": [
+    [
+      "ga",
+      "ga-ie"
+    ],
+    224,
+    {
+      "639-2": "gaa",
+      "de": [
+        "Ga-Sprache"
+      ],
+      "en": [
+        "Ga"
+      ],
+      "fr": [
+        "ga"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ga_language"
+    }
+  ],
+  "ha": [
+    [
+      "ha",
+      "ha-ng"
+    ],
+    717,
+    {
+      "639-1": "ha",
+      "639-2": "hau",
+      "de": [
+        "Haussa-Sprache"
+      ],
+      "en": [
+        "Hausa"
+      ],
+      "fr": [
+        "haoussa"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hausa_language"
+    }
+  ],
+  "hi": [
+    [
+      "hi",
+      "hi-hi",
+      "hi-in",
+      "hi-us",
+      "hi_in"
+    ],
+    30396,
+    {
+      "639-1": "hi",
+      "639-2": "hin",
+      "de": [
+        "Hindi"
+      ],
+      "en": [
+        "Hindi"
+      ],
+      "fr": [
+        "hindi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hindi_language"
+    }
+  ],
+  "hr": [
+    [
+      "hr",
+      "hr-hr",
+      "hr-hr1",
+      "hr-hrv"
+    ],
+    854,
+    {
+      "639-1": "hr",
+      "639-2": "hrv",
+      "de": [
+        "Kroatisch"
+      ],
+      "en": [
+        "Croatian"
+      ],
+      "fr": [
+        "croate"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language"
+    }
+  ],
+  "hu": [
+    [
+      "hu",
+      "hu-hu",
+      "hu-hun"
+    ],
+    5859,
+    {
+      "639-1": "hu",
+      "639-2": "hun",
+      "de": [
+        "Ungarisch"
+      ],
+      "en": [
+        "Hungarian"
+      ],
+      "fr": [
+        "hongrois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hungarian_language"
+    }
+  ],
+  "heb": [
+    [
+      "heb"
+    ],
+    12,
+    {
+      "639-1": "he",
+      "639-2": "heb",
+      "de": [
+        "Hebräisch"
+      ],
+      "en": [
+        "Hebrew"
+      ],
+      "fr": [
+        "hébreu"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hebrew_language"
+    }
+  ],
+  "hindi": [
+    [
+      "hindi"
+    ],
+    102,
+    {
+      "639-1": "hi",
+      "639-2": "hin",
+      "de": [
+        "Hindi"
+      ],
+      "en": [
+        "Hindi"
+      ],
+      "fr": [
+        "hindi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hindi_language"
+    }
+  ],
+  "id": [
+    [
+      "id",
+      "id-id",
+      "id_id"
+    ],
+    32384,
+    {
+      "639-1": "id",
+      "639-2": "ind",
+      "de": [
+        "Bahasa Indonesia"
+      ],
+      "en": [
+        "Indonesian"
+      ],
+      "fr": [
+        "indonésien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Indonesian_language"
+    }
+  ],
+  "ile": [
+    [
+      "ile"
+    ],
+    1,
+    {
+      "639-1": "ie",
+      "639-2": "ile",
+      "de": [
+        "Interlingue"
+      ],
+      "en": [
+        "Interlingue",
+        "Occidental"
+      ],
+      "fr": [
+        "interlingue"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Interlingue_language"
+    }
+  ],
+  "hin": [
+    [
+      "hin",
+      "hin-hi"
+    ],
+    102592,
+    {
+      "639-1": "hi",
+      "639-2": "hin",
+      "de": [
+        "Hindi"
+      ],
+      "en": [
+        "Hindi"
+      ],
+      "fr": [
+        "hindi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hindi_language"
+    }
+  ],
+  "ira": [
+    [
+      "ira"
+    ],
+    8,
+    {
+      "639-2": "ira",
+      "de": [
+        "Iranische Sprachen (Andere)"
+      ],
+      "en": [
+        "Iranian languages"
+      ],
+      "fr": [
+        "iraniennes, langues"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Iranian_languages"
+    }
+  ],
+  "it": [
+    [
+      "it",
+      "it-it",
+      "it - it",
+      "it-ch",
+      "it-sm",
+      "it_it"
+    ],
+    77521,
+    {
+      "639-1": "it",
+      "639-2": "ita",
+      "de": [
+        "Italienisch"
+      ],
+      "en": [
+        "Italian"
+      ],
+      "fr": [
+        "italien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Italian_language"
+    }
+  ],
+  "ita": [
+    [
+      "ita"
+    ],
+    33,
+    {
+      "639-1": "it",
+      "639-2": "ita",
+      "de": [
+        "Italienisch"
+      ],
+      "en": [
+        "Italian"
+      ],
+      "fr": [
+        "italien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Italian_language"
+    }
+  ],
+  "ja": [
+    [
+      "ja",
+      "ja-ja",
+      "ja-jp",
+      "ja-jpn",
+      "ja_jp"
+    ],
+    42685,
+    {
+      "639-1": "ja",
+      "639-2": "jpn",
+      "de": [
+        "Japanisch"
+      ],
+      "en": [
+        "Japanese"
+      ],
+      "fr": [
+        "japonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Japanese_language"
+    }
+  ],
+  "kk": [
+    [
+      "kk",
+      "kk-kk",
+      "kk-kz"
+    ],
+    427,
+    {
+      "639-1": "kk",
+      "639-2": "kaz",
+      "de": [
+        "Kasachisch"
+      ],
+      "en": [
+        "Kazakh"
+      ],
+      "fr": [
+        "kazakh"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kazakh_language"
+    }
+  ],
+  "kn": [
+    [
+      "kn",
+      "kn-in",
+      "kn-kn"
+    ],
+    1043,
+    {
+      "639-1": "kn",
+      "639-2": "kan",
+      "de": [
+        "Kannada"
+      ],
+      "en": [
+        "Kannada"
+      ],
+      "fr": [
+        "kannada"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kannada_language"
+    }
+  ],
+  "ko": [
+    [
+      "ko",
+      "ko-kr",
+      "ko-ko",
+      "ko_kr"
+    ],
+    6535,
+    {
+      "639-1": "ko",
+      "639-2": "kor",
+      "de": [
+        "Koreanisch"
+      ],
+      "en": [
+        "Korean"
+      ],
+      "fr": [
+        "coréen"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Korean_language"
+    }
+  ],
+  "ks": [
+    [
+      "ks"
+    ],
+    49,
+    {
+      "639-1": "ks",
+      "639-2": "kas",
+      "de": [
+        "Kaschmiri"
+      ],
+      "en": [
+        "Kashmiri"
+      ],
+      "fr": [
+        "kashmiri"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kashmiri_language"
+    }
+  ],
+  "ku": [
+    [
+      "ku"
+    ],
+    205,
+    {
+      "639-1": "ku",
+      "639-2": "kur",
+      "de": [
+        "Kurdisch"
+      ],
+      "en": [
+        "Kurdish"
+      ],
+      "fr": [
+        "kurde"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kurdish_language"
+    }
+  ],
+  "kor": [
+    [
+      "kor"
+    ],
+    4,
+    {
+      "639-1": "ko",
+      "639-2": "kor",
+      "de": [
+        "Koreanisch"
+      ],
+      "en": [
+        "Korean"
+      ],
+      "fr": [
+        "coréen"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Korean_language"
+    }
+  ],
+  "lg": [
+    [
+      "lg",
+      "lg-ug"
+    ],
+    405,
+    {
+      "639-1": "lg",
+      "639-2": "lug",
+      "de": [
+        "Ganda-Sprache"
+      ],
+      "en": [
+        "Ganda"
+      ],
+      "fr": [
+        "ganda"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ganda_language"
+    }
+  ],
+  "lt": [
+    [
+      "lt",
+      "lt-lt"
+    ],
+    996,
+    {
+      "639-1": "lt",
+      "639-2": "lit",
+      "de": [
+        "Litauisch"
+      ],
+      "en": [
+        "Lithuanian"
+      ],
+      "fr": [
+        "lituanien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lithuanian_language"
+    }
+  ],
+  "lv": [
+    [
+      "lv",
+      "lv-lv"
+    ],
+    1013,
+    {
+      "639-1": "lv",
+      "639-2": "lav",
+      "de": [
+        "Lettisch"
+      ],
+      "en": [
+        "Latvian"
+      ],
+      "fr": [
+        "letton"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Latvian_language"
+    }
+  ],
+  "lb": [
+    [
+      "lb",
+      "lb-lb",
+      "lb-lu"
+    ],
+    341,
+    {
+      "639-1": "lb",
+      "639-2": "ltz",
+      "de": [
+        "Luxemburgisch"
+      ],
+      "en": [
+        "Luxembourgish",
+        "Letzeburgesch"
+      ],
+      "fr": [
+        "luxembourgeois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Luxembourgish_language"
+    }
+  ],
+  "mdf": [
+    [
+      "mdf"
+    ],
+    194,
+    {
+      "639-2": "mdf",
+      "de": [
+        "Mokscha-Sprache"
+      ],
+      "en": [
+        "Moksha"
+      ],
+      "fr": [
+        "moksa"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Moksha_language"
+    }
+  ],
+  "ml": [
+    [
+      "ml",
+      "ml-in",
+      "ml-ml",
+      "ml_utf"
+    ],
+    3080,
+    {
+      "639-1": "ml",
+      "639-2": "mal",
+      "de": [
+        "Malayalam"
+      ],
+      "en": [
+        "Malayalam"
+      ],
+      "fr": [
+        "malayalam"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Malayalam_language"
+    }
+  ],
+  "mos": [
+    [
+      "mos"
+    ],
+    81,
+    {
+      "639-2": "mos",
+      "de": [
+        "Mossi-Sprache"
+      ],
+      "en": [
+        "Mossi"
+      ],
+      "fr": [
+        "moré"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mossi_language"
+    }
+  ],
+  "mr": [
+    [
+      "mr",
+      "mr-in",
+      "mr-mr",
+      "mr_in-mr"
+    ],
+    1850,
+    {
+      "639-1": "mr",
+      "639-2": "mar",
+      "de": [
+        "Marathi"
+      ],
+      "en": [
+        "Marathi"
+      ],
+      "fr": [
+        "marathe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Marathi_language"
+    }
+  ],
+  "ms": [
+    [
+      "ms",
+      "ms-my",
+      "ms-ms",
+      "ms_my"
+    ],
+    2489,
+    {
+      "639-1": "ms",
+      "639-2": "msa",
+      "639-2/B": "may",
+      "de": [
+        "Malaiisch"
+      ],
+      "en": [
+        "Malay"
+      ],
+      "fr": [
+        "malais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Malay_language"
+    }
+  ],
+  "mt": [
+    [
+      "mt",
+      "mt-mt"
+    ],
+    59,
+    {
+      "639-1": "mt",
+      "639-2": "mlt",
+      "de": [
+        "Maltesisch"
+      ],
+      "en": [
+        "Maltese"
+      ],
+      "fr": [
+        "maltais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Maltese_language"
+    }
+  ],
+  "my": [
+    [
+      "my",
+      "my-mm"
+    ],
+    876,
+    {
+      "639-1": "my",
+      "639-2": "mya",
+      "639-2/B": "bur",
+      "de": [
+        "Birmanisch"
+      ],
+      "en": [
+        "Burmese"
+      ],
+      "fr": [
+        "birman"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Burmese_language"
+    }
+  ],
+  "hun": [
+    [
+      "hun"
+    ],
+    6,
+    {
+      "639-1": "hu",
+      "639-2": "hun",
+      "de": [
+        "Ungarisch"
+      ],
+      "en": [
+        "Hungarian"
+      ],
+      "fr": [
+        "hongrois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hungarian_language"
+    }
+  ],
+  "ne": [
+    [
+      "ne",
+      "ne-np"
+    ],
+    1160,
+    {
+      "639-1": "ne",
+      "639-2": "nep",
+      "de": [
+        "Nepali"
+      ],
+      "en": [
+        "Nepali"
+      ],
+      "fr": [
+        "népalais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Nepali_language"
+    }
+  ],
+  "nl": [
+    [
+      "nl",
+      "nl-nl",
+      "nl-be",
+      "nl-auto",
+      "nl_nl"
+    ],
+    34549,
+    {
+      "639-1": "nl",
+      "639-2": "nld",
+      "639-2/B": "dut",
+      "de": [
+        "Niederländisch"
+      ],
+      "en": [
+        "Dutch",
+        "Flemish"
+      ],
+      "fr": [
+        "néerlandais",
+        "flamand"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_language"
+    }
+  ],
+  "no": [
+    [
+      "no",
+      "no-nb",
+      "no-no"
+    ],
+    7249,
+    {
+      "639-1": "no",
+      "639-2": "nor",
+      "de": [
+        "Norwegisch"
+      ],
+      "en": [
+        "Norwegian"
+      ],
+      "fr": [
+        "norvégien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Norwegian_language"
+    }
+  ],
+  "nep": [
+    [
+      "nep"
+    ],
+    1,
+    {
+      "639-1": "ne",
+      "639-2": "nep",
+      "de": [
+        "Nepali"
+      ],
+      "en": [
+        "Nepali"
+      ],
+      "fr": [
+        "népalais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Nepali_language"
+    }
+  ],
+  "nno": [
+    [
+      "nno"
+    ],
+    16,
+    {
+      "639-1": "nn",
+      "639-2": "nno",
+      "de": [
+        "Nynorsk"
+      ],
+      "en": [
+        "Norwegian Nynorsk",
+        "Nynorsk, Norwegian"
+      ],
+      "fr": [
+        "norvégien nynorsk",
+        "nynorsk, norvégien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Norwegian_Nynorsk_language"
+    }
+  ],
+  "or": [
+    [
+      "or",
+      "or-in"
+    ],
+    833,
+    {
+      "639-1": "or",
+      "639-2": "ori",
+      "de": [
+        "Oriya-Sprache"
+      ],
+      "en": [
+        "Oriya"
+      ],
+      "fr": [
+        "oriya"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Odiya_language"
+    }
+  ],
+  "pa": [
+    [
+      "pa",
+      "pa-in",
+      "pa-pk",
+      "pa-pa"
+    ],
+    909,
+    {
+      "639-1": "pa",
+      "639-2": "pan",
+      "de": [
+        "Pandschabi-Sprache"
+      ],
+      "en": [
+        "Panjabi",
+        "Punjabi"
+      ],
+      "fr": [
+        "pendjabi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Panjabi_language"
+    }
+  ],
+  "pl": [
+    [
+      "pl",
+      "pl-pl",
+      "pl-en",
+      "pl_pl"
+    ],
+    19224,
+    {
+      "639-1": "pl",
+      "639-2": "pol",
+      "de": [
+        "Polnisch"
+      ],
+      "en": [
+        "Polish"
+      ],
+      "fr": [
+        "polonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Polish_language"
+    }
+  ],
+  "ps": [
+    [
+      "ps",
+      "ps-pk"
+    ],
+    175,
+    {
+      "639-1": "ps",
+      "639-2": "pus",
+      "de": [
+        "Paschtu"
+      ],
+      "en": [
+        "Pushto",
+        "Pashto"
+      ],
+      "fr": [
+        "pachto"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Pushto_language"
+    }
+  ],
+  "pt": [
+    [
+      "pt",
+      "pt-br",
+      "pt-bra",
+      "pt-pt",
+      "pt_br",
+      "pt_pt"
+    ],
+    260715,
+    {
+      "639-1": "pt",
+      "639-2": "por",
+      "de": [
+        "Portugiesisch"
+      ],
+      "en": [
+        "Portuguese"
+      ],
+      "fr": [
+        "portugais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Portuguese_language"
+    }
+  ],
+  "ro": [
+    [
+      "ro-ro",
+      "ro",
+      "ro-md",
+      "ro-mo",
+      "ro_ro"
+    ],
+    4218,
+    {
+      "639-1": "ro",
+      "639-2": "ron",
+      "639-2/B": "rum",
+      "de": [
+        "Rumänisch"
+      ],
+      "en": [
+        "Romanian",
+        "Moldavian",
+        "Moldovan"
+      ],
+      "fr": [
+        "roumain",
+        "moldave"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Romanian_language"
+    }
+  ],
+  "ru": [
+    [
+      "ru",
+      "ru-ru",
+      "ru-by",
+      "ru-kg",
+      "ru-ua",
+      "ru-us",
+      "ru-mo",
+      "ru-rus",
+      "ru-uk",
+      "ru_ru"
+    ],
+    47263,
+    {
+      "639-1": "ru",
+      "639-2": "rus",
+      "de": [
+        "Russisch"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "fr": [
+        "russe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language"
+    }
+  ],
+  "rus": [
+    [
+      "rus"
+    ],
+    13,
+    {
+      "639-1": "ru",
+      "639-2": "rus",
+      "de": [
+        "Russisch"
+      ],
+      "en": [
+        "Russian"
+      ],
+      "fr": [
+        "russe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Russian_language"
+    }
+  ],
+  "rw": [
+    [
+      "rw"
+    ],
+    231,
+    {
+      "639-1": "rw",
+      "639-2": "kin",
+      "de": [
+        "Rwanda-Sprache"
+      ],
+      "en": [
+        "Kinyarwanda"
+      ],
+      "fr": [
+        "rwanda"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kinyarwanda_language"
+    }
+  ],
+  "sd": [
+    [
+      "sd",
+      "sd-pk"
+    ],
+    14,
+    {
+      "639-1": "sd",
+      "639-2": "snd",
+      "de": [
+        "Sindhi-Sprache"
+      ],
+      "en": [
+        "Sindhi"
+      ],
+      "fr": [
+        "sindhi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sindhi_language"
+    }
+  ],
+  "se": [
+    [
+      "se",
+      "se-se",
+      "se-sv",
+      "se_sv"
+    ],
+    60,
+    {
+      "639-1": "se",
+      "639-2": "sme",
+      "de": [
+        "Nordsaamisch"
+      ],
+      "en": [
+        "Northern Sami"
+      ],
+      "fr": [
+        "sami du Nord"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Northern_Sami_language"
+    }
+  ],
+  "sg": [
+    [
+      "sg"
+    ],
+    70,
+    {
+      "639-1": "sg",
+      "639-2": "sag",
+      "de": [
+        "Sango-Sprache"
+      ],
+      "en": [
+        "Sango"
+      ],
+      "fr": [
+        "sango"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sango_language"
+    }
+  ],
+  "si": [
+    [
+      "si",
+      "si-lk",
+      "si-sl"
+    ],
+    751,
+    {
+      "639-1": "si",
+      "639-2": "sin",
+      "de": [
+        "Singhalesisch"
+      ],
+      "en": [
+        "Sinhala",
+        "Sinhalese"
+      ],
+      "fr": [
+        "singhalais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sinhala_language"
+    }
+  ],
+  "sk": [
+    [
+      "sk",
+      "sk-sk"
+    ],
+    3890,
+    {
+      "639-1": "sk",
+      "639-2": "slk",
+      "639-2/B": "slo",
+      "de": [
+        "Slowakisch"
+      ],
+      "en": [
+        "Slovak"
+      ],
+      "fr": [
+        "slovaque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Slovak_language"
+    }
+  ],
+  "sn": [
+    [
+      "sn"
+    ],
+    78,
+    {
+      "639-1": "sn",
+      "639-2": "sna",
+      "de": [
+        "Schona-Sprache"
+      ],
+      "en": [
+        "Shona"
+      ],
+      "fr": [
+        "shona"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Shona_language"
+    }
+  ],
+  "so": [
+    [
+      "so",
+      "so-so",
+      "so-za"
+    ],
+    670,
+    {
+      "639-1": "so",
+      "639-2": "som",
+      "de": [
+        "Somali"
+      ],
+      "en": [
+        "Somali"
+      ],
+      "fr": [
+        "somali"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Somali_language"
+    }
+  ],
+  "sq": [
+    [
+      "sq",
+      "sq-al",
+      "sq-sq",
+      "sq_xk"
+    ],
+    1723,
+    {
+      "639-1": "sq",
+      "639-2": "sqi",
+      "639-2/B": "alb",
+      "de": [
+        "Albanisch"
+      ],
+      "en": [
+        "Albanian"
+      ],
+      "fr": [
+        "albanais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Albanian_languages"
+    }
+  ],
+  "sr": [
+    [
+      "sr",
+      "sr-latn",
+      "sr-rs",
+      "sr-sr"
+    ],
+    1675,
+    {
+      "639-1": "sr",
+      "639-2": "srp",
+      "de": [
+        "Serbisch"
+      ],
+      "en": [
+        "Serbian"
+      ],
+      "fr": [
+        "serbe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language"
+    }
+  ],
+  "sv": [
+    [
+      "sv",
+      "sv-fi",
+      "sv-se",
+      "sv-sv",
+      "sv-us",
+      "sv_se"
+    ],
+    18823,
+    {
+      "639-1": "sv",
+      "639-2": "swe",
+      "de": [
+        "Schwedisch"
+      ],
+      "en": [
+        "Swedish"
+      ],
+      "fr": [
+        "suédois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Swedish_language"
+    }
+  ],
+  "sw": [
+    [
+      "sw",
+      "sw-ke",
+      "sw-tz",
+      "sw-sw",
+      "sw_tz"
+    ],
+    2162,
+    {
+      "639-1": "sw",
+      "639-2": "swa",
+      "de": [
+        "Swahili"
+      ],
+      "en": [
+        "Swahili"
+      ],
+      "fr": [
+        "swahili"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Swahili_language"
+    }
+  ],
+  "spa": [
+    [
+      "spa",
+      "spa-es",
+      "spa-lat"
+    ],
+    115,
+    {
+      "639-1": "es",
+      "639-2": "spa",
+      "de": [
+        "Spanisch"
+      ],
+      "en": [
+        "Spanish",
+        "Castilian"
+      ],
+      "fr": [
+        "espagnol",
+        "castillan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Spanish_language"
+    }
+  ],
+  "swe": [
+    [
+      "swe",
+      "swe-sv",
+      "swe-swed"
+    ],
+    17,
+    {
+      "639-1": "sv",
+      "639-2": "swe",
+      "de": [
+        "Schwedisch"
+      ],
+      "en": [
+        "Swedish"
+      ],
+      "fr": [
+        "suédois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Swedish_language"
+    }
+  ],
+  "ta": [
+    [
+      "ta",
+      "ta-in",
+      "ta-ta"
+    ],
+    8340,
+    {
+      "639-1": "ta",
+      "639-2": "tam",
+      "de": [
+        "Tamil"
+      ],
+      "en": [
+        "Tamil"
+      ],
+      "fr": [
+        "tamoul"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tamil_language"
+    }
+  ],
+  "te": [
+    [
+      "te",
+      "te-in",
+      "te-te"
+    ],
+    3081,
+    {
+      "639-1": "te",
+      "639-2": "tel",
+      "de": [
+        "Telugu-Sprache"
+      ],
+      "en": [
+        "Telugu"
+      ],
+      "fr": [
+        "télougou"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Telugu_language"
+    }
+  ],
+  "tg": [
+    [
+      "tg"
+    ],
+    204,
+    {
+      "639-1": "tg",
+      "639-2": "tgk",
+      "de": [
+        "Tadschikisch"
+      ],
+      "en": [
+        "Tajik"
+      ],
+      "fr": [
+        "tadjik"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tajik_language"
+    }
+  ],
+  "th": [
+    [
+      "th",
+      "th-th",
+      "th-us",
+      "th_th"
+    ],
+    5763,
+    {
+      "639-1": "th",
+      "639-2": "tha",
+      "de": [
+        "Thailändisch"
+      ],
+      "en": [
+        "Thai"
+      ],
+      "fr": [
+        "thaï"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Thai_language"
+    }
+  ],
+  "ti": [
+    [
+      "ti",
+      "ti-er",
+      "ti-et"
+    ],
+    740,
+    {
+      "639-1": "ti",
+      "639-2": "tir",
+      "de": [
+        "Tigrinja-Sprache"
+      ],
+      "en": [
+        "Tigrinya"
+      ],
+      "fr": [
+        "tigrigna"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tigrinya_language"
+    }
+  ],
+  "tk": [
+    [
+      "tk"
+    ],
+    106,
+    {
+      "639-1": "tk",
+      "639-2": "tuk",
+      "de": [
+        "Turkmenisch"
+      ],
+      "en": [
+        "Turkmen"
+      ],
+      "fr": [
+        "turkmène"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Turkmen_language"
+    }
+  ],
+  "tl": [
+    [
+      "tl",
+      "tl-ph",
+      "tl-tl"
+    ],
+    2754,
+    {
+      "639-1": "tl",
+      "639-2": "tgl",
+      "de": [
+        "Tagalog"
+      ],
+      "en": [
+        "Tagalog"
+      ],
+      "fr": [
+        "tagalog"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tagalog_language"
+    }
+  ],
+  "tmh": [
+    [
+      "tmh"
+    ],
+    35,
+    {
+      "639-2": "tmh",
+      "de": [
+        "Tamaeq"
+      ],
+      "en": [
+        "Tamashek"
+      ],
+      "fr": [
+        "tamacheq"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tamashek_language"
+    }
+  ],
+  "tr": [
+    [
+      "tr",
+      "tr-ar",
+      "tr-fr",
+      "tr-lb",
+      "tr-tr"
+    ],
+    22522,
+    {
+      "639-1": "tr",
+      "639-2": "tur",
+      "de": [
+        "Türkisch"
+      ],
+      "en": [
+        "Turkish"
+      ],
+      "fr": [
+        "turc"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Turkish_language"
+    }
+  ],
+  "tt": [
+    [
+      "tt"
+    ],
+    20,
+    {
+      "639-1": "tt",
+      "639-2": "tat",
+      "de": [
+        "Tatarisch"
+      ],
+      "en": [
+        "Tatar"
+      ],
+      "fr": [
+        "tatar"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tatar_language"
+    }
+  ],
+  "tur": [
+    [
+      "tur"
+    ],
+    2,
+    {
+      "639-1": "tr",
+      "639-2": "tur",
+      "de": [
+        "Türkisch"
+      ],
+      "en": [
+        "Turkish"
+      ],
+      "fr": [
+        "turc"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Turkish_language"
+    }
+  ],
+  "tw": [
+    [
+      "tw"
+    ],
+    45,
+    {
+      "639-1": "tw",
+      "639-2": "twi",
+      "de": [
+        "Twi-Sprache"
+      ],
+      "en": [
+        "Twi"
+      ],
+      "fr": [
+        "twi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Twi_language"
+    }
+  ],
+  "tagalog": [
+    [
+      "tagalog"
+    ],
+    1,
+    {
+      "639-1": "tl",
+      "639-2": "tgl",
+      "de": [
+        "Tagalog"
+      ],
+      "en": [
+        "Tagalog"
+      ],
+      "fr": [
+        "tagalog"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tagalog_language"
+    }
+  ],
+  "tam": [
+    [
+      "tam"
+    ],
+    7,
+    {
+      "639-1": "ta",
+      "639-2": "tam",
+      "de": [
+        "Tamil"
+      ],
+      "en": [
+        "Tamil"
+      ],
+      "fr": [
+        "tamoul"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tamil_language"
+    }
+  ],
+  "tel": [
+    [
+      "tel"
+    ],
+    12,
+    {
+      "639-1": "te",
+      "639-2": "tel",
+      "de": [
+        "Telugu-Sprache"
+      ],
+      "en": [
+        "Telugu"
+      ],
+      "fr": [
+        "télougou"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Telugu_language"
+    }
+  ],
+  "ug": [
+    [
+      "ug",
+      "ug-cn",
+      "ug-hk"
+    ],
+    84,
+    {
+      "639-1": "ug",
+      "639-2": "uig",
+      "de": [
+        "Uigurisch"
+      ],
+      "en": [
+        "Uighur",
+        "Uyghur"
+      ],
+      "fr": [
+        "ouïgour"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Uighur_language"
+    }
+  ],
+  "uk": [
+    [
+      "uk",
+      "uk-ua",
+      "uk-uk",
+      "uk-ukr"
+    ],
+    4153,
+    {
+      "639-1": "uk",
+      "639-2": "ukr",
+      "de": [
+        "Ukrainisch"
+      ],
+      "en": [
+        "Ukrainian"
+      ],
+      "fr": [
+        "ukrainien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ukrainian_language"
+    }
+  ],
+  "ur": [
+    [
+      "ur",
+      "ur-pk",
+      "ur-ur",
+      "ur_pk"
+    ],
+    3066,
+    {
+      "639-1": "ur",
+      "639-2": "urd",
+      "de": [
+        "Urdu"
+      ],
+      "en": [
+        "Urdu"
+      ],
+      "fr": [
+        "ourdou"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Urdu_language"
+    }
+  ],
+  "uz": [
+    [
+      "uz",
+      "uz-uz"
+    ],
+    1790,
+    {
+      "639-1": "uz",
+      "639-2": "uzb",
+      "de": [
+        "Usbekisch"
+      ],
+      "en": [
+        "Uzbek"
+      ],
+      "fr": [
+        "ouszbek"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Uzbek_language"
+    }
+  ],
+  "urd": [
+    [
+      "urd"
+    ],
+    13,
+    {
+      "639-1": "ur",
+      "639-2": "urd",
+      "de": [
+        "Urdu"
+      ],
+      "en": [
+        "Urdu"
+      ],
+      "fr": [
+        "ourdou"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Urdu_language"
+    }
+  ],
+  "vi": [
+    [
+      "vi",
+      "vi-th",
+      "vi-us",
+      "vi-vi",
+      "vi-vn",
+      "vi_vn"
+    ],
+    13488,
+    {
+      "639-1": "vi",
+      "639-2": "vie",
+      "de": [
+        "Vietnamesisch"
+      ],
+      "en": [
+        "Vietnamese"
+      ],
+      "fr": [
+        "vietnamien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Vietnamese_language"
+    }
+  ],
+  "volapük": [
+    [
+      "volapük"
+    ],
+    1,
+    {
+      "639-1": "vo",
+      "639-2": "vol",
+      "de": [
+        "Volapük"
+      ],
+      "en": [
+        "Volapük"
+      ],
+      "fr": [
+        "volapük"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Volap%C3%BCk_language"
+    }
+  ],
+  "wo": [
+    [
+      "wo",
+      "wo-sn"
+    ],
+    370,
+    {
+      "639-1": "wo",
+      "639-2": "wol",
+      "de": [
+        "Wolof-Sprache"
+      ],
+      "en": [
+        "Wolof"
+      ],
+      "fr": [
+        "wolof"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Wolof_language"
+    }
+  ],
+  "yo": [
+    [
+      "yo",
+      "yo-ng"
+    ],
+    497,
+    {
+      "639-1": "yo",
+      "639-2": "yor",
+      "de": [
+        "Yoruba-Sprache"
+      ],
+      "en": [
+        "Yoruba"
+      ],
+      "fr": [
+        "yoruba"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Yoruba_language"
+    }
+  ],
+  "yi": [
+    [
+      "yi-tan c",
+      "yi",
+      "yi-yi"
+    ],
+    82,
+    {
+      "639-1": "yi",
+      "639-2": "yid",
+      "de": [
+        "Jiddisch"
+      ],
+      "en": [
+        "Yiddish"
+      ],
+      "fr": [
+        "yiddish"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Yiddish_language"
+    }
+  ],
+  "ht": [
+    [
+      "ht"
+    ],
+    268,
+    {
+      "639-1": "ht",
+      "639-2": "hat",
+      "de": [
+        "Haïtien (Haiti-Kreolisch)"
+      ],
+      "en": [
+        "Haitian",
+        "Haitian Creole"
+      ],
+      "fr": [
+        "haïtien",
+        "créole haïtien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Haitian_language"
+    }
+  ],
+  "be": [
+    [
+      "be",
+      "be-by"
+    ],
+    461,
+    {
+      "639-1": "be",
+      "639-2": "bel",
+      "de": [
+        "Weißrussisch"
+      ],
+      "en": [
+        "Belarusian"
+      ],
+      "fr": [
+        "biélorusse"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Belarusian_language"
+    }
+  ],
+  "ab": [
+    [
+      "ab"
+    ],
+    46,
+    {
+      "639-1": "ab",
+      "639-2": "abk",
+      "de": [
+        "Abchasisch"
+      ],
+      "en": [
+        "Abkhazian"
+      ],
+      "fr": [
+        "abkhaze"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Abkhazian_language"
+    }
+  ],
+  "ae": [
+    [
+      "ae"
+    ],
+    3,
+    {
+      "639-1": "ae",
+      "639-2": "ave",
+      "de": [
+        "Avestisch"
+      ],
+      "en": [
+        "Avestan"
+      ],
+      "fr": [
+        "avestique"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Avestan_language"
+    }
+  ],
+  "an": [
+    [
+      "an"
+    ],
+    7,
+    {
+      "639-1": "an",
+      "639-2": "arg",
+      "de": [
+        "Aragonesisch"
+      ],
+      "en": [
+        "Aragonese"
+      ],
+      "fr": [
+        "aragonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Aragonese_language"
+    }
+  ],
+  "ang": [
+    [
+      "ang"
+    ],
+    2,
+    {
+      "639-2": "ang",
+      "de": [
+        "Altenglisch"
+      ],
+      "en": [
+        "English, Old (ca.450-1100)"
+      ],
+      "fr": [
+        "anglo-saxon (ca.450-1100)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Old_English_language"
+    }
+  ],
+  "anglais": [
+    [
+      "anglais"
+    ],
+    1,
+    {
+      "639-1": "en",
+      "639-2": "eng",
+      "de": [
+        "Englisch"
+      ],
+      "en": [
+        "English"
+      ],
+      "fr": [
+        "anglais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/English_language"
+    }
+  ],
+  "asm": [
+    [
+      "asm"
+    ],
+    1,
+    {
+      "639-1": "as",
+      "639-2": "asm",
+      "de": [
+        "Assamesisch"
+      ],
+      "en": [
+        "Assamese"
+      ],
+      "fr": [
+        "assamais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Assamese_language"
+    }
+  ],
+  "ast": [
+    [
+      "ast"
+    ],
+    12,
+    {
+      "639-2": "ast",
+      "de": [
+        "Asturisch"
+      ],
+      "en": [
+        "Asturian",
+        "Bable",
+        "Leonese",
+        "Asturleonese"
+      ],
+      "fr": [
+        "asturien",
+        "bable",
+        "léonais",
+        "asturoléonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Asturian_language"
+    }
+  ],
+  "av": [
+    [
+      "av"
+    ],
+    1,
+    {
+      "639-1": "av",
+      "639-2": "ava",
+      "de": [
+        "Awarisch"
+      ],
+      "en": [
+        "Avaric"
+      ],
+      "fr": [
+        "avar"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Avaric_language"
+    }
+  ],
+  "ay": [
+    [
+      "ay"
+    ],
+    2,
+    {
+      "639-1": "ay",
+      "639-2": "aym",
+      "de": [
+        "Aymará-Sprache"
+      ],
+      "en": [
+        "Aymara"
+      ],
+      "fr": [
+        "aymara"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Aymara_language"
+    }
+  ],
+  "bas": [
+    [
+      "bas"
+    ],
+    4,
+    {
+      "639-2": "bas",
+      "de": [
+        "Basaa-Sprache"
+      ],
+      "en": [
+        "Basa"
+      ],
+      "fr": [
+        "basa"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Basa_language_(Cameroon)"
+    }
+  ],
+  "ben": [
+    [
+      "ben"
+    ],
+    1,
+    {
+      "639-1": "bn",
+      "639-2": "ben",
+      "de": [
+        "Bengali"
+      ],
+      "en": [
+        "Bengali"
+      ],
+      "fr": [
+        "bengali"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bengali_language"
+    }
+  ],
+  "bengali": [
+    [
+      "bengali"
+    ],
+    20,
+    {
+      "639-1": "bn",
+      "639-2": "ben",
+      "de": [
+        "Bengali"
+      ],
+      "en": [
+        "Bengali"
+      ],
+      "fr": [
+        "bengali"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bengali_language"
+    }
+  ],
+  "bh": [
+    [
+      "bh",
+      "bh-bh"
+    ],
+    21,
+    {
+      "639-1": "bh",
+      "639-2": "bih",
+      "de": [
+        "Bihari (Andere)"
+      ],
+      "en": [
+        "Bihari languages"
+      ],
+      "fr": [
+        "langues biharis"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bihari_languages"
+    }
+  ],
+  "bho": [
+    [
+      "bho"
+    ],
+    1,
+    {
+      "639-2": "bho",
+      "de": [
+        "Bhojpuri"
+      ],
+      "en": [
+        "Bhojpuri"
+      ],
+      "fr": [
+        "bhojpuri"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Bhojpuri_language"
+    }
+  ],
+  "bo": [
+    [
+      "bo",
+      "bo-bo",
+      "bo-np"
+    ],
+    87,
+    {
+      "639-1": "bo",
+      "639-2": "bod",
+      "639-2/B": "tib",
+      "de": [
+        "Tibetisch"
+      ],
+      "en": [
+        "Tibetan"
+      ],
+      "fr": [
+        "tibétain"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Standard_Tibetan"
+    }
+  ],
+  "bre": [
+    [
+      "bre"
+    ],
+    1,
+    {
+      "639-1": "br",
+      "639-2": "bre",
+      "de": [
+        "Bretonisch"
+      ],
+      "en": [
+        "Breton"
+      ],
+      "fr": [
+        "breton"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Breton_language"
+    }
+  ],
+  "ca": [
+    [
+      "ca",
+      "ca-ca",
+      "ca-es",
+      "ca-valen"
+    ],
+    12036,
+    {
+      "639-1": "ca",
+      "639-2": "cat",
+      "de": [
+        "Katalanisch"
+      ],
+      "en": [
+        "Catalan",
+        "Valencian"
+      ],
+      "fr": [
+        "catalan",
+        "valencien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Catalan_language"
+    }
+  ],
+  "ceb": [
+    [
+      "ceb"
+    ],
+    9,
+    {
+      "639-2": "ceb",
+      "de": [
+        "Cebuano"
+      ],
+      "en": [
+        "Cebuano"
+      ],
+      "fr": [
+        "cebuano"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cebuano_language"
+    }
+  ],
+  "ch": [
+    [
+      "ch",
+      "ch-de"
+    ],
+    19,
+    {
+      "639-1": "ch",
+      "639-2": "cha",
+      "de": [
+        "Chamorro-Sprache"
+      ],
+      "en": [
+        "Chamorro"
+      ],
+      "fr": [
+        "chamorro"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chamorro_language"
+    }
+  ],
+  "chr": [
+    [
+      "chr"
+    ],
+    8,
+    {
+      "639-2": "chr",
+      "de": [
+        "Cherokee-Sprache"
+      ],
+      "en": [
+        "Cherokee"
+      ],
+      "fr": [
+        "cherokee"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cherokee_language"
+    }
+  ],
+  "chu": [
+    [
+      "chu"
+    ],
+    9,
+    {
+      "639-1": "cu",
+      "639-2": "chu",
+      "de": [
+        "Kirchenslawisch"
+      ],
+      "en": [
+        "Church Slavic",
+        "Old Slavonic",
+        "Church Slavonic",
+        "Old Bulgarian",
+        "Old Church Slavonic"
+      ],
+      "fr": [
+        "slavon d'église",
+        "vieux slave",
+        "slavon liturgique",
+        "vieux bulgare"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Church_Slavic_language"
+    }
+  ],
+  "co": [
+    [
+      "co"
+    ],
+    14,
+    {
+      "639-1": "co",
+      "639-2": "cos",
+      "de": [
+        "Korsisch"
+      ],
+      "en": [
+        "Corsican"
+      ],
+      "fr": [
+        "corse"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Corsican_language"
+    }
+  ],
+  "cor": [
+    [
+      "cor"
+    ],
+    2,
+    {
+      "639-1": "kw",
+      "639-2": "cor",
+      "de": [
+        "Kornisch"
+      ],
+      "en": [
+        "Cornish"
+      ],
+      "fr": [
+        "cornique"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cornish_language"
+    }
+  ],
+  "cr": [
+    [
+      "cr"
+    ],
+    2,
+    {
+      "639-1": "cr",
+      "639-2": "cre",
+      "de": [
+        "Cree-Sprache"
+      ],
+      "en": [
+        "Cree"
+      ],
+      "fr": [
+        "cree"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cree_language"
+    }
+  ],
+  "cu": [
+    [
+      "cu"
+    ],
+    6,
+    {
+      "639-1": "cu",
+      "639-2": "chu",
+      "de": [
+        "Kirchenslawisch"
+      ],
+      "en": [
+        "Church Slavic",
+        "Old Slavonic",
+        "Church Slavonic",
+        "Old Bulgarian",
+        "Old Church Slavonic"
+      ],
+      "fr": [
+        "slavon d'église",
+        "vieux slave",
+        "slavon liturgique",
+        "vieux bulgare"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Church_Slavic_language"
+    }
+  ],
+  "cv": [
+    [
+      "cv"
+    ],
+    4,
+    {
+      "639-1": "cv",
+      "639-2": "chv",
+      "de": [
+        "Tschuwaschisch"
+      ],
+      "en": [
+        "Chuvash"
+      ],
+      "fr": [
+        "tchouvache"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Chuvash_language"
+    }
+  ],
+  "cy": [
+    [
+      "cy",
+      "cy-cy"
+    ],
+    247,
+    {
+      "639-1": "cy",
+      "639-2": "cym",
+      "639-2/B": "wel",
+      "de": [
+        "Kymrisch"
+      ],
+      "en": [
+        "Welsh"
+      ],
+      "fr": [
+        "gallois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Welsh_language"
+    }
+  ],
+  "din": [
+    [
+      "din"
+    ],
+    8,
+    {
+      "639-2": "din",
+      "de": [
+        "Dinka-Sprache"
+      ],
+      "en": [
+        "Dinka"
+      ],
+      "fr": [
+        "dinka"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dinka_language"
+    }
+  ],
+  "dv": [
+    [
+      "dv"
+    ],
+    5,
+    {
+      "639-1": "dv",
+      "639-2": "div",
+      "de": [
+        "Maledivisch"
+      ],
+      "en": [
+        "Divehi",
+        "Dhivehi",
+        "Maldivian"
+      ],
+      "fr": [
+        "maldivien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dhivehi_language"
+    }
+  ],
+  "dz": [
+    [
+      "dz",
+      "dz-bt"
+    ],
+    29,
+    {
+      "639-1": "dz",
+      "639-2": "dzo",
+      "de": [
+        "Dzongkha"
+      ],
+      "en": [
+        "Dzongkha"
+      ],
+      "fr": [
+        "dzongkha"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dzongkha_language"
+    }
+  ],
+  "ee": [
+    [
+      "ee",
+      "ee-et",
+      "ee-ee"
+    ],
+    174,
+    {
+      "639-1": "ee",
+      "639-2": "ewe",
+      "de": [
+        "Ewe-Sprache"
+      ],
+      "en": [
+        "Ewe"
+      ],
+      "fr": [
+        "éwé"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ewe_language"
+    }
+  ],
+  "ell": [
+    [
+      "ell"
+    ],
+    19,
+    {
+      "639-1": "el",
+      "639-2": "ell",
+      "639-2/B": "gre",
+      "de": [
+        "Neugriechisch"
+      ],
+      "en": [
+        "Greek, Modern (1453-)"
+      ],
+      "fr": [
+        "grec moderne (après 1453)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Modern_Greek_language"
+    }
+  ],
+  "enm": [
+    [
+      "enm"
+    ],
+    3,
+    {
+      "639-2": "enm",
+      "de": [
+        "Mittelenglisch"
+      ],
+      "en": [
+        "English, Middle (1100-1500)"
+      ],
+      "fr": [
+        "anglais moyen (1100-1500)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Middle_English_language"
+    }
+  ],
+  "eo": [
+    [
+      "eo",
+      "eo-eo",
+      "eo-uy"
+    ],
+    183,
+    {
+      "639-1": "eo",
+      "639-2": "epo",
+      "de": [
+        "Esperanto"
+      ],
+      "en": [
+        "Esperanto"
+      ],
+      "fr": [
+        "espéranto"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Esperanto_language"
+    }
+  ],
+  "epo": [
+    [
+      "epo"
+    ],
+    4,
+    {
+      "639-1": "eo",
+      "639-2": "epo",
+      "de": [
+        "Esperanto"
+      ],
+      "en": [
+        "Esperanto"
+      ],
+      "fr": [
+        "espéranto"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Esperanto_language"
+    }
+  ],
+  "et": [
+    [
+      "et",
+      "et-ee",
+      "et-est",
+      "et-et"
+    ],
+    1674,
+    {
+      "639-1": "et",
+      "639-2": "est",
+      "de": [
+        "Estnisch"
+      ],
+      "en": [
+        "Estonian"
+      ],
+      "fr": [
+        "estonien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Estonian_language"
+    }
+  ],
+  "ewo": [
+    [
+      "ewo"
+    ],
+    4,
+    {
+      "639-2": "ewo",
+      "de": [
+        "Ewondo"
+      ],
+      "en": [
+        "Ewondo"
+      ],
+      "fr": [
+        "éwondo"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ewondo_language"
+    }
+  ],
+  "fi": [
+    [
+      "fi",
+      "fi-fi",
+      "fi-fo"
+    ],
+    6058,
+    {
+      "639-1": "fi",
+      "639-2": "fin",
+      "de": [
+        "Finnisch"
+      ],
+      "en": [
+        "Finnish"
+      ],
+      "fr": [
+        "finnois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Finnish_language"
+    }
+  ],
+  "fil": [
+    [
+      "fil",
+      "fil-ph",
+      "fil-fil"
+    ],
+    1260,
+    {
+      "639-2": "fil",
+      "de": [
+        "Pilipino"
+      ],
+      "en": [
+        "Filipino",
+        "Pilipino"
+      ],
+      "fr": [
+        "filipino",
+        "pilipino"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Filipino_language"
+    }
+  ],
+  "fj": [
+    [
+      "fj"
+    ],
+    6,
+    {
+      "639-1": "fj",
+      "639-2": "fij",
+      "de": [
+        "Fidschi-Sprache"
+      ],
+      "en": [
+        "Fijian"
+      ],
+      "fr": [
+        "fidjien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Fijian_language"
+    }
+  ],
+  "fur": [
+    [
+      "fur"
+    ],
+    2,
+    {
+      "639-2": "fur",
+      "de": [
+        "Friulisch"
+      ],
+      "en": [
+        "Friulian"
+      ],
+      "fr": [
+        "frioulan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Friulian_language"
+    }
+  ],
+  "fy": [
+    [
+      "fy",
+      "fy-nl"
+    ],
+    15,
+    {
+      "639-1": "fy",
+      "639-2": "fry",
+      "de": [
+        "Friesisch"
+      ],
+      "en": [
+        "Western Frisian"
+      ],
+      "fr": [
+        "frison occidental"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Western_Frisian_language"
+    }
+  ],
+  "gd": [
+    [
+      "gd",
+      "gd-gb",
+      "gd-ie"
+    ],
+    47,
+    {
+      "639-1": "gd",
+      "639-2": "gla",
+      "de": [
+        "Gälisch-Schottisch"
+      ],
+      "en": [
+        "Gaelic",
+        "Scottish Gaelic"
+      ],
+      "fr": [
+        "gaélique",
+        "gaélique écossais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Scottish_Gaelic_language"
+    }
+  ],
+  "gl": [
+    [
+      "gl",
+      "gl-es",
+      "gl-gl"
+    ],
+    1798,
+    {
+      "639-1": "gl",
+      "639-2": "glg",
+      "de": [
+        "Galicisch"
+      ],
+      "en": [
+        "Galician"
+      ],
+      "fr": [
+        "galicien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Galician_language"
+    }
+  ],
+  "gn": [
+    [
+      "gn"
+    ],
+    10,
+    {
+      "639-1": "gn",
+      "639-2": "grn",
+      "de": [
+        "Guaraní-Sprache"
+      ],
+      "en": [
+        "Guarani"
+      ],
+      "fr": [
+        "guarani"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Guarani_language"
+    }
+  ],
+  "grc": [
+    [
+      "grc"
+    ],
+    44,
+    {
+      "639-2": "grc",
+      "de": [
+        "Griechisch"
+      ],
+      "en": [
+        "Greek, Ancient (to 1453)"
+      ],
+      "fr": [
+        "grec ancien (jusqu'à 1453)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ancient_Greek_language"
+    }
+  ],
+  "gsw": [
+    [
+      "gsw",
+      "gsw-ch"
+    ],
+    29,
+    {
+      "639-2": "gsw",
+      "de": [
+        "Schweizerdeutsch"
+      ],
+      "en": [
+        "Swiss German",
+        "Alemannic",
+        "Alsatian"
+      ],
+      "fr": [
+        "suisse alémanique",
+        "alémanique",
+        "alsacien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Swiss_German_language"
+    }
+  ],
+  "gu": [
+    [
+      "gu",
+      "gu-gu",
+      "gu-in"
+    ],
+    1050,
+    {
+      "639-1": "gu",
+      "639-2": "guj",
+      "de": [
+        "Gujarati-Sprache"
+      ],
+      "en": [
+        "Gujarati"
+      ],
+      "fr": [
+        "goudjrati"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Gujarati_language"
+    }
+  ],
+  "guj": [
+    [
+      "guj"
+    ],
+    17,
+    {
+      "639-1": "gu",
+      "639-2": "guj",
+      "de": [
+        "Gujarati-Sprache"
+      ],
+      "en": [
+        "Gujarati"
+      ],
+      "fr": [
+        "goudjrati"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Gujarati_language"
+    }
+  ],
+  "gv": [
+    [
+      "gv"
+    ],
+    6,
+    {
+      "639-1": "gv",
+      "639-2": "glv",
+      "de": [
+        "Manx"
+      ],
+      "en": [
+        "Manx"
+      ],
+      "fr": [
+        "manx",
+        "mannois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Manx_language"
+    }
+  ],
+  "haw": [
+    [
+      "haw"
+    ],
+    8,
+    {
+      "639-2": "haw",
+      "de": [
+        "Hawaiisch"
+      ],
+      "en": [
+        "Hawaiian"
+      ],
+      "fr": [
+        "hawaïen"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hawaiian_language"
+    }
+  ],
+  "he": [
+    [
+      "he",
+      "he-il",
+      "he-he",
+      "he_il"
+    ],
+    10731,
+    {
+      "639-1": "he",
+      "639-2": "heb",
+      "de": [
+        "Hebräisch"
+      ],
+      "en": [
+        "Hebrew"
+      ],
+      "fr": [
+        "hébreu"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hebrew_language"
+    }
+  ],
+  "hil": [
+    [
+      "hil"
+    ],
+    2,
+    {
+      "639-2": "hil",
+      "de": [
+        "Hiligaynon-Sprache"
+      ],
+      "en": [
+        "Hiligaynon"
+      ],
+      "fr": [
+        "hiligaynon"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hiligaynon_language"
+    }
+  ],
+  "hit": [
+    [
+      "hit"
+    ],
+    1,
+    {
+      "639-2": "hit",
+      "de": [
+        "Hethitisch"
+      ],
+      "en": [
+        "Hittite"
+      ],
+      "fr": [
+        "hittite"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hittite_language"
+    }
+  ],
+  "ho": [
+    [
+      "ho"
+    ],
+    3,
+    {
+      "639-1": "ho",
+      "639-2": "hmo",
+      "de": [
+        "Hiri-Motu"
+      ],
+      "en": [
+        "Hiri Motu"
+      ],
+      "fr": [
+        "hiri motu"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hiri_Motu_language"
+    }
+  ],
+  "hrv": [
+    [
+      "hrv"
+    ],
+    3,
+    {
+      "639-1": "hr",
+      "639-2": "hrv",
+      "de": [
+        "Kroatisch"
+      ],
+      "en": [
+        "Croatian"
+      ],
+      "fr": [
+        "croate"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Croatian_language"
+    }
+  ],
+  "hsb": [
+    [
+      "hsb"
+    ],
+    4,
+    {
+      "639-2": "hsb",
+      "de": [
+        "Obersorbisch"
+      ],
+      "en": [
+        "Upper Sorbian"
+      ],
+      "fr": [
+        "haut-sorabe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Upper_Sorbian_language"
+    }
+  ],
+  "hy": [
+    [
+      "hy",
+      "hy-am",
+      "hy-hy"
+    ],
+    607,
+    {
+      "639-1": "hy",
+      "639-2": "hye",
+      "639-2/B": "arm",
+      "de": [
+        "Armenisch"
+      ],
+      "en": [
+        "Armenian"
+      ],
+      "fr": [
+        "arménien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Armenian_language"
+    }
+  ],
+  "hz": [
+    [
+      "hz"
+    ],
+    5,
+    {
+      "639-1": "hz",
+      "639-2": "her",
+      "de": [
+        "Herero-Sprache"
+      ],
+      "en": [
+        "Herero"
+      ],
+      "fr": [
+        "herero"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Herero_language"
+    }
+  ],
+  "ia": [
+    [
+      "ia"
+    ],
+    47,
+    {
+      "639-1": "ia",
+      "639-2": "ina",
+      "de": [
+        "Interlingua"
+      ],
+      "en": [
+        "Interlingua (International Auxiliary Language Association)"
+      ],
+      "fr": [
+        "interlingua (langue auxiliaire internationale)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Interlingua_language_(International_Auxiliary_Language_Association)"
+    }
+  ],
+  "ie": [
+    [
+      "ie"
+    ],
+    33,
+    {
+      "639-1": "ie",
+      "639-2": "ile",
+      "de": [
+        "Interlingue"
+      ],
+      "en": [
+        "Interlingue",
+        "Occidental"
+      ],
+      "fr": [
+        "interlingue"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Interlingue_language"
+    }
+  ],
+  "ig": [
+    [
+      "ig",
+      "ig-ng"
+    ],
+    46,
+    {
+      "639-1": "ig",
+      "639-2": "ibo",
+      "de": [
+        "Ibo-Sprache"
+      ],
+      "en": [
+        "Igbo"
+      ],
+      "fr": [
+        "igbo"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Igbo_language"
+    }
+  ],
+  "ii": [
+    [
+      "ii"
+    ],
+    6,
+    {
+      "639-1": "ii",
+      "639-2": "iii",
+      "de": [
+        "Lalo-Sprache"
+      ],
+      "en": [
+        "Sichuan Yi",
+        "Nuosu"
+      ],
+      "fr": [
+        "yi de Sichuan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sichuan_Yi_language"
+    }
+  ],
+  "ik": [
+    [
+      "ik"
+    ],
+    3,
+    {
+      "639-1": "ik",
+      "639-2": "ipk",
+      "de": [
+        "Inupik"
+      ],
+      "en": [
+        "Inupiaq"
+      ],
+      "fr": [
+        "inupiaq"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Inupiaq_language"
+    }
+  ],
+  "ilo": [
+    [
+      "ilo"
+    ],
+    2,
+    {
+      "639-2": "ilo",
+      "de": [
+        "Ilokano-Sprache"
+      ],
+      "en": [
+        "Iloko"
+      ],
+      "fr": [
+        "ilocano"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Iloko_language"
+    }
+  ],
+  "io": [
+    [
+      "io"
+    ],
+    12,
+    {
+      "639-1": "io",
+      "639-2": "ido",
+      "de": [
+        "Ido"
+      ],
+      "en": [
+        "Ido"
+      ],
+      "fr": [
+        "ido"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ido_language"
+    }
+  ],
+  "is": [
+    [
+      "is",
+      "is-is"
+    ],
+    1787,
+    {
+      "639-1": "is",
+      "639-2": "isl",
+      "639-2/B": "ice",
+      "de": [
+        "Isländisch"
+      ],
+      "en": [
+        "Icelandic"
+      ],
+      "fr": [
+        "islandais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Icelandic_language"
+    }
+  ],
+  "lat": [
+    [
+      "lat"
+    ],
+    7,
+    {
+      "639-1": "la",
+      "639-2": "lat",
+      "de": [
+        "Latein"
+      ],
+      "en": [
+        "Latin"
+      ],
+      "fr": [
+        "latin"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Latin_language"
+    }
+  ],
+  "iu": [
+    [
+      "iu"
+    ],
+    15,
+    {
+      "639-1": "iu",
+      "639-2": "iku",
+      "de": [
+        "Inuktitut"
+      ],
+      "en": [
+        "Inuktitut"
+      ],
+      "fr": [
+        "inuktitut"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Inuktitut_language"
+    }
+  ],
+  "jpn": [
+    [
+      "jpn"
+    ],
+    142,
+    {
+      "639-1": "ja",
+      "639-2": "jpn",
+      "de": [
+        "Japanisch"
+      ],
+      "en": [
+        "Japanese"
+      ],
+      "fr": [
+        "japonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Japanese_language"
+    }
+  ],
+  "jv": [
+    [
+      "jv",
+      "jv-id"
+    ],
+    242,
+    {
+      "639-1": "jv",
+      "639-2": "jav",
+      "de": [
+        "Javanisch"
+      ],
+      "en": [
+        "Javanese"
+      ],
+      "fr": [
+        "javanais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Javanese_language"
+    }
+  ],
+  "ka": [
+    [
+      "ka",
+      "ka-ge"
+    ],
+    183,
+    {
+      "639-1": "ka",
+      "639-2": "kat",
+      "639-2/B": "geo",
+      "de": [
+        "Georgisch"
+      ],
+      "en": [
+        "Georgian"
+      ],
+      "fr": [
+        "géorgien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Georgian_language"
+    }
+  ],
+  "kab": [
+    [
+      "kab"
+    ],
+    1,
+    {
+      "639-2": "kab",
+      "de": [
+        "Kabylisch"
+      ],
+      "en": [
+        "Kabyle"
+      ],
+      "fr": [
+        "kabyle"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kabyle_language"
+    }
+  ],
+  "kam": [
+    [
+      "kam"
+    ],
+    1,
+    {
+      "639-2": "kam",
+      "de": [
+        "Kamba-Sprache"
+      ],
+      "en": [
+        "Kamba"
+      ],
+      "fr": [
+        "kamba"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kamba_language_(Kenya)"
+    }
+  ],
+  "kar": [
+    [
+      "kar"
+    ],
+    1,
+    {
+      "639-2": "kar",
+      "de": [
+        "Karenisch"
+      ],
+      "en": [
+        "Karen languages"
+      ],
+      "fr": [
+        "karen, langues"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Karen_languages"
+    }
+  ],
+  "kaz": [
+    [
+      "kaz"
+    ],
+    2,
+    {
+      "639-1": "kk",
+      "639-2": "kaz",
+      "de": [
+        "Kasachisch"
+      ],
+      "en": [
+        "Kazakh"
+      ],
+      "fr": [
+        "kazakh"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kazakh_language"
+    }
+  ],
+  "kg": [
+    [
+      "kg"
+    ],
+    1,
+    {
+      "639-1": "kg",
+      "639-2": "kon",
+      "de": [
+        "Kongo-Sprache"
+      ],
+      "en": [
+        "Kongo"
+      ],
+      "fr": [
+        "kongo"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kongo_language"
+    }
+  ],
+  "kha": [
+    [
+      "kha"
+    ],
+    1,
+    {
+      "639-2": "kha",
+      "de": [
+        "Khasi-Sprache"
+      ],
+      "en": [
+        "Khasi"
+      ],
+      "fr": [
+        "khasi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Khasi_language"
+    }
+  ],
+  "ki": [
+    [
+      "ki"
+    ],
+    29,
+    {
+      "639-1": "ki",
+      "639-2": "kik",
+      "de": [
+        "Kikuyu-Sprache"
+      ],
+      "en": [
+        "Kikuyu",
+        "Gikuyu"
+      ],
+      "fr": [
+        "kikuyu"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kikuyu_language"
+    }
+  ],
+  "kl": [
+    [
+      "kl"
+    ],
+    75,
+    {
+      "639-1": "kl",
+      "639-2": "kal",
+      "de": [
+        "Grönländisch"
+      ],
+      "en": [
+        "Kalaallisut",
+        "Greenlandic"
+      ],
+      "fr": [
+        "groenlandais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kalaallisut_language"
+    }
+  ],
+  "kal": [
+    [
+      "kal"
+    ],
+    3,
+    {
+      "639-1": "kl",
+      "639-2": "kal",
+      "de": [
+        "Grönländisch"
+      ],
+      "en": [
+        "Kalaallisut",
+        "Greenlandic"
+      ],
+      "fr": [
+        "groenlandais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kalaallisut_language"
+    }
+  ],
+  "km": [
+    [
+      "km",
+      "km-kh",
+      "km-km"
+    ],
+    489,
+    {
+      "639-1": "km",
+      "639-2": "khm",
+      "de": [
+        "Kambodschanisch"
+      ],
+      "en": [
+        "Central Khmer"
+      ],
+      "fr": [
+        "khmer central"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Central_Khmer_language"
+    }
+  ],
+  "kok": [
+    [
+      "kok"
+    ],
+    4,
+    {
+      "639-2": "kok",
+      "de": [
+        "Konkani"
+      ],
+      "en": [
+        "Konkani"
+      ],
+      "fr": [
+        "konkani"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Konkani_language"
+    }
+  ],
+  "kr": [
+    [
+      "kr"
+    ],
+    7,
+    {
+      "639-1": "kr",
+      "639-2": "kau",
+      "de": [
+        "Kanuri-Sprache"
+      ],
+      "en": [
+        "Kanuri"
+      ],
+      "fr": [
+        "kanouri"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kanuri_language"
+    }
+  ],
+  "kw": [
+    [
+      "kw"
+    ],
+    26,
+    {
+      "639-1": "kw",
+      "639-2": "cor",
+      "de": [
+        "Kornisch"
+      ],
+      "en": [
+        "Cornish"
+      ],
+      "fr": [
+        "cornique"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Cornish_language"
+    }
+  ],
+  "ky": [
+    [
+      "ky",
+      "ky-kg"
+    ],
+    121,
+    {
+      "639-1": "ky",
+      "639-2": "kir",
+      "de": [
+        "Kirgisisch"
+      ],
+      "en": [
+        "Kirghiz",
+        "Kyrgyz"
+      ],
+      "fr": [
+        "kirghiz"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Kirghiz_language"
+    }
+  ],
+  "la": [
+    [
+      "la"
+    ],
+    168,
+    {
+      "639-1": "la",
+      "639-2": "lat",
+      "de": [
+        "Latein"
+      ],
+      "en": [
+        "Latin"
+      ],
+      "fr": [
+        "latin"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Latin_language"
+    }
+  ],
+  "lav": [
+    [
+      "lav"
+    ],
+    2,
+    {
+      "639-1": "lv",
+      "639-2": "lav",
+      "de": [
+        "Lettisch"
+      ],
+      "en": [
+        "Latvian"
+      ],
+      "fr": [
+        "letton"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Latvian_language"
+    }
+  ],
+  "li": [
+    [
+      "li"
+    ],
+    1,
+    {
+      "639-1": "li",
+      "639-2": "lim",
+      "de": [
+        "Limburgisch"
+      ],
+      "en": [
+        "Limburgan",
+        "Limburger",
+        "Limburgish"
+      ],
+      "fr": [
+        "limbourgeois"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Limburgan_language"
+    }
+  ],
+  "lit": [
+    [
+      "lit"
+    ],
+    1,
+    {
+      "639-1": "lt",
+      "639-2": "lit",
+      "de": [
+        "Litauisch"
+      ],
+      "en": [
+        "Lithuanian"
+      ],
+      "fr": [
+        "lituanien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lithuanian_language"
+    }
+  ],
+  "ln": [
+    [
+      "ln"
+    ],
+    14,
+    {
+      "639-1": "ln",
+      "639-2": "lin",
+      "de": [
+        "Lingala"
+      ],
+      "en": [
+        "Lingala"
+      ],
+      "fr": [
+        "lingala"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lingala_language"
+    }
+  ],
+  "lo": [
+    [
+      "lo",
+      "lo-th"
+    ],
+    73,
+    {
+      "639-1": "lo",
+      "639-2": "lao",
+      "de": [
+        "Laotisch"
+      ],
+      "en": [
+        "Lao"
+      ],
+      "fr": [
+        "lao"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Lao_language"
+    }
+  ],
+  "lu": [
+    [
+      "lu"
+    ],
+    5,
+    {
+      "639-1": "lu",
+      "639-2": "lub",
+      "de": [
+        "Luba-Katanga-Sprache"
+      ],
+      "en": [
+        "Luba-Katanga"
+      ],
+      "fr": [
+        "luba-katanga"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Luba-Katanga_language"
+    }
+  ],
+  "luo": [
+    [
+      "luo"
+    ],
+    5,
+    {
+      "639-2": "luo",
+      "de": [
+        "Luo-Sprache"
+      ],
+      "en": [
+        "Luo (Kenya and Tanzania)"
+      ],
+      "fr": [
+        "luo (Kenya et Tanzanie)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Luo_language_(Kenya_and_Tanzania)"
+    }
+  ],
+  "mal": [
+    [
+      "mal"
+    ],
+    2,
+    {
+      "639-1": "ml",
+      "639-2": "mal",
+      "de": [
+        "Malayalam"
+      ],
+      "en": [
+        "Malayalam"
+      ],
+      "fr": [
+        "malayalam"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Malayalam_language"
+    }
+  ],
+  "mar": [
+    [
+      "mar"
+    ],
+    24,
+    {
+      "639-1": "mr",
+      "639-2": "mar",
+      "de": [
+        "Marathi"
+      ],
+      "en": [
+        "Marathi"
+      ],
+      "fr": [
+        "marathe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Marathi_language"
+    }
+  ],
+  "mg": [
+    [
+      "mg",
+      "mg-mg"
+    ],
+    32,
+    {
+      "639-1": "mg",
+      "639-2": "mlg",
+      "de": [
+        "Malagassi-Sprache"
+      ],
+      "en": [
+        "Malagasy"
+      ],
+      "fr": [
+        "malgache"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Malagasy_language"
+    }
+  ],
+  "mi": [
+    [
+      "mi"
+    ],
+    28,
+    {
+      "639-1": "mi",
+      "639-2": "mri",
+      "639-2/B": "mao",
+      "de": [
+        "Maori-Sprache"
+      ],
+      "en": [
+        "Maori"
+      ],
+      "fr": [
+        "maori"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Maori_language"
+    }
+  ],
+  "mk": [
+    [
+      "mk",
+      "mk-mk"
+    ],
+    154,
+    {
+      "639-1": "mk",
+      "639-2": "mkd",
+      "639-2/B": "mac",
+      "de": [
+        "Makedonisch"
+      ],
+      "en": [
+        "Macedonian"
+      ],
+      "fr": [
+        "macédonien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Macedonian_language"
+    }
+  ],
+  "mlt": [
+    [
+      "mlt"
+    ],
+    1,
+    {
+      "639-1": "mt",
+      "639-2": "mlt",
+      "de": [
+        "Maltesisch"
+      ],
+      "en": [
+        "Maltese"
+      ],
+      "fr": [
+        "maltais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Maltese_language"
+    }
+  ],
+  "mn": [
+    [
+      "mn",
+      "mn-mn"
+    ],
+    984,
+    {
+      "639-1": "mn",
+      "639-2": "mon",
+      "de": [
+        "Mongolisch"
+      ],
+      "en": [
+        "Mongolian"
+      ],
+      "fr": [
+        "mongol"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mongolian_language"
+    }
+  ],
+  "mul": [
+    [
+      "mul"
+    ],
+    206,
+    {
+      "639-2": "mul",
+      "de": [
+        "Mehrere Sprachen"
+      ],
+      "en": [
+        "Multiple languages"
+      ],
+      "fr": [
+        "multilingue"
+      ]
+    }
+  ],
+  "na": [
+    [
+      "na"
+    ],
+    8,
+    {
+      "639-1": "na",
+      "639-2": "nau",
+      "de": [
+        "Nauruanisch"
+      ],
+      "en": [
+        "Nauru"
+      ],
+      "fr": [
+        "nauruan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Nauru_language"
+    }
+  ],
+  "nb": [
+    [
+      "nb",
+      "nb-no",
+      "nb-nb",
+      "nb_sj"
+    ],
+    3676,
+    {
+      "639-1": "nb",
+      "639-2": "nob",
+      "de": [
+        "Bokmål"
+      ],
+      "en": [
+        "Bokmål, Norwegian",
+        "Norwegian Bokmål"
+      ],
+      "fr": [
+        "norvégien bokmål"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Norwegian_Bokm%C3%A5l_language"
+    }
+  ],
+  "nd": [
+    [
+      "nd"
+    ],
+    44,
+    {
+      "639-1": "nd",
+      "639-2": "nde",
+      "de": [
+        "Ndebele-Sprache (Simbabwe)"
+      ],
+      "en": [
+        "Ndebele, North",
+        "North Ndebele"
+      ],
+      "fr": [
+        "ndébélé du Nord"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/North_Ndebele_language"
+    }
+  ],
+  "nds": [
+    [
+      "nds"
+    ],
+    7,
+    {
+      "639-2": "nds",
+      "de": [
+        "Niederdeutsch"
+      ],
+      "en": [
+        "Low German",
+        "Low Saxon",
+        "German, Low",
+        "Saxon, Low"
+      ],
+      "fr": [
+        "bas allemand",
+        "bas saxon",
+        "allemand, bas",
+        "saxon, bas"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Low_German_language"
+    }
+  ],
+  "niu": [
+    [
+      "niu"
+    ],
+    3,
+    {
+      "639-2": "niu",
+      "de": [
+        "Niue-Sprache"
+      ],
+      "en": [
+        "Niuean"
+      ],
+      "fr": [
+        "niué"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Niuean_language"
+    }
+  ],
+  "nld": [
+    [
+      "nld",
+      "nld-nl"
+    ],
+    80,
+    {
+      "639-1": "nl",
+      "639-2": "nld",
+      "639-2/B": "dut",
+      "de": [
+        "Niederländisch"
+      ],
+      "en": [
+        "Dutch",
+        "Flemish"
+      ],
+      "fr": [
+        "néerlandais",
+        "flamand"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Dutch_language"
+    }
+  ],
+  "nn": [
+    [
+      "nn",
+      "nn-no"
+    ],
+    475,
+    {
+      "639-1": "nn",
+      "639-2": "nno",
+      "de": [
+        "Nynorsk"
+      ],
+      "en": [
+        "Norwegian Nynorsk",
+        "Nynorsk, Norwegian"
+      ],
+      "fr": [
+        "norvégien nynorsk",
+        "nynorsk, norvégien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Norwegian_Nynorsk_language"
+    }
+  ],
+  "nor": [
+    [
+      "nor"
+    ],
+    1,
+    {
+      "639-1": "no",
+      "639-2": "nor",
+      "de": [
+        "Norwegisch"
+      ],
+      "en": [
+        "Norwegian"
+      ],
+      "fr": [
+        "norvégien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Norwegian_language"
+    }
+  ],
+  "nr": [
+    [
+      "nr"
+    ],
+    18,
+    {
+      "639-1": "nr",
+      "639-2": "nbl",
+      "de": [
+        "Ndebele-Sprache (Transvaal)"
+      ],
+      "en": [
+        "Ndebele, South",
+        "South Ndebele"
+      ],
+      "fr": [
+        "ndébélé du Sud"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/South_Ndebele_language"
+    }
+  ],
+  "nso": [
+    [
+      "nso"
+    ],
+    1,
+    {
+      "639-2": "nso",
+      "de": [
+        "Pedi-Sprache"
+      ],
+      "en": [
+        "Pedi",
+        "Sepedi",
+        "Northern Sotho"
+      ],
+      "fr": [
+        "pedi",
+        "sepedi",
+        "sotho du Nord"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Pedi_language"
+    }
+  ],
+  "nv": [
+    [
+      "nv"
+    ],
+    1,
+    {
+      "639-1": "nv",
+      "639-2": "nav",
+      "de": [
+        "Navajo-Sprache"
+      ],
+      "en": [
+        "Navajo",
+        "Navaho"
+      ],
+      "fr": [
+        "navaho"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Navajo_language"
+    }
+  ],
+  "ny": [
+    [
+      "ny"
+    ],
+    101,
+    {
+      "639-1": "ny",
+      "639-2": "nya",
+      "de": [
+        "Nyanja-Sprache"
+      ],
+      "en": [
+        "Chichewa",
+        "Chewa",
+        "Nyanja"
+      ],
+      "fr": [
+        "chichewa",
+        "chewa",
+        "nyanja"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Nyanja_language"
+    }
+  ],
+  "oc": [
+    [
+      "oc",
+      "oc-limos"
+    ],
+    9,
+    {
+      "639-1": "oc",
+      "639-2": "oci",
+      "de": [
+        "Okzitanisch"
+      ],
+      "en": [
+        "Occitan (post 1500)"
+      ],
+      "fr": [
+        "occitan (après 1500)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Occitan_language"
+    }
+  ],
+  "ori": [
+    [
+      "ori"
+    ],
+    18,
+    {
+      "639-1": "or",
+      "639-2": "ori",
+      "de": [
+        "Oriya-Sprache"
+      ],
+      "en": [
+        "Oriya"
+      ],
+      "fr": [
+        "oriya"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Odiya_language"
+    }
+  ],
+  "oj": [
+    [
+      "oj"
+    ],
+    1,
+    {
+      "639-1": "oj",
+      "639-2": "oji",
+      "de": [
+        "Ojibwa-Sprache"
+      ],
+      "en": [
+        "Ojibwa"
+      ],
+      "fr": [
+        "ojibwa"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ojibwa_language"
+    }
+  ],
+  "om": [
+    [
+      "om",
+      "om-et",
+      "om-om"
+    ],
+    77,
+    {
+      "639-1": "om",
+      "639-2": "orm",
+      "de": [
+        "Galla-Sprache"
+      ],
+      "en": [
+        "Oromo"
+      ],
+      "fr": [
+        "galla"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Oromo_language"
+    }
+  ],
+  "os": [
+    [
+      "os"
+    ],
+    8,
+    {
+      "639-1": "os",
+      "639-2": "oss",
+      "de": [
+        "Ossetisch"
+      ],
+      "en": [
+        "Ossetian",
+        "Ossetic"
+      ],
+      "fr": [
+        "ossète"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ossetian_language"
+    }
+  ],
+  "pap": [
+    [
+      "pap"
+    ],
+    3,
+    {
+      "639-2": "pap",
+      "de": [
+        "Papiamento"
+      ],
+      "en": [
+        "Papiamento"
+      ],
+      "fr": [
+        "papiamento"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Papiamento_language"
+    }
+  ],
+  "pol": [
+    [
+      "pol",
+      "pol-pl"
+    ],
+    8,
+    {
+      "639-1": "pl",
+      "639-2": "pol",
+      "de": [
+        "Polnisch"
+      ],
+      "en": [
+        "Polish"
+      ],
+      "fr": [
+        "polonais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Polish_language"
+    }
+  ],
+  "qu": [
+    [
+      "qu"
+    ],
+    30,
+    {
+      "639-1": "qu",
+      "639-2": "que",
+      "de": [
+        "Quechua-Sprache"
+      ],
+      "en": [
+        "Quechua"
+      ],
+      "fr": [
+        "quechua"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Quechua_language"
+    }
+  ],
+  "rm": [
+    [
+      "rm"
+    ],
+    64,
+    {
+      "639-1": "rm",
+      "639-2": "roh",
+      "de": [
+        "Rätoromanisch"
+      ],
+      "en": [
+        "Romansh"
+      ],
+      "fr": [
+        "romanche"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Romansh_language"
+    }
+  ],
+  "rn": [
+    [
+      "rn"
+    ],
+    9,
+    {
+      "639-1": "rn",
+      "639-2": "run",
+      "de": [
+        "Rundi-Sprache"
+      ],
+      "en": [
+        "Rundi"
+      ],
+      "fr": [
+        "rundi"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Rundi_language"
+    }
+  ],
+  "rom": [
+    [
+      "rom"
+    ],
+    1,
+    {
+      "639-2": "rom",
+      "de": [
+        "Romani (Sprache)"
+      ],
+      "en": [
+        "Romany"
+      ],
+      "fr": [
+        "tsigane"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Romany_language"
+    }
+  ],
+  "ron": [
+    [
+      "ron"
+    ],
+    1,
+    {
+      "639-1": "ro",
+      "639-2": "ron",
+      "639-2/B": "rum",
+      "de": [
+        "Rumänisch"
+      ],
+      "en": [
+        "Romanian",
+        "Moldavian",
+        "Moldovan"
+      ],
+      "fr": [
+        "roumain",
+        "moldave"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Romanian_language"
+    }
+  ],
+  "sa": [
+    [
+      "sa"
+    ],
+    75,
+    {
+      "639-1": "sa",
+      "639-2": "san",
+      "de": [
+        "Sanskrit"
+      ],
+      "en": [
+        "Sanskrit"
+      ],
+      "fr": [
+        "sanskrit"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sanskrit_language"
+    }
+  ],
+  "sah": [
+    [
+      "sah"
+    ],
+    1,
+    {
+      "639-2": "sah",
+      "de": [
+        "Jakutisch"
+      ],
+      "en": [
+        "Yakut"
+      ],
+      "fr": [
+        "iakoute"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Yakut_language"
+    }
+  ],
+  "sc": [
+    [
+      "sc"
+    ],
+    17,
+    {
+      "639-1": "sc",
+      "639-2": "srd",
+      "de": [
+        "Sardisch"
+      ],
+      "en": [
+        "Sardinian"
+      ],
+      "fr": [
+        "sarde"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sardinian_language"
+    }
+  ],
+  "scn": [
+    [
+      "scn"
+    ],
+    1,
+    {
+      "639-2": "scn",
+      "de": [
+        "Sizilianisch"
+      ],
+      "en": [
+        "Sicilian"
+      ],
+      "fr": [
+        "sicilien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sicilian_language"
+    }
+  ],
+  "sco": [
+    [
+      "sco"
+    ],
+    2,
+    {
+      "639-2": "sco",
+      "de": [
+        "Schottisch"
+      ],
+      "en": [
+        "Scots"
+      ],
+      "fr": [
+        "écossais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Scots_language"
+    }
+  ],
+  "shn": [
+    [
+      "shn"
+    ],
+    29,
+    {
+      "639-2": "shn",
+      "de": [
+        "Schan-Sprache"
+      ],
+      "en": [
+        "Shan"
+      ],
+      "fr": [
+        "chan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Shan_language"
+    }
+  ],
+  "san": [
+    [
+      "san"
+    ],
+    2,
+    {
+      "639-1": "sa",
+      "639-2": "san",
+      "de": [
+        "Sanskrit"
+      ],
+      "en": [
+        "Sanskrit"
+      ],
+      "fr": [
+        "sanskrit"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sanskrit_language"
+    }
+  ],
+  "slk": [
+    [
+      "slk"
+    ],
+    6,
+    {
+      "639-1": "sk",
+      "639-2": "slk",
+      "639-2/B": "slo",
+      "de": [
+        "Slowakisch"
+      ],
+      "en": [
+        "Slovak"
+      ],
+      "fr": [
+        "slovaque"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Slovak_language"
+    }
+  ],
+  "sl": [
+    [
+      "sl",
+      "sl-si",
+      "sl-sl",
+      "sl_si"
+    ],
+    1428,
+    {
+      "639-1": "sl",
+      "639-2": "slv",
+      "de": [
+        "Slowenisch"
+      ],
+      "en": [
+        "Slovenian"
+      ],
+      "fr": [
+        "slovène"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Slovenian_language"
+    }
+  ],
+  "sm": [
+    [
+      "sm"
+    ],
+    95,
+    {
+      "639-1": "sm",
+      "639-2": "smo",
+      "de": [
+        "Samoanisch"
+      ],
+      "en": [
+        "Samoan"
+      ],
+      "fr": [
+        "samoan"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Samoan_language"
+    }
+  ],
+  "srn": [
+    [
+      "srn"
+    ],
+    1,
+    {
+      "639-2": "srn",
+      "de": [
+        "Sranantongo"
+      ],
+      "en": [
+        "Sranan Tongo"
+      ],
+      "fr": [
+        "sranan tongo"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sranan_Tongo_language"
+    }
+  ],
+  "srp": [
+    [
+      "srp"
+    ],
+    3,
+    {
+      "639-1": "sr",
+      "639-2": "srp",
+      "de": [
+        "Serbisch"
+      ],
+      "en": [
+        "Serbian"
+      ],
+      "fr": [
+        "serbe"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Serbian_language"
+    }
+  ],
+  "ss": [
+    [
+      "ss"
+    ],
+    11,
+    {
+      "639-1": "ss",
+      "639-2": "ssw",
+      "de": [
+        "Swasi-Sprache"
+      ],
+      "en": [
+        "Swati"
+      ],
+      "fr": [
+        "swati"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Swati_language"
+    }
+  ],
+  "st": [
+    [
+      "st",
+      "st-st"
+    ],
+    25,
+    {
+      "639-1": "st",
+      "639-2": "sot",
+      "de": [
+        "Süd-Sotho-Sprache"
+      ],
+      "en": [
+        "Sotho, Southern"
+      ],
+      "fr": [
+        "sotho du Sud"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Southern_Sotho_language"
+    }
+  ],
+  "su": [
+    [
+      "su",
+      "su-id"
+    ],
+    34,
+    {
+      "639-1": "su",
+      "639-2": "sun",
+      "de": [
+        "Sundanesisch"
+      ],
+      "en": [
+        "Sundanese"
+      ],
+      "fr": [
+        "soundanais"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Sundanese_language"
+    }
+  ],
+  "tet": [
+    [
+      "tet"
+    ],
+    1,
+    {
+      "639-2": "tet",
+      "de": [
+        "Tetum-Sprache"
+      ],
+      "en": [
+        "Tetum"
+      ],
+      "fr": [
+        "tetum"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tetum_language"
+    }
+  ],
+  "tha": [
+    [
+      "tha"
+    ],
+    4,
+    {
+      "639-1": "th",
+      "639-2": "tha",
+      "de": [
+        "Thailändisch"
+      ],
+      "en": [
+        "Thai"
+      ],
+      "fr": [
+        "thaï"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Thai_language"
+    }
+  ],
+  "tkl": [
+    [
+      "tkl"
+    ],
+    1,
+    {
+      "639-2": "tkl",
+      "de": [
+        "Tokelauanisch"
+      ],
+      "en": [
+        "Tokelau"
+      ],
+      "fr": [
+        "tokelau"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tokelau_language"
+    }
+  ],
+  "tn": [
+    [
+      "tn"
+    ],
+    22,
+    {
+      "639-1": "tn",
+      "639-2": "tsn",
+      "de": [
+        "Tswana-Sprache"
+      ],
+      "en": [
+        "Tswana"
+      ],
+      "fr": [
+        "tswana"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tswana_language"
+    }
+  ],
+  "to": [
+    [
+      "to",
+      "to-to"
+    ],
+    555,
+    {
+      "639-1": "to",
+      "639-2": "ton",
+      "de": [
+        "Tongaisch"
+      ],
+      "en": [
+        "Tonga (Tonga Islands)"
+      ],
+      "fr": [
+        "tongan (Îles Tonga)"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tonga_language_(Tonga_Islands)"
+    }
+  ],
+  "ts": [
+    [
+      "ts"
+    ],
+    8,
+    {
+      "639-1": "ts",
+      "639-2": "tso",
+      "de": [
+        "Tsonga-Sprache"
+      ],
+      "en": [
+        "Tsonga"
+      ],
+      "fr": [
+        "tsonga"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tsonga_language"
+    }
+  ],
+  "ty": [
+    [
+      "ty"
+    ],
+    2,
+    {
+      "639-1": "ty",
+      "639-2": "tah",
+      "de": [
+        "Tahitisch"
+      ],
+      "en": [
+        "Tahitian"
+      ],
+      "fr": [
+        "tahitien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Tahitian_language"
+    }
+  ],
+  "ukr": [
+    [
+      "ukr",
+      "ukr-ukr"
+    ],
+    3,
+    {
+      "639-1": "uk",
+      "639-2": "ukr",
+      "de": [
+        "Ukrainisch"
+      ],
+      "en": [
+        "Ukrainian"
+      ],
+      "fr": [
+        "ukrainien"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Ukrainian_language"
+    }
+  ],
+  "und": [
+    [
+      "und"
+    ],
+    3,
+    {
+      "639-2": "und",
+      "de": [
+        "Nicht zu entscheiden"
+      ],
+      "en": [
+        "Undetermined"
+      ],
+      "fr": [
+        "indéterminée"
+      ]
+    }
+  ],
+  "ve": [
+    [
+      "ve"
+    ],
+    8,
+    {
+      "639-1": "ve",
+      "639-2": "ven",
+      "de": [
+        "Venda-Sprache"
+      ],
+      "en": [
+        "Venda"
+      ],
+      "fr": [
+        "venda"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Venda_language"
+    }
+  ],
+  "wa": [
+    [
+      "wa"
+    ],
+    3,
+    {
+      "639-1": "wa",
+      "639-2": "wln",
+      "de": [
+        "Wallonisch"
+      ],
+      "en": [
+        "Walloon"
+      ],
+      "fr": [
+        "wallon"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Walloon_language"
+    }
+  ],
+  "xh": [
+    [
+      "xh"
+    ],
+    56,
+    {
+      "639-1": "xh",
+      "639-2": "xho",
+      "de": [
+        "Xhosa-Sprache"
+      ],
+      "en": [
+        "Xhosa"
+      ],
+      "fr": [
+        "xhosa"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Xhosa_language"
+    }
+  ],
+  "za": [
+    [
+      "za"
+    ],
+    5,
+    {
+      "639-1": "za",
+      "639-2": "zha",
+      "de": [
+        "Zhuang"
+      ],
+      "en": [
+        "Zhuang",
+        "Chuang"
+      ],
+      "fr": [
+        "zhuang",
+        "chuang"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Zhuang_language"
+    }
+  ],
+  "zgh": [
+    [
+      "zgh"
+    ],
+    1,
+    {
+      "639-2": "zgh",
+      "de": [
+        "Standard-marokkanischen Tamazight"
+      ],
+      "en": [
+        "Standard Moroccan Tamazight"
+      ],
+      "fr": [
+        "amazighe standard marocain"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Standard_Moroccan_Tamazight"
+    }
+  ],
+  "zu": [
+    [
+      "zu"
+    ],
+    1,
+    {
+      "639-1": "zu",
+      "639-2": "zul",
+      "de": [
+        "Zulu-Sprache"
+      ],
+      "en": [
+        "Zulu"
+      ],
+      "fr": [
+        "zoulou"
+      ],
+      "wikiUrl": "https://en.wikipedia.org/wiki/Zulu_language"
+    }
+  ],
+  "zxx": [
+    [
+      "zxx"
+    ],
+    4,
+    {
+      "639-2": "zxx",
+      "de": [
+        "Kein linguistischer Inhalt"
+      ],
+      "en": [
+        "No linguistic content",
+        "Not applicable"
+      ],
+      "fr": [
+        "pas de contenu linguistique",
+        "non applicable"
+      ]
+    }
+  ]
+}
