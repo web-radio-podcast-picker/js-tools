@@ -19,8 +19,9 @@ export default class ParseGenLangs {
     // unclassified lang codes
     unknownLangs = {}
 
-    unknownLangsFilename = 'output/unknownLangs.json'
-    knownLangsFilename = 'output/knownLangs.json'
+    unknownLangsFilename = 'output/unknown-langs.json'
+    knownLangsFilename = 'output/known-langs.json'
+    allUnkownLangsGroupsNamesFilname = 'output/all-unkown-langs-groups-names.json'
 
     dumpTranslatedLangGroups = false
     dumpUnknownLangCode = false
@@ -37,6 +38,8 @@ export default class ParseGenLangs {
         this.buildTranslatedLangGroups()
         // rebuild groups keeping only ISO valid codes
         this.buildISOLangGroups()
+        // build unknowns referential
+        this.buildUnknownsLangsGroupsNamesReferential()
     }
 
     buildISOLangGroups() {
@@ -98,6 +101,25 @@ export default class ParseGenLangs {
             console.log(this.gl['en'])
         if (this.dumpUnknownLangGroups)
             console.log(this.unknownLangs)
+    }
+
+    buildUnknownsLangsGroupsNamesReferential() {
+        const allUnkownLangsGroupsNames = { list: [], count_items: 0, count: 0 }
+        for (const tnk in this.unknownLangs) {
+            this.unknownLangs[tnk][0].forEach(n => {
+                if (!allUnkownLangsGroupsNames.list.includes(n)) {
+                    allUnkownLangsGroupsNames.list.push(n)
+                }
+            })
+            allUnkownLangsGroupsNames.count_items += this.unknownLangs[tnk][1]
+
+        }
+        allUnkownLangsGroupsNames.count = allUnkownLangsGroupsNames.list.length
+        fs.writeFile(
+            this.allUnkownLangsGroupsNamesFilname,
+            JSON.stringify(allUnkownLangsGroupsNames, null, 2),
+            err => this.writeFileCB(err, this.allUnkownLangsGroupsNamesFilname)
+        )
     }
 
     buildTranslatedLangGroups() {
