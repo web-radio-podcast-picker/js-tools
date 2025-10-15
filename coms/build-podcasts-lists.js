@@ -5,14 +5,19 @@ import readline from 'readline'
 
 export default class BuildPodcastsLists {
 
-    dbExportFilename = 'data/podcastindex_feeds.db.csv'
+    //dbExportFilename = 'data/podcastindex_feeds.db.csv'
+    dbExportFilename = 'data/output.csv'
+
+    separator = '📚|📚'
 
     state = {
         startStamp: null,
         endStamp: null,
         durStamp: null,
         rowIndex: 0,
-        rowCount: 0
+        rowCount: 0,
+        maxRows: null,
+        checkSeparator: false
     }
 
     run(langs, langTrs, isoLangs) {
@@ -33,8 +38,10 @@ export default class BuildPodcastsLists {
             crlfDelay: Infinity
         });
         reader.on('line', (line) => {
-            //console.log(`Line: ${line}`);
             this.processRow(line)
+            // limit rows for dev
+            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows)
+                reader.close()
         });
         reader.on('close', () => {
             this.state.endStamp = Date.now()
@@ -46,9 +53,33 @@ export default class BuildPodcastsLists {
     }
 
     processRow(row) {
+        /*
         if (this.state.rowIndex == 0)
             console.warn(row)
+        */
+        if (this.state.rowIndex == 0) {
+            // skip header
+            this.state.rowIndex++
+            return
+        }
+        this.parseRow(row)
         this.state.rowCount++
         this.state.rowIndex++
+    }
+
+    parseRow(row) {
+        // lookup for a valid separator
+        if (this.state.checkSeparator
+            && row.includes(this.separator))
+            console.warn(row)
+        const t = row.split(this.separator)
+        const lang = t[17]
+        const tags = []
+        for (var i = 0; i < 10; i++) {
+            const c = t[29 + i]
+            if (c != '""')
+                tags.push(c)
+        }
+        console.warn(lang + ' | ' + tags.join(','))
     }
 }
