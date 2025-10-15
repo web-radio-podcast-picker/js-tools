@@ -6,6 +6,7 @@ import chalk from 'chalk'
 import ParseGenLangs from './coms/parse-gen-langs.js'
 const langs = (await import('./data/db-podcast-export-languages.js')).default
 import isoLangs from './data/iso-639-2.json' assert {type: 'json'};
+import BuildPodcastsLists from './coms/build-podcasts-lists.js';
 const langTrs = (await import('./data/langsTranslations.js')).default
 
 console.log('loaded: db-podcast-export-languages')
@@ -13,18 +14,7 @@ console.log('langs count: ' + langs.length)
 console.log('loaded: ISO-639-2. langs count:' + Object.keys(isoLangs).length)
 console.log('langs translations: ' + Object.getOwnPropertyNames(langTrs).length)
 
-/*
-const low = await import('lowdb')
-const FileSync = await import('lowdb/adapters/FileSync')
-console.log(FileSync)import langTrs from './data/langsTranslations';
-
-const adapter = new FileSync('./data/iso-639-2.json')
-const iso6392 = low(adapter)
-*/
-
-
 const args = process.argv
-const commands = ['parse-gen-langs']
 
 const usage = function () {
   const usageText = `
@@ -35,7 +25,19 @@ const usage = function () {
 
     commands can be:
 
-    parse-gen-langs :      db-podcast-export-languages -> ...
+    parse-gen-langs :      db-podcast-export-languages.js
+                            -->
+                               output/unknown-langs.json
+                               output/known-langs.json
+                               output/unkown-langs-groups-names-referential.json
+                               output/kown-langs-groups-names-referential.json
+
+    build-podcasts-lists:   podcastindex_feeds.db.csv
+                            output/known-langs.json
+                            output/unkown-langs-groups-names-referential.json
+                            output/kown-langs-groups-names-referential.json
+                             -->
+                              ...
   `
   console.log(usageText)
   process.exit(0)
@@ -47,15 +49,19 @@ if (args.length != 3) {
   usage()
 }
 const com = args[2]
-if (!commands.includes(com)) {
-  console.error('unknown command: ' + com)
-  usage()
-}
 
 // run command
 switch (com) {
   case 'parse-gen-langs':
     const parseGenLangs = new ParseGenLangs()
     parseGenLangs.run(langs, langTrs, isoLangs)
+    break
+  case 'build-podcasts-lists':
+    const buildPodcastsLists = new BuildPodcastsLists()
+    buildPodcastsLists.run()
+    break
+  default:
+    console.error('unknown command: ' + com)
+    usage()
     break
 }
