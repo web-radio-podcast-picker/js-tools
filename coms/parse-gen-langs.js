@@ -21,7 +21,7 @@ export default class ParseGenLangs {
 
     unknownLangsFilename = 'output/unknown-langs.json'
     knownLangsFilename = 'output/known-langs.json'
-    allUnkownLangsGroupsNamesFilname = 'output/all-unkown-langs-groups-names.json'
+    allUnkownLangsGroupsNamesFilname = 'output/unkown-langs-groups-names-referential.json'
 
     dumpTranslatedLangGroups = false
     dumpUnknownLangCode = false
@@ -104,6 +104,7 @@ export default class ParseGenLangs {
     }
 
     buildUnknownsLangsGroupsNamesReferential() {
+        console.log('build unknowns langs groups names referential')
         const allUnkownLangsGroupsNames = { list: [], count_items: 0, count: 0 }
         for (const tnk in this.unknownLangs) {
             this.unknownLangs[tnk][0].forEach(n => {
