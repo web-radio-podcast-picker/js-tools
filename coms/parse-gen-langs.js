@@ -22,6 +22,7 @@ export default class ParseGenLangs {
     unknownLangsFilename = 'output/unknown-langs.json'
     knownLangsFilename = 'output/known-langs.json'
     allUnkownLangsGroupsNamesFilname = 'output/unkown-langs-groups-names-referential.json'
+    allKownLangsGroupsNamesFilname = 'output/kown-langs-groups-names-referential.json'
 
     dumpTranslatedLangGroups = false
     dumpUnknownLangCode = false
@@ -40,6 +41,8 @@ export default class ParseGenLangs {
         this.buildISOLangGroups()
         // build unknowns referential
         this.buildUnknownsLangsGroupsNamesReferential()
+        // build knowns referential
+        this.buildKnownsLangsGroupsNamesReferential()
     }
 
     buildISOLangGroups() {
@@ -113,13 +116,32 @@ export default class ParseGenLangs {
                 }
             })
             allUnkownLangsGroupsNames.count_items += this.unknownLangs[tnk][1]
-
         }
         allUnkownLangsGroupsNames.count = allUnkownLangsGroupsNames.list.length
         fs.writeFile(
             this.allUnkownLangsGroupsNamesFilname,
             JSON.stringify(allUnkownLangsGroupsNames, null, 2),
             err => this.writeFileCB(err, this.allUnkownLangsGroupsNamesFilname)
+        )
+    }
+
+    buildKnownsLangsGroupsNamesReferential() {
+        console.log('build unknowns langs groups names referential')
+        const allKownLangsGroupsNames = { map: {}, count_items: 0, count: 0 }
+        for (const tnk in this.gl2) {
+            this.gl2[tnk][0].forEach(n => {
+                const o = allKownLangsGroupsNames.map[n]
+                if (!o) {
+                    allKownLangsGroupsNames.map[n] = this.gl2[tnk][2]['639-2']
+                    allKownLangsGroupsNames.count++
+                }
+            })
+            allKownLangsGroupsNames.count_items += this.gl2[tnk][1]
+        }
+        fs.writeFile(
+            this.allKownLangsGroupsNamesFilname,
+            JSON.stringify(allKownLangsGroupsNames, null, 2),
+            err => this.writeFileCB(err, this.allKownLangsGroupsNamesFilname)
         )
     }
 
