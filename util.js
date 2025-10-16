@@ -71,6 +71,7 @@ export default class Util {
 
     normalizeTitle(title, excludeFirstChars, row) {
         const backTitle = title
+        title = title?.trim()
         try {
             // filter first char
             var end = false

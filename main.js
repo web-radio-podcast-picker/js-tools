@@ -7,9 +7,11 @@ import chalk from 'chalk'
 import ParseGenLangs from './coms/parse-gen-langs.js'
 const langs = (await import('./data/db-podcast-export-languages.js')).default
 import isoLangs from './data/iso-639-2.json' assert {type: 'json'}
-import BuildPodcastsLists from './coms/build-podcasts-lists.js'
 const langTrs = (await import('./data/langsTranslations.js')).default
 import Util from './util.js'
+
+import BuildPodcastsLists from './coms/build-podcasts-lists.js'
+import BuildUnicodeMap from './coms/build-unicode-map.js';
 
 console.log('loaded: db-podcast-export-languages')
 console.log('langs count: ' + langs.length)
@@ -34,7 +36,7 @@ const usage = function () {
                                output/unkown-langs-groups-names-referential.json
                                output/kown-langs-groups-names-referential.json
 
-    build-podcasts-lists:   podcastindex_feeds.db.csv
+    build-podcasts-lists :  podcastindex_feeds.db.csv
                             output/known-langs.json
                             output/unkown-langs-groups-names-referential.json
                             output/kown-langs-groups-names-referential.json
@@ -43,7 +45,7 @@ const usage = function () {
                               output/podcasts-lists-lang.json
                               output/podcasts-lists-flat-langs.json
                               
-    build-unicode-map:      ucd.all.grouped.xml
+    build-unicode-map :     ucd.all.grouped.xml
                               -->
                                 output/unicode-map.json
   `
