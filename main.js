@@ -39,7 +39,13 @@ const usage = function () {
                             output/unkown-langs-groups-names-referential.json
                             output/kown-langs-groups-names-referential.json
                              -->
-                              ...
+                              output/podcasts-lists.json
+                              output/podcasts-lists-lang.json
+                              output/podcasts-lists-flat-langs.json
+                              
+    build-unicode-map:      ucd.all.grouped.xml
+                              -->
+                                output/unicode-map.json
   `
   console.log(usageText)
   process.exit(0)
@@ -61,6 +67,10 @@ switch (com) {
   case 'build-podcasts-lists':
     const buildPodcastsLists = new BuildPodcastsLists()
     buildPodcastsLists.run(langs, langTrs, isoLangs, new Util())
+    break
+  case 'build-unicode-map':
+    const buildUnicodeMap = new BuildUnicodeMap()
+    buildUnicodeMap.run()
     break
   default:
     console.error('unknown command: ' + com)
