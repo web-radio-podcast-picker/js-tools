@@ -1,3 +1,5 @@
+// podcastindex_feeds.db.csv named columns indexs
+
 export const c_id = 0
 export const c_url = 1
 export const c_title = 2

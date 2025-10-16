@@ -6,7 +6,7 @@ import fs from 'fs'
 import readline from 'readline'
 
 import knownLangs from '../output/kown-langs-groups-names-referential.json' assert {type: 'json'}
-import { c_title, c_host, c_itunesAuthor, c_category1, c_language } from '../consts.js'
+import { c_title, c_host, c_itunesAuthor, c_category1, c_language } from '../podcast-db-consts.js'
 
 export default class BuildPodcastsLists {
 

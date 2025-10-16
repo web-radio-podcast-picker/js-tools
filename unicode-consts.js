@@ -1,0 +1,31 @@
+// unicode global categories (gc)
+
+export const GC_Cc = 'Cc' // Control
+export const GC_Cf = 'Cf' // Format
+export const GC_Co = 'Co' // Private Use
+export const GC_Cs = 'Cs' // Surrrogate
+export const GC_Ll = 'Ll' // Lowercase Letter
+export const GC_Lm = 'Lm' // Modifier Letter
+export const GC_Lo = 'Lo' // Other Letter
+export const GC_Lt = 'Lt' // Titlecase Letter
+export const GC_Lu = 'Lu' // Uppercase Letter
+export const GC_Mc = 'Mc' // Spacing Mark
+export const GC_Me = 'Me' // Enclosing Mark
+export const GC_Mn = 'Mn' // Nonspacing Mark
+export const GC_Nd = 'Nd' // Decimal Number
+export const GC_Nl = 'Nl' // Letter Number
+export const GC_No = 'No' // Other Number
+export const GC_Pc = 'Pc' // Connector Punctuation
+export const GC_Pd = 'Pd' // Dash Punctuation
+export const GC_Pe = 'Pe' // Close Punctuation
+export const GC_Pf = 'Pf' // Final Punctuation
+export const GC_Pi = 'Pi' // Initial Punctuation
+export const GC_Po = 'Po' // Other Punctuation
+export const GC_Ps = 'Ps' // Open Punctuation
+export const GC_Sc = 'Sc' // Currency Symbol
+export const GC_Sk = 'Sk' // Modifier Symbol
+export const GC_Sm = 'Sm' // Math Symbol
+export const GC_So = 'So' // Other Symbol
+export const GC_Zl = 'Zl' // Line Separator
+export const GC_Zp = 'Zp' // Paragraph Separator
+export const GC_Zs = 'Zs' // Space Separator
