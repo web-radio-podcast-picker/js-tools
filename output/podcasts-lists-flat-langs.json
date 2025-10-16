@@ -1,874 +1,406 @@
 {
   "?": {
     "code": "?",
-    "count": 240515
-  },
-  "Abkhazian": {
-    "code": "abk",
-    "count": 46
+    "count": 2100
   },
   "Afar": {
     "code": "aar",
-    "count": 1280
+    "count": 10
   },
   "Afrikaans": {
     "code": "afr",
-    "count": 2306
+    "count": 28
   },
   "Akan": {
     "code": "aka",
-    "count": 1059
+    "count": 7
   },
   "Albanian": {
     "code": "sqi",
-    "count": 1723
+    "count": 10
   },
   "Amharic": {
     "code": "amh",
-    "count": 1932
+    "count": 1
   },
   "Arabic": {
     "code": "ara",
-    "count": 29929
-  },
-  "Aragonese": {
-    "code": "arg",
-    "count": 7
+    "count": 62
   },
   "Armenian": {
     "code": "hye",
-    "count": 607
+    "count": 3
   },
   "Assamese": {
     "code": "asm",
-    "count": 256
-  },
-  "Asturian": {
-    "code": "ast",
-    "count": 12
-  },
-  "Avaric": {
-    "code": "ava",
-    "count": 1
-  },
-  "Avestan": {
-    "code": "ave",
-    "count": 3
-  },
-  "Aymara": {
-    "code": "aym",
-    "count": 2
+    "count": 7
   },
   "Azerbaijani": {
     "code": "aze",
-    "count": 542
-  },
-  "Bambara": {
-    "code": "bam",
-    "count": 393
-  },
-  "Basa": {
-    "code": "bas",
-    "count": 4
-  },
-  "Bashkir": {
-    "code": "bak",
-    "count": 42
+    "count": 3
   },
   "Basque": {
     "code": "eus",
-    "count": 1354
+    "count": 2
   },
   "Belarusian": {
     "code": "bel",
-    "count": 460
+    "count": 2
   },
   "Bengali": {
     "code": "ben",
-    "count": 2908
-  },
-  "Bhojpuri": {
-    "code": "bho",
-    "count": 1
-  },
-  "Bihari languages": {
-    "code": "bih",
-    "count": 21
-  },
-  "Bislama": {
-    "code": "bis",
-    "count": 7
+    "count": 20
   },
   "Bokmål, Norwegian": {
     "code": "nob",
-    "count": 3676
+    "count": 29
   },
   "Bosnian": {
     "code": "bos",
-    "count": 3677
+    "count": 2
   },
   "Breton": {
     "code": "bre",
-    "count": 86
+    "count": 2
   },
   "Bulgarian": {
     "code": "bul",
-    "count": 1611
+    "count": 6
   },
   "Burmese": {
     "code": "mya",
-    "count": 876
+    "count": 7
   },
   "Catalan": {
     "code": "cat",
-    "count": 12037
-  },
-  "Cebuano": {
-    "code": "ceb",
-    "count": 8
+    "count": 39
   },
   "Central Khmer": {
     "code": "khm",
-    "count": 488
-  },
-  "Chamorro": {
-    "code": "cha",
-    "count": 19
-  },
-  "Chechen": {
-    "code": "che",
-    "count": 241
-  },
-  "Cherokee": {
-    "code": "chr",
-    "count": 8
-  },
-  "Chichewa": {
-    "code": "nya",
-    "count": 101
+    "count": 2
   },
   "Chinese": {
     "code": "zho",
-    "count": 72760
-  },
-  "Church Slavic": {
-    "code": "chu",
-    "count": 15
-  },
-  "Chuvash": {
-    "code": "chv",
-    "count": 4
-  },
-  "Cornish": {
-    "code": "cor",
-    "count": 28
-  },
-  "Corsican": {
-    "code": "cos",
-    "count": 14
-  },
-  "Cree": {
-    "code": "cre",
-    "count": 2
+    "count": 233
   },
   "Croatian": {
     "code": "hrv",
-    "count": 857
+    "count": 4
   },
   "Czech": {
     "code": "ces",
-    "count": 8744
+    "count": 77
   },
   "Danish": {
     "code": "dan",
-    "count": 13158
-  },
-  "Dinka": {
-    "code": "din",
-    "count": 8
-  },
-  "Divehi": {
-    "code": "div",
-    "count": 5
+    "count": 202
   },
   "Dutch": {
     "code": "nld",
-    "count": 34627
-  },
-  "Dzongkha": {
-    "code": "dzo",
-    "count": 29
+    "count": 307
   },
   "English": {
     "code": "eng",
-    "count": 2607703
-  },
-  "English, Middle (1100-1500)": {
-    "code": "enm",
-    "count": 3
-  },
-  "English, Old (ca.450-1100)": {
-    "code": "ang",
-    "count": 2
-  },
-  "Esperanto": {
-    "code": "epo",
-    "count": 187
+    "count": 34520
   },
   "Estonian": {
     "code": "est",
-    "count": 1674
+    "count": 12
   },
   "Ewe": {
     "code": "ewe",
-    "count": 174
-  },
-  "Ewondo": {
-    "code": "ewo",
-    "count": 4
+    "count": 1
   },
   "Faroese": {
     "code": "fao",
-    "count": 327
-  },
-  "Fijian": {
-    "code": "fij",
-    "count": 6
+    "count": 2
   },
   "Filipino": {
     "code": "fil",
-    "count": 1260
+    "count": 1
   },
   "Finnish": {
     "code": "fin",
-    "count": 6067
+    "count": 80
   },
   "French": {
     "code": "fra",
-    "count": 113954
-  },
-  "Friulian": {
-    "code": "fur",
-    "count": 2
+    "count": 885
   },
   "Fulah": {
     "code": "ful",
-    "count": 266
+    "count": 1
   },
   "Ga": {
     "code": "gaa",
-    "count": 224
+    "count": 3
   },
   "Gaelic": {
     "code": "gla",
-    "count": 47
+    "count": 1
   },
   "Galician": {
     "code": "glg",
-    "count": 1798
-  },
-  "Ganda": {
-    "code": "lug",
-    "count": 405
+    "count": 3
   },
   "Georgian": {
     "code": "kat",
-    "count": 183
+    "count": 1
   },
   "German": {
     "code": "deu",
-    "count": 114674
-  },
-  "Greek, Ancient (to 1453)": {
-    "code": "grc",
-    "count": 44
+    "count": 1347
   },
   "Greek, Modern (1453-)": {
     "code": "ell",
-    "count": 4836
-  },
-  "Guarani": {
-    "code": "grn",
-    "count": 10
+    "count": 13
   },
   "Gujarati": {
     "code": "guj",
-    "count": 1050
-  },
-  "Haitian": {
-    "code": "hat",
-    "count": 267
+    "count": 8
   },
   "Hausa": {
     "code": "hau",
-    "count": 717
-  },
-  "Hawaiian": {
-    "code": "haw",
-    "count": 8
+    "count": 12
   },
   "Hebrew": {
     "code": "heb",
-    "count": 10740
-  },
-  "Herero": {
-    "code": "her",
-    "count": 5
-  },
-  "Hiligaynon": {
-    "code": "hil",
-    "count": 2
+    "count": 9
   },
   "Hindi": {
     "code": "hin",
-    "count": 30518
-  },
-  "Hiri Motu": {
-    "code": "hmo",
-    "count": 3
+    "count": 316
   },
   "Hungarian": {
     "code": "hun",
-    "count": 5861
+    "count": 38
   },
   "Icelandic": {
     "code": "isl",
-    "count": 1787
-  },
-  "Ido": {
-    "code": "ido",
-    "count": 12
+    "count": 36
   },
   "Igbo": {
     "code": "ibo",
-    "count": 46
-  },
-  "Iloko": {
-    "code": "ilo",
-    "count": 2
+    "count": 1
   },
   "Indonesian": {
     "code": "ind",
-    "count": 32383
-  },
-  "Interlingua (International Auxiliary Language Association)": {
-    "code": "ina",
-    "count": 47
-  },
-  "Interlingue": {
-    "code": "ile",
-    "count": 33
+    "count": 417
   },
   "Inuktitut": {
     "code": "iku",
-    "count": 15
-  },
-  "Inupiaq": {
-    "code": "ipk",
-    "count": 3
-  },
-  "Iranian languages": {
-    "code": "ira",
-    "count": 2
+    "count": 1
   },
   "Italian": {
     "code": "ita",
-    "count": 77546
+    "count": 449
   },
   "Japanese": {
     "code": "jpn",
-    "count": 42709
+    "count": 152
   },
   "Javanese": {
     "code": "jav",
-    "count": 242
-  },
-  "Kabyle": {
-    "code": "kab",
-    "count": 1
-  },
-  "Kalaallisut": {
-    "code": "kal",
-    "count": 75
-  },
-  "Kamba": {
-    "code": "kam",
     "count": 1
   },
   "Kannada": {
     "code": "kan",
-    "count": 1043
-  },
-  "Kanuri": {
-    "code": "kau",
-    "count": 7
-  },
-  "Karen languages": {
-    "code": "kar",
-    "count": 1
-  },
-  "Kashmiri": {
-    "code": "kas",
-    "count": 46
-  },
-  "Kazakh": {
-    "code": "kaz",
-    "count": 427
-  },
-  "Khasi": {
-    "code": "kha",
-    "count": 1
-  },
-  "Kikuyu": {
-    "code": "kik",
-    "count": 29
-  },
-  "Kinyarwanda": {
-    "code": "kin",
-    "count": 231
-  },
-  "Kirghiz": {
-    "code": "kir",
-    "count": 121
-  },
-  "Kongo": {
-    "code": "kon",
-    "count": 1
-  },
-  "Konkani": {
-    "code": "kok",
-    "count": 4
+    "count": 14
   },
   "Korean": {
     "code": "kor",
-    "count": 6535
-  },
-  "Kurdish": {
-    "code": "kur",
-    "count": 205
-  },
-  "Lao": {
-    "code": "lao",
-    "count": 73
+    "count": 61
   },
   "Latin": {
     "code": "lat",
-    "count": 174
+    "count": 1
   },
   "Latvian": {
     "code": "lav",
-    "count": 1013
-  },
-  "Limburgan": {
-    "code": "lim",
-    "count": 1
-  },
-  "Lingala": {
-    "code": "lin",
-    "count": 14
+    "count": 3
   },
   "Lithuanian": {
     "code": "lit",
-    "count": 996
-  },
-  "Low German": {
-    "code": "nds",
-    "count": 7
-  },
-  "Luba-Katanga": {
-    "code": "lub",
-    "count": 5
-  },
-  "Luo (Kenya and Tanzania)": {
-    "code": "luo",
-    "count": 5
+    "count": 4
   },
   "Luxembourgish": {
     "code": "ltz",
-    "count": 341
-  },
-  "Macedonian": {
-    "code": "mkd",
-    "count": 154
-  },
-  "Malagasy": {
-    "code": "mlg",
-    "count": 32
+    "count": 10
   },
   "Malay": {
     "code": "msa",
-    "count": 2489
+    "count": 25
   },
   "Malayalam": {
     "code": "mal",
-    "count": 3081
-  },
-  "Maltese": {
-    "code": "mlt",
-    "count": 59
-  },
-  "Manx": {
-    "code": "glv",
-    "count": 6
-  },
-  "Maori": {
-    "code": "mri",
-    "count": 28
+    "count": 33
   },
   "Marathi": {
     "code": "mar",
-    "count": 1850
+    "count": 17
   },
   "Mongolian": {
     "code": "mon",
-    "count": 984
-  },
-  "Mossi": {
-    "code": "mos",
-    "count": 81
+    "count": 6
   },
   "Multiple languages": {
     "code": "mul",
-    "count": 206
+    "count": 1
   },
   "Nauru": {
     "code": "nau",
-    "count": 8
-  },
-  "Navajo": {
-    "code": "nav",
     "count": 1
-  },
-  "Ndebele, North": {
-    "code": "nde",
-    "count": 44
-  },
-  "Ndebele, South": {
-    "code": "nbl",
-    "count": 18
   },
   "Nepali": {
     "code": "nep",
-    "count": 1160
+    "count": 11
   },
   "Niuean": {
     "code": "niu",
-    "count": 3
-  },
-  "No linguistic content": {
-    "code": "zxx",
-    "count": 4
+    "count": 1
   },
   "Northern Sami": {
     "code": "sme",
-    "count": 60
+    "count": 2
   },
   "Norwegian": {
     "code": "nor",
-    "count": 7250
+    "count": 188
   },
   "Norwegian Nynorsk": {
     "code": "nno",
-    "count": 476
-  },
-  "Occitan (post 1500)": {
-    "code": "oci",
-    "count": 9
-  },
-  "Ojibwa": {
-    "code": "oji",
     "count": 1
-  },
-  "Oriya": {
-    "code": "ori",
-    "count": 833
   },
   "Oromo": {
     "code": "orm",
-    "count": 77
-  },
-  "Ossetian": {
-    "code": "oss",
-    "count": 8
+    "count": 1
   },
   "Panjabi": {
     "code": "pan",
-    "count": 909
-  },
-  "Papiamento": {
-    "code": "pap",
-    "count": 3
-  },
-  "Pedi": {
-    "code": "nso",
-    "count": 1
+    "count": 6
   },
   "Persian": {
     "code": "fas",
-    "count": 14542
+    "count": 43
   },
   "Polish": {
     "code": "pol",
-    "count": 19231
+    "count": 156
   },
   "Portuguese": {
     "code": "por",
-    "count": 260735
+    "count": 2768
   },
   "Pushto": {
     "code": "pus",
-    "count": 175
-  },
-  "Quechua": {
-    "code": "que",
-    "count": 30
+    "count": 1
   },
   "Romanian": {
     "code": "ron",
-    "count": 4218
+    "count": 30
   },
   "Romansh": {
     "code": "roh",
-    "count": 64
-  },
-  "Romany": {
-    "code": "rom",
-    "count": 1
-  },
-  "Rundi": {
-    "code": "run",
-    "count": 9
+    "count": 2
   },
   "Russian": {
     "code": "rus",
-    "count": 47271
-  },
-  "Samoan": {
-    "code": "smo",
-    "count": 95
-  },
-  "Sango": {
-    "code": "sag",
-    "count": 70
+    "count": 205
   },
   "Sanskrit": {
     "code": "san",
-    "count": 75
-  },
-  "Sardinian": {
-    "code": "srd",
-    "count": 17
+    "count": 1
   },
   "Serbian": {
     "code": "srp",
-    "count": 1676
+    "count": 5
   },
   "Shona": {
     "code": "sna",
-    "count": 78
-  },
-  "Sichuan Yi": {
-    "code": "iii",
-    "count": 6
-  },
-  "Sicilian": {
-    "code": "scn",
     "count": 1
-  },
-  "Sindhi": {
-    "code": "snd",
-    "count": 14
   },
   "Sinhala": {
     "code": "sin",
-    "count": 751
+    "count": 3
   },
   "Slovak": {
     "code": "slk",
-    "count": 3890
+    "count": 36
   },
   "Slovenian": {
     "code": "slv",
-    "count": 1428
+    "count": 14
   },
   "Somali": {
     "code": "som",
-    "count": 670
-  },
-  "Sotho, Southern": {
-    "code": "sot",
-    "count": 25
+    "count": 3
   },
   "Spanish": {
     "code": "spa",
-    "count": 660175
-  },
-  "Standard Moroccan Tamazight": {
-    "code": "zgh",
-    "count": 1
+    "count": 4042
   },
   "Sundanese": {
     "code": "sun",
-    "count": 34
+    "count": 1
   },
   "Swahili": {
     "code": "swa",
-    "count": 2162
-  },
-  "Swati": {
-    "code": "ssw",
-    "count": 11
+    "count": 16
   },
   "Swedish": {
     "code": "swe",
-    "count": 18834
-  },
-  "Swiss German": {
-    "code": "gsw",
-    "count": 29
+    "count": 484
   },
   "Tagalog": {
     "code": "tgl",
-    "count": 2755
-  },
-  "Tahitian": {
-    "code": "tah",
-    "count": 2
+    "count": 6
   },
   "Tajik": {
     "code": "tgk",
-    "count": 204
+    "count": 1
   },
   "Tamil": {
     "code": "tam",
-    "count": 8341
-  },
-  "Tatar": {
-    "code": "tat",
-    "count": 20
+    "count": 64
   },
   "Telugu": {
     "code": "tel",
-    "count": 3082
-  },
-  "Tetum": {
-    "code": "tet",
-    "count": 1
+    "count": 20
   },
   "Thai": {
     "code": "tha",
-    "count": 5767
-  },
-  "Tibetan": {
-    "code": "bod",
-    "count": 87
-  },
-  "Tigrinya": {
-    "code": "tir",
-    "count": 740
-  },
-  "Tokelau": {
-    "code": "tkl",
-    "count": 1
-  },
-  "Tonga (Tonga Islands)": {
-    "code": "ton",
-    "count": 555
-  },
-  "Tsonga": {
-    "code": "tso",
-    "count": 8
-  },
-  "Tswana": {
-    "code": "tsn",
-    "count": 22
+    "count": 42
   },
   "Turkish": {
     "code": "tur",
-    "count": 22521
-  },
-  "Turkmen": {
-    "code": "tuk",
-    "count": 106
+    "count": 140
   },
   "Twi": {
     "code": "twi",
-    "count": 45
-  },
-  "Uighur": {
-    "code": "uig",
-    "count": 84
+    "count": 2
   },
   "Ukrainian": {
     "code": "ukr",
-    "count": 4156
-  },
-  "Undetermined": {
-    "code": "und",
-    "count": 3
-  },
-  "Upper Sorbian": {
-    "code": "hsb",
-    "count": 4
+    "count": 7
   },
   "Urdu": {
     "code": "urd",
-    "count": 3067
+    "count": 19
   },
   "Uzbek": {
     "code": "uzb",
-    "count": 1790
-  },
-  "Venda": {
-    "code": "ven",
-    "count": 8
+    "count": 2
   },
   "Vietnamese": {
     "code": "vie",
-    "count": 13488
-  },
-  "Volapük": {
-    "code": "vol",
-    "count": 1
-  },
-  "Walloon": {
-    "code": "wln",
-    "count": 3
+    "count": 18
   },
   "Welsh": {
     "code": "cym",
-    "count": 247
-  },
-  "Western Frisian": {
-    "code": "fry",
-    "count": 15
-  },
-  "Wolof": {
-    "code": "wol",
-    "count": 370
-  },
-  "Xhosa": {
-    "code": "xho",
-    "count": 56
-  },
-  "Yakut": {
-    "code": "sah",
-    "count": 1
-  },
-  "Yiddish": {
-    "code": "yid",
-    "count": 81
+    "count": 4
   },
   "Yoruba": {
     "code": "yor",
-    "count": 497
-  },
-  "Zhuang": {
-    "code": "zha",
-    "count": 5
-  },
-  "Zulu": {
-    "code": "zul",
-    "count": 970
+    "count": 2
   }
 }

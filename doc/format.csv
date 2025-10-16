@@ -1,0 +1,47 @@
+id, url                                          , title                  , lastUpdate, link                                , lastHttpStatus, dead, contentType                     , itunesId  , originalUrl                                 , itunesAuthor   , itunesOwnerName, explicit, imageUrl                                                                          , itunesType, generator                , newestItemPubdate, language, oldestItemPubdate, episodeCount, popularityScore, priority, createdOn , updateFrequency, chash                           , host         , newestEnclosureUrl                                                                                      , podcastGuid                         , description                                          , category1, category2   , category3, category4 , category5, category6, category7, category8, category9, category10, newestEnclosureDuration
+  
+89, https://danapete422000.podomatic.com/rss2.xml, "Love ALLiance Podcast", 1607100822, https://danapete422000.podomatic.com,            667,    0, "application/xml; charset=utf-8", 1000373984, http://danapete422000.podomatic.com/rss2.xml, "Dana Peterson", ""             ,        0, https://assets.podomatic.net/ts/a2/38/8b/danapete422000/pro/3000x3000_10648531.jpg, Episodic  , "Podomatic RSS Generator",        1606139493, en-us   ,        1514829231,           34,               3, -1      , 1596752487,               9, 6a88046bae7faa5fcef95b3ff015429e, podomatic.com, https://danapete422000.podomatic.com/enclosure/2020-11-23T05_51_33-08_00.mp3                            , 4d9eb20e-988d-5301-a84e-aa45726941af, "Pastor Louie Lemieux Brockton,Massinner city church", religion , spirituality, ""       , ""        , ""       , ""       , ""       , ""       , ""       , ""        ,                       0
+90, http://www.tapper7.com/feed/podcast          , ""                     , 1622743326, ""                                  ,            200,    0, "text/xml; charset=UTF-8"       , 1000376999, http://www.tapper7.com/feed/podcast         , ""             , ""             ,        0, ""                                                                                , ""        , ""                       ,        1522576018, en-US   ,        1433121353,           11,               3, -1      , 1596752487,               9, 3d3b1c5489f7792b9e15e95b089c981c, tapper7.com  , http://tapper7.com/podcast-download/1690/episode-two-absurdly-rare-tracks-just-for-tapcast-listeners.mp3, f074a698-8777-593d-8f5c-f58ec91b3cb0, ""                                                   , arts     , design      , comedy   , performing, ""       , ""       , ""       , ""       , ""       , ""        ,                       7
+
+case title == '' !
+
+c_id = 0
+c_url = 1
+c_title = 2
+c_lastUpdate = 3
+c_link = 4
+c_lastHttpStatus = 5
+c_dead = 6
+c_contentType = 7
+c_itunesId = 8
+c_originalUrl = 9
+c_itunesAuthor = 10
+c_itunesOwnerName = 11
+c_explicit = 11
+c_imageUrl = 12
+c_itunesType = 13
+c_generator = 14
+c_newestItemPubdate = 15
+c_language = 16
+c_oldestItemPubdate = 17
+c_episodeCount = 18
+c_popularityScore = 19
+c_priority = 20
+c_createdOn = 21
+c_updateFrequency = 22
+c_chash = 23
+c_host = 24
+c_newestEnclosureUrl = 25
+c_podcastGuid = 26
+c_description = 27
+c_category1 = 28
+c_category2 = 29
+c_category3 = 30
+c_category4 = 31
+c_category5 = 32
+c_category6 = 33
+c_category7 = 34
+c_category8 = 35
+c_category9 = 36
+c_category10 = 37
+c_newestEnclosureDuration = 38

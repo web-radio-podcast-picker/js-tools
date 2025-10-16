@@ -10,6 +10,8 @@ Select-String -Path output.csv -Pattern 'legend"'
 
 .\sqlite3 -header -csv -separator '📚|📚' .\podcastindex_feeds.db "SELECT * FROM podcasts limit 100" > output.csv
 
+.\sqlite3 -header -csv -separator '📚|📚' .\podcastindex_feeds.db "SELECT * FROM podcasts" > output.csv
+
 
 .\sqlite3.exe .\podcastindex_feeds.db 'select count(*) from podcasts' > count.txt
 

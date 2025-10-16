@@ -1,0 +1,8 @@
+file                        description                     url
+--------------------------------------------------------------------------------------------
+all_stations.m3u            list of 22469 radios            ?
+
+                            to scrap 50000 radios           https://radioregistry.com
+
+podcastindex_feeds.db       5000000 podcasts                
+
