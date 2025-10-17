@@ -22,19 +22,17 @@ export default class BuildPodcastsLists {
     maxListCountBeforeAlphabeticalSlice = 100
     traceNonLetterFirstTitleChar = false
     substSpecialCharacter = '*'
-    dumpNamesWithNonAlphabetFirstLetter = true
-    dumpFirstCharFallback = true
+    dumpFirstCharFallback = false
     titleRemoveFirstChars = ['#', '.', ':', '*', '-', '@', '»', '&', '|', '©', '=',
         '®', '_'
     ]
     skipSymbols = ['’', '‘', '«', '“', '”', '"', "'", '《', '[', '[', '「', '¡', '(', '¿', '®',
         '$', '+', '/', '｜', '"', '【', '〈', '〉', '】', ']', ')', ' ', '•', '.', '<', '>', '‌',
-        '!', '~'
+        '!', '~', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
     ]
     // TODO: check why see this � instead of emoji ?
 
     letters = []
-    dumpFirstLetter = true
 
     separator = '📚|📚'
 
@@ -49,7 +47,7 @@ export default class BuildPodcastsLists {
         lists: {},
         langs: {},
         noNameCount: 0,
-        titlesWithNonAlphabetFirstChar: 0
+        titlesWithNonLetterChar: 0
     }
 
     run(langs, langTrs, isoLangs, util) {
@@ -77,8 +75,13 @@ export default class BuildPodcastsLists {
                 reader.close()
         })
         reader.on('close', () => {
-            this.endProcess()
+            this.postProcess()
         })
+    }
+
+    postProcess() {
+
+        this.endProcess()
     }
 
     endProcess() {
@@ -92,7 +95,7 @@ export default class BuildPodcastsLists {
         console.log('duration = ' + this.state.durStamp / 1000 + ' sec')
         console.log('row count = ' + this.state.rowCount)
         console.log('no name count = ' + this.state.noNameCount)
-        console.log('titles with non alphabet first char = ' + this.state.titlesWithNonAlphabetFirstChar)
+        console.log('titles with non letter char = ' + this.state.titlesWithNonLetterChar)
 
         // store results in /out
         fs.writeFile(
@@ -211,38 +214,22 @@ export default class BuildPodcastsLists {
         var letter1 = isL.letter
         letter1 = letter1.toUpperCase()
 
-        if (this.dumpFirstLetter && !this.letters.includes(letter1)) {
-            this.letters.push(letter1)
-            if (!isL.grp) {
+        if (!isL.grp) {
+            // no letter found
+            this.state.titlesWithNonLetterChar++
+            if (this.dumpFirstCharFallback) {
                 isL.char0 = name[0]
                 console.error(isL)
             }
-            //console.log(letter1 + ' ' + isL.grp?.name + ' (' + isL.grp?.gc + ')')
-        }
-        var origLetter1 = letter1
-
-        /*
-        console.error(letter1)
-        console.warn(name)
-        */
-
-        /*if (!this.util.isLetter(letter1)    // TODO: bad test
-            && !this.util.isDigit(letter1)
-        ) {
-            // fix alphabet category. use a special letter
-            if (this.traceNonLetterFirstTitleChar)
-                console.warn(name)
             letter1 = this.substSpecialCharacter
         }
 
-        if (!this.util.isAlphabet(letter1) &&
-            !this.util.isDigit(letter1)) {
-            this.state.titlesWithNonAlphabetFirstChar++
-            if (this.dumpNamesWithNonAlphabetFirstLetter) {
-                if (this.dumpFirstCharFallback)
-                    console.error(origLetter1 + ' --> ' + letter1)
-                console.warn(name)
-            }
+        if (!this.letters.includes(letter1)) {
+            this.letters.push(letter1)
+        }
+        /*if (isL.letter == '1') {
+            console.log(isL)
+            console.error(name)
         }*/
 
         // tags groups

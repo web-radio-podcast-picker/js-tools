@@ -107,8 +107,7 @@ export default class Util {
 
             return title
         } catch (err) {
-            console.error('empty title: ' + backTitle)
-            console.error('row:' + row)
+            console.warn('empty title: ' + row)
         }
     }
 
@@ -119,19 +118,21 @@ export default class Util {
         var i = 0
         var end = false
         var cd = null
+        var skipSymbol = null
         while (!end && i < s.length) {
             c = s[i]//.toUpperCase()
             cd = s.charCodeAt(i)
             isL = this.isLetter(cd, map)
-            end = isL.isLetter &&
-                !skipSymbols.includes(c)
+            skipSymbol = skipSymbols.includes(c)
+            end = isL.isLetter && !skipSymbol
             i++
         }
         return {
             letter: c,
             grp: isL.grp,
             cd: cd,
-            s: s
+            s: s,
+            skipSymbol: skipSymbol
         }
     }
 }
