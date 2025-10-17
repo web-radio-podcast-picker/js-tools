@@ -118,9 +118,10 @@ export default class Util {
         var isL = null
         var i = 0
         var end = false
+        var cd = null
         while (!end && i < s.length) {
             c = s[i]//.toUpperCase()
-            const cd = s.charCodeAt(i)
+            cd = s.charCodeAt(i)
             isL = this.isLetter(cd, map)
             end = isL.isLetter &&
                 !skipSymbols.includes(c)
@@ -128,7 +129,9 @@ export default class Util {
         }
         return {
             letter: c,
-            grp: isL.grp
+            grp: isL.grp,
+            cd: cd,
+            s: s
         }
     }
 }

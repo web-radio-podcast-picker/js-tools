@@ -44,7 +44,7 @@ export default class BuildPodcastsLists {
         durStamp: null,
         rowIndex: 0,
         rowCount: 0,
-        maxRows: 50000,
+        maxRows: null,//50000,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -213,7 +213,11 @@ export default class BuildPodcastsLists {
 
         if (this.dumpFirstLetter && !this.letters.includes(letter1)) {
             this.letters.push(letter1)
-            console.log(letter1 + ' ' + isL.grp.name + ' (' + isL.grp.gc + ')')
+            if (!isL.grp) {
+                isL.char0 = name[0]
+                console.error(isL)
+            }
+            //console.log(letter1 + ' ' + isL.grp?.name + ' (' + isL.grp?.gc + ')')
         }
         var origLetter1 = letter1
 
