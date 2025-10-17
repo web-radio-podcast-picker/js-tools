@@ -1,6 +1,7 @@
 // build podcasts lists (by lang, by alphabet and/or prefix)
 
 // podcasts --> by lang --> by tag  --> by  alphabet
+// output lists:    lang-tag-alph.csv
 
 import fs from 'fs'
 import readline from 'readline'
@@ -42,7 +43,8 @@ export default class BuildPodcastsLists {
         durStamp: null,
         rowIndex: 0,
         rowCount: 0,
-        maxRows: null,//50000,
+        addedRowCount: 0,
+        maxRows: 5000,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -81,7 +83,51 @@ export default class BuildPodcastsLists {
 
     postProcess() {
 
+        this.arrangeLists()
+
+        this.dumpLists()
+
         this.endProcess()
+    }
+
+    arrangeLists() {
+        console.log('arrange lists')
+        const lists = this.state.lists
+        const sep = '-'
+        for (const lang in lists) {
+            const byTag = lists[lang].byTag
+            for (const tag in byTag) {
+                const byTagCount = byTag[tag].count
+                if (byTagCount <= this.maxListCountBeforeAlphabeticalSlice)
+                    //    delete byTag[tag].byAlph
+                    byTag[tag].byAlph = {}
+            }
+        }
+    }
+
+    dumpLists() {
+        const lists = this.state.lists
+        const sep = '-'
+        for (const lang in lists) {
+            const byTag = lists[lang].byTag
+            console.log('----------- ' + lang + ' -----------')
+            console.log('tags: ' + Object.getOwnPropertyNames(byTag).length)
+            for (const tag in byTag) {
+                const byAlph = byTag[tag].byAlph
+                console.log('## ' + lang + ' : ' + tag + ' ## : ' + byTag[tag].count)
+                const alphasN = Object.getOwnPropertyNames(byAlph).length
+                if (alphasN>0) {
+                    console.log('## alphas: ' + Object.getOwnPropertyNames(byAlph))
+                    for (const alpha in byAlph) {
+                        const n = byAlph[alpha].count
+                        const fn = lang + sep + tag + sep + alpha + ' : ' + n
+                        console.warn(fn)
+                    }
+                }
+                else
+                    console.warn(lang + sep + tag)
+            }
+        }
     }
 
     endProcess() {
@@ -95,7 +141,7 @@ export default class BuildPodcastsLists {
         console.log('duration = ' + this.state.durStamp / 1000 + ' sec')
         console.log('row count = ' + this.state.rowCount)
         console.log('no name count = ' + this.state.noNameCount)
-        console.log('titles with non letter char = ' + this.state.titlesWithNonLetterChar)
+        //console.log('titles with non letter char = ' + this.state.titlesWithNonLetterChar)
 
         // store results in /out
         fs.writeFile(
@@ -241,6 +287,10 @@ export default class BuildPodcastsLists {
             tlst.count++
 
             // alphabet groups
+            if (!tlst.byAlph) {
+                console.error('no by alpha - tag = ' + tag)
+                console.log(tlst)
+            }
             var aLst = tlst.byAlph[letter1]
             if (!aLst) {
                 aLst = tlst.byAlph[letter1] = { count: 0 }
