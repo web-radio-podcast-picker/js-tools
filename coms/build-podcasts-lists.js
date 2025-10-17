@@ -97,10 +97,19 @@ export default class BuildPodcastsLists {
         for (const lang in lists) {
             const byTag = lists[lang].byTag
             for (const tag in byTag) {
-                const byTagCount = byTag[tag].count
-                if (byTagCount <= this.maxListCountBeforeAlphabeticalSlice)
+                const cat = byTag[tag]
+                const byTagCount = cat.count
+                if (byTagCount <= this.maxListCountBeforeAlphabeticalSlice) {
+                    cat.items = []
+                    for (const alpha in cat.byAlph) {
+                        const lst = cat.byAlph[alpha].items
+                        lst.forEach(x => {
+                            cat.items.push(x)
+                        })
+                    }
                     //    delete byTag[tag].byAlph
                     byTag[tag].byAlph = {}
+                }
             }
         }
     }
@@ -110,13 +119,13 @@ export default class BuildPodcastsLists {
         const sep = '-'
         for (const lang in lists) {
             const byTag = lists[lang].byTag
-            console.log('----------- ' + lang + ' -----------')
+            console.log('----------- ' + lang + ' ----------- : ' + lists[lang].count)
             console.log('tags: ' + Object.getOwnPropertyNames(byTag).length)
             for (const tag in byTag) {
                 const byAlph = byTag[tag].byAlph
                 console.log('## ' + lang + ' : ' + tag + ' ## : ' + byTag[tag].count)
                 const alphasN = Object.getOwnPropertyNames(byAlph).length
-                if (alphasN>0) {
+                if (alphasN > 0) {
                     console.log('## alphas: ' + Object.getOwnPropertyNames(byAlph))
                     for (const alpha in byAlph) {
                         const n = byAlph[alpha].count
@@ -140,6 +149,7 @@ export default class BuildPodcastsLists {
         console.log('end of file - ' + new Date());
         console.log('duration = ' + this.state.durStamp / 1000 + ' sec')
         console.log('row count = ' + this.state.rowCount)
+        console.log('added row count = ' + this.state.addedRowCount)
         console.log('no name count = ' + this.state.noNameCount)
         //console.log('titles with non letter char = ' + this.state.titlesWithNonLetterChar)
 
@@ -206,7 +216,10 @@ export default class BuildPodcastsLists {
         if (!name) {
             //console.error('--> auth=' + auth + ' host=' + host)
             name ||= auth || host
-            this.state.noNameCount++
+            if (!name) {
+                console.error('no name found: ' + row)
+                this.state.noNameCount++
+            }
         }
         name = this.util.normalizeTitle(name, this.titleRemoveFirstChars, row)
 
@@ -293,10 +306,12 @@ export default class BuildPodcastsLists {
             }
             var aLst = tlst.byAlph[letter1]
             if (!aLst) {
-                aLst = tlst.byAlph[letter1] = { count: 0 }
+                aLst = tlst.byAlph[letter1] = { count: 0, items: [] }
             }
             aLst.count++
+            aLst.items.push(name)
         })
         lst.count++
+        this.state.addedRowCount++
     }
 }
