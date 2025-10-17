@@ -29,3 +29,24 @@ export const GC_So = 'So' // Other Symbol
 export const GC_Zl = 'Zl' // Line Separator
 export const GC_Zp = 'Zp' // Paragraph Separator
 export const GC_Zs = 'Zs' // Space Separator
+
+export const GC_Letters = [
+    GC_Ll, GC_Lm, GC_Lo, GC_Lt, GC_Lu
+]
+
+export const GC_Numbers = [
+    GC_Nd, GC_Nl, GC_No
+]
+
+export function isLetter(gc) {
+    return GC_Letters.includes(gc)
+}
+
+export function isNumber(gc) {
+    return GC_Numbers.includes(gc)
+}
+
+export function isDigit(char, gc) {
+    return (char >= '0' && char <= '9')
+        || isNumber(gc);
+}

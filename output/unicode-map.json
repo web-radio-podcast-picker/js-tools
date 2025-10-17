@@ -1,0 +1,2714 @@
+{
+  "ASCII": {
+    "name": "ASCII",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 32,
+    "lastCp": 127
+  },
+  "Latin_1_Sup": {
+    "name": "Latin_1_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 160,
+    "lastCp": 255
+  },
+  "Latin_Ext_A": {
+    "name": "Latin_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 256,
+    "lastCp": 383
+  },
+  "Latin_Ext_B": {
+    "name": "Latin_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 384,
+    "lastCp": 591
+  },
+  "IPA_Ext": {
+    "name": "IPA_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 592,
+    "lastCp": 687
+  },
+  "Modifier_Letters": {
+    "name": "Modifier_Letters",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sk",
+    "firstCp": 688,
+    "lastCp": 767
+  },
+  "Diacriticals": {
+    "name": "Diacriticals",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 768,
+    "lastCp": 879
+  },
+  "Greek": {
+    "name": "Greek",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 880,
+    "lastCp": 1023
+  },
+  "Cyrillic": {
+    "name": "Cyrillic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 1024,
+    "lastCp": 1279
+  },
+  "Cyrillic_Sup": {
+    "name": "Cyrillic_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 1280,
+    "lastCp": 1327
+  },
+  "Armenian": {
+    "name": "Armenian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 1329,
+    "lastCp": 1423
+  },
+  "Hebrew": {
+    "name": "Hebrew",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 1425,
+    "lastCp": 1524
+  },
+  "Arabic": {
+    "name": "Arabic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 1536,
+    "lastCp": 1791
+  },
+  "Syriac": {
+    "name": "Syriac",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 1792,
+    "lastCp": 1871
+  },
+  "Arabic_Sup": {
+    "name": "Arabic_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 1872,
+    "lastCp": 1919
+  },
+  "Thaana": {
+    "name": "Thaana",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 1920,
+    "lastCp": 1969
+  },
+  "NKo": {
+    "name": "NKo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 1984,
+    "lastCp": 2047
+  },
+  "Samaritan": {
+    "name": "Samaritan",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2048,
+    "lastCp": 2110
+  },
+  "Mandaic": {
+    "name": "Mandaic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2112,
+    "lastCp": 2142
+  },
+  "Syriac_Sup": {
+    "name": "Syriac_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2144,
+    "lastCp": 2154
+  },
+  "Arabic_Ext_B": {
+    "name": "Arabic_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2160,
+    "lastCp": 2207
+  },
+  "Arabic_Ext_A": {
+    "name": "Arabic_Ext_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 2208,
+    "lastCp": 2303
+  },
+  "Devanagari": {
+    "name": "Devanagari",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2304,
+    "lastCp": 2431
+  },
+  "Bengali": {
+    "name": "Bengali",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2432,
+    "lastCp": 2558
+  },
+  "Gurmukhi": {
+    "name": "Gurmukhi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2561,
+    "lastCp": 2678
+  },
+  "Gujarati": {
+    "name": "Gujarati",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2689,
+    "lastCp": 2815
+  },
+  "Oriya": {
+    "name": "Oriya",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2817,
+    "lastCp": 2935
+  },
+  "Tamil": {
+    "name": "Tamil",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 2946,
+    "lastCp": 3066
+  },
+  "Telugu": {
+    "name": "Telugu",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3072,
+    "lastCp": 3199
+  },
+  "Kannada": {
+    "name": "Kannada",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3200,
+    "lastCp": 3315
+  },
+  "Malayalam": {
+    "name": "Malayalam",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3328,
+    "lastCp": 3455
+  },
+  "Sinhala": {
+    "name": "Sinhala",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3457,
+    "lastCp": 3572
+  },
+  "Thai": {
+    "name": "Thai",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3585,
+    "lastCp": 3675
+  },
+  "Lao": {
+    "name": "Lao",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 3713,
+    "lastCp": 3807
+  },
+  "Tibetan": {
+    "name": "Tibetan",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 3840,
+    "lastCp": 4058
+  },
+  "Myanmar": {
+    "name": "Myanmar",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 4096,
+    "lastCp": 4255
+  },
+  "Georgian": {
+    "name": "Georgian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 4256,
+    "lastCp": 4351
+  },
+  "Jamo": {
+    "name": "Jamo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 4520,
+    "lastCp": 4607
+  },
+  "Ethiopic": {
+    "name": "Ethiopic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 4608,
+    "lastCp": 4988
+  },
+  "Ethiopic_Sup": {
+    "name": "Ethiopic_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 4992,
+    "lastCp": 5017
+  },
+  "Cherokee": {
+    "name": "Cherokee",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 5024,
+    "lastCp": 5117
+  },
+  "UCAS": {
+    "name": "UCAS",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5120,
+    "lastCp": 5759
+  },
+  "Ogham": {
+    "name": "Ogham",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5760,
+    "lastCp": 5788
+  },
+  "Runic": {
+    "name": "Runic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5792,
+    "lastCp": 5880
+  },
+  "Tagalog": {
+    "name": "Tagalog",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5888,
+    "lastCp": 5919
+  },
+  "Hanunoo": {
+    "name": "Hanunoo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5920,
+    "lastCp": 5942
+  },
+  "Buhid": {
+    "name": "Buhid",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5952,
+    "lastCp": 5971
+  },
+  "Tagbanwa": {
+    "name": "Tagbanwa",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 5984,
+    "lastCp": 6003
+  },
+  "Khmer": {
+    "name": "Khmer",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6016,
+    "lastCp": 6137
+  },
+  "Mongolian": {
+    "name": "Mongolian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6144,
+    "lastCp": 6314
+  },
+  "UCAS_Ext": {
+    "name": "UCAS_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6320,
+    "lastCp": 6389
+  },
+  "Limbu": {
+    "name": "Limbu",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6400,
+    "lastCp": 6479
+  },
+  "Tai_Le": {
+    "name": "Tai_Le",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6480,
+    "lastCp": 6516
+  },
+  "New_Tai_Lue": {
+    "name": "New_Tai_Lue",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6528,
+    "lastCp": 6623
+  },
+  "Khmer_Symbols": {
+    "name": "Khmer_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 6624,
+    "lastCp": 6655
+  },
+  "Buginese": {
+    "name": "Buginese",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6656,
+    "lastCp": 6687
+  },
+  "Tai_Tham": {
+    "name": "Tai_Tham",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6688,
+    "lastCp": 6829
+  },
+  "Diacriticals_Ext": {
+    "name": "Diacriticals_Ext",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 6832,
+    "lastCp": 6891
+  },
+  "Balinese": {
+    "name": "Balinese",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 6912,
+    "lastCp": 7039
+  },
+  "Sundanese": {
+    "name": "Sundanese",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 7040,
+    "lastCp": 7103
+  },
+  "Batak": {
+    "name": "Batak",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 7104,
+    "lastCp": 7167
+  },
+  "Lepcha": {
+    "name": "Lepcha",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 7168,
+    "lastCp": 7247
+  },
+  "Ol_Chiki": {
+    "name": "Ol_Chiki",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 7248,
+    "lastCp": 7295
+  },
+  "Cyrillic_Ext_C": {
+    "name": "Cyrillic_Ext_C",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 7296,
+    "lastCp": 7306
+  },
+  "Georgian_Ext": {
+    "name": "Georgian_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 7312,
+    "lastCp": 7359
+  },
+  "Sundanese_Sup": {
+    "name": "Sundanese_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 7360,
+    "lastCp": 7367
+  },
+  "Vedic_Ext": {
+    "name": "Vedic_Ext",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 7376,
+    "lastCp": 7418
+  },
+  "Phonetic_Ext": {
+    "name": "Phonetic_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 7424,
+    "lastCp": 7551
+  },
+  "Phonetic_Ext_Sup": {
+    "name": "Phonetic_Ext_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lm",
+    "firstCp": 7552,
+    "lastCp": 7615
+  },
+  "Diacriticals_Sup": {
+    "name": "Diacriticals_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 7616,
+    "lastCp": 7679
+  },
+  "Latin_Ext_Additional": {
+    "name": "Latin_Ext_Additional",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 7680,
+    "lastCp": 7935
+  },
+  "Greek_Ext": {
+    "name": "Greek_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 7936,
+    "lastCp": 8190
+  },
+  "Punctuation": {
+    "name": "Punctuation",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 8192,
+    "lastCp": 8303
+  },
+  "Super_And_Sub": {
+    "name": "Super_And_Sub",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 8304,
+    "lastCp": 8348
+  },
+  "Currency_Symbols": {
+    "name": "Currency_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sc",
+    "firstCp": 8352,
+    "lastCp": 8385
+  },
+  "Diacriticals_For_Symbols": {
+    "name": "Diacriticals_For_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 8400,
+    "lastCp": 8432
+  },
+  "Letterlike_Symbols": {
+    "name": "Letterlike_Symbols",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 8448,
+    "lastCp": 8527
+  },
+  "Number_Forms": {
+    "name": "Number_Forms",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "Nl",
+    "firstCp": 8528,
+    "lastCp": 8587
+  },
+  "Arrows": {
+    "name": "Arrows",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 8592,
+    "lastCp": 8703
+  },
+  "Math_Operators": {
+    "name": "Math_Operators",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 8704,
+    "lastCp": 8959
+  },
+  "Misc_Technical": {
+    "name": "Misc_Technical",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 8960,
+    "lastCp": 9215
+  },
+  "Control_Pictures": {
+    "name": "Control_Pictures",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9216,
+    "lastCp": 9257
+  },
+  "OCR": {
+    "name": "OCR",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9280,
+    "lastCp": 9290
+  },
+  "Enclosed_Alphanum": {
+    "name": "Enclosed_Alphanum",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 9312,
+    "lastCp": 9471
+  },
+  "Box_Drawing": {
+    "name": "Box_Drawing",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9472,
+    "lastCp": 9599
+  },
+  "Block_Elements": {
+    "name": "Block_Elements",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9600,
+    "lastCp": 9631
+  },
+  "Geometric_Shapes": {
+    "name": "Geometric_Shapes",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9632,
+    "lastCp": 9727
+  },
+  "Misc_Symbols": {
+    "name": "Misc_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9728,
+    "lastCp": 9983
+  },
+  "Dingbats": {
+    "name": "Dingbats",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 9984,
+    "lastCp": 10175
+  },
+  "Misc_Math_Symbols_A": {
+    "name": "Misc_Math_Symbols_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 10176,
+    "lastCp": 10223
+  },
+  "Sup_Arrows_A": {
+    "name": "Sup_Arrows_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 10224,
+    "lastCp": 10239
+  },
+  "Braille": {
+    "name": "Braille",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 10240,
+    "lastCp": 10495
+  },
+  "Sup_Arrows_B": {
+    "name": "Sup_Arrows_B",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 10496,
+    "lastCp": 10623
+  },
+  "Misc_Math_Symbols_B": {
+    "name": "Misc_Math_Symbols_B",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 10624,
+    "lastCp": 10751
+  },
+  "Sup_Math_Operators": {
+    "name": "Sup_Math_Operators",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sm",
+    "firstCp": 10752,
+    "lastCp": 11007
+  },
+  "Misc_Arrows": {
+    "name": "Misc_Arrows",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 11008,
+    "lastCp": 11263
+  },
+  "Glagolitic": {
+    "name": "Glagolitic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 11264,
+    "lastCp": 11359
+  },
+  "Latin_Ext_C": {
+    "name": "Latin_Ext_C",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 11360,
+    "lastCp": 11391
+  },
+  "Coptic": {
+    "name": "Coptic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 11392,
+    "lastCp": 11519
+  },
+  "Georgian_Sup": {
+    "name": "Georgian_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 11520,
+    "lastCp": 11565
+  },
+  "Tifinagh": {
+    "name": "Tifinagh",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 11568,
+    "lastCp": 11647
+  },
+  "Ethiopic_Ext": {
+    "name": "Ethiopic_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 11648,
+    "lastCp": 11742
+  },
+  "Cyrillic_Ext_A": {
+    "name": "Cyrillic_Ext_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 11744,
+    "lastCp": 11775
+  },
+  "Sup_Punctuation": {
+    "name": "Sup_Punctuation",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 11776,
+    "lastCp": 11869
+  },
+  "CJK_Radicals_Sup": {
+    "name": "CJK_Radicals_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 11904,
+    "lastCp": 12019
+  },
+  "Kangxi": {
+    "name": "Kangxi",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 12032,
+    "lastCp": 12245
+  },
+  "IDC": {
+    "name": "IDC",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 12272,
+    "lastCp": 12287
+  },
+  "CJK_Symbols": {
+    "name": "CJK_Symbols",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "Nl",
+    "firstCp": 12288,
+    "lastCp": 12351
+  },
+  "Hiragana": {
+    "name": "Hiragana",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12353,
+    "lastCp": 12447
+  },
+  "Katakana": {
+    "name": "Katakana",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12448,
+    "lastCp": 12543
+  },
+  "Bopomofo": {
+    "name": "Bopomofo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12549,
+    "lastCp": 12591
+  },
+  "Compat_Jamo": {
+    "name": "Compat_Jamo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12593,
+    "lastCp": 12686
+  },
+  "Kanbun": {
+    "name": "Kanbun",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 12688,
+    "lastCp": 12703
+  },
+  "Bopomofo_Ext": {
+    "name": "Bopomofo_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12704,
+    "lastCp": 12735
+  },
+  "CJK_Strokes": {
+    "name": "CJK_Strokes",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 12736,
+    "lastCp": 12783
+  },
+  "Katakana_Ext": {
+    "name": "Katakana_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 12784,
+    "lastCp": 12799
+  },
+  "Enclosed_CJK": {
+    "name": "Enclosed_CJK",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 12800,
+    "lastCp": 13055
+  },
+  "CJK_Compat": {
+    "name": "CJK_Compat",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 13056,
+    "lastCp": 13311
+  },
+  "CJK_Ext_A": {
+    "name": "CJK_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 13312,
+    "lastCp": 19903
+  },
+  "Yijing": {
+    "name": "Yijing",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 19904,
+    "lastCp": 19967
+  },
+  "CJK": {
+    "name": "CJK",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 19968,
+    "lastCp": 40959
+  },
+  "Yi_Syllables": {
+    "name": "Yi_Syllables",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 40960,
+    "lastCp": 42124
+  },
+  "Yi_Radicals": {
+    "name": "Yi_Radicals",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 42128,
+    "lastCp": 42182
+  },
+  "Lisu": {
+    "name": "Lisu",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 42192,
+    "lastCp": 42239
+  },
+  "Vai": {
+    "name": "Vai",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 42240,
+    "lastCp": 42539
+  },
+  "Cyrillic_Ext_B": {
+    "name": "Cyrillic_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 42560,
+    "lastCp": 42655
+  },
+  "Bamum": {
+    "name": "Bamum",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 42656,
+    "lastCp": 42743
+  },
+  "Modifier_Tone_Letters": {
+    "name": "Modifier_Tone_Letters",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Sk",
+    "firstCp": 42752,
+    "lastCp": 42783
+  },
+  "Latin_Ext_D": {
+    "name": "Latin_Ext_D",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 42784,
+    "lastCp": 43007
+  },
+  "Syloti_Nagri": {
+    "name": "Syloti_Nagri",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43008,
+    "lastCp": 43052
+  },
+  "Indic_Number_Forms": {
+    "name": "Indic_Number_Forms",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 43056,
+    "lastCp": 43065
+  },
+  "Phags_Pa": {
+    "name": "Phags_Pa",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43072,
+    "lastCp": 43127
+  },
+  "Saurashtra": {
+    "name": "Saurashtra",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43136,
+    "lastCp": 43225
+  },
+  "Devanagari_Ext": {
+    "name": "Devanagari_Ext",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 43232,
+    "lastCp": 43263
+  },
+  "Kayah_Li": {
+    "name": "Kayah_Li",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43264,
+    "lastCp": 43311
+  },
+  "Rejang": {
+    "name": "Rejang",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43312,
+    "lastCp": 43359
+  },
+  "Jamo_Ext_A": {
+    "name": "Jamo_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43360,
+    "lastCp": 43388
+  },
+  "Javanese": {
+    "name": "Javanese",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43392,
+    "lastCp": 43487
+  },
+  "Myanmar_Ext_B": {
+    "name": "Myanmar_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43488,
+    "lastCp": 43518
+  },
+  "Cham": {
+    "name": "Cham",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43520,
+    "lastCp": 43615
+  },
+  "Myanmar_Ext_A": {
+    "name": "Myanmar_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43616,
+    "lastCp": 43647
+  },
+  "Tai_Viet": {
+    "name": "Tai_Viet",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43648,
+    "lastCp": 43743
+  },
+  "Meetei_Mayek_Ext": {
+    "name": "Meetei_Mayek_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43744,
+    "lastCp": 43766
+  },
+  "Ethiopic_Ext_A": {
+    "name": "Ethiopic_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43777,
+    "lastCp": 43822
+  },
+  "Latin_Ext_E": {
+    "name": "Latin_Ext_E",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 43824,
+    "lastCp": 43883
+  },
+  "Cherokee_Sup": {
+    "name": "Cherokee_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 43888,
+    "lastCp": 43967
+  },
+  "Meetei_Mayek": {
+    "name": "Meetei_Mayek",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 43968,
+    "lastCp": 44025
+  },
+  "Hangul": {
+    "name": "Hangul",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 44032,
+    "lastCp": 55203
+  },
+  "Jamo_Ext_B": {
+    "name": "Jamo_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 55216,
+    "lastCp": 55291
+  },
+  "CJK_Compat_Ideographs": {
+    "name": "CJK_Compat_Ideographs",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 63744,
+    "lastCp": 64217
+  },
+  "Alphabetic_PF": {
+    "name": "Alphabetic_PF",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 64256,
+    "lastCp": 64335
+  },
+  "Arabic_PF_A": {
+    "name": "Arabic_PF_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 64336,
+    "lastCp": 65023
+  },
+  "VS": {
+    "name": "VS",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 65024,
+    "lastCp": 65039
+  },
+  "Vertical_Forms": {
+    "name": "Vertical_Forms",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 65040,
+    "lastCp": 65049
+  },
+  "Half_Marks": {
+    "name": "Half_Marks",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 65056,
+    "lastCp": 65071
+  },
+  "CJK_Compat_Forms": {
+    "name": "CJK_Compat_Forms",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Ps",
+    "firstCp": 65072,
+    "lastCp": 65103
+  },
+  "Small_Forms": {
+    "name": "Small_Forms",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 65104,
+    "lastCp": 65131
+  },
+  "Arabic_PF_B": {
+    "name": "Arabic_PF_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 65136,
+    "lastCp": 65279
+  },
+  "Half_And_Full_Forms": {
+    "name": "Half_And_Full_Forms",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 65281,
+    "lastCp": 65518
+  },
+  "Specials": {
+    "name": "Specials",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Cf",
+    "firstCp": 65529,
+    "lastCp": 65533
+  },
+  "Linear_B_Syllabary": {
+    "name": "Linear_B_Syllabary",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 65536,
+    "lastCp": 65629
+  },
+  "Linear_B_Ideograms": {
+    "name": "Linear_B_Ideograms",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 65664,
+    "lastCp": 65786
+  },
+  "Aegean_Numbers": {
+    "name": "Aegean_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 65792,
+    "lastCp": 65855
+  },
+  "Ancient_Greek_Numbers": {
+    "name": "Ancient_Greek_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "Nl",
+    "firstCp": 65856,
+    "lastCp": 65934
+  },
+  "Ancient_Symbols": {
+    "name": "Ancient_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 65936,
+    "lastCp": 65952
+  },
+  "Phaistos": {
+    "name": "Phaistos",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 66000,
+    "lastCp": 66045
+  },
+  "Lycian": {
+    "name": "Lycian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66176,
+    "lastCp": 66204
+  },
+  "Carian": {
+    "name": "Carian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66208,
+    "lastCp": 66256
+  },
+  "Coptic_Epact_Numbers": {
+    "name": "Coptic_Epact_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 66272,
+    "lastCp": 66299
+  },
+  "Old_Italic": {
+    "name": "Old_Italic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66304,
+    "lastCp": 66351
+  },
+  "Gothic": {
+    "name": "Gothic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66352,
+    "lastCp": 66378
+  },
+  "Old_Permic": {
+    "name": "Old_Permic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66384,
+    "lastCp": 66426
+  },
+  "Ugaritic": {
+    "name": "Ugaritic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66432,
+    "lastCp": 66463
+  },
+  "Old_Persian": {
+    "name": "Old_Persian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66464,
+    "lastCp": 66517
+  },
+  "Deseret": {
+    "name": "Deseret",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 66560,
+    "lastCp": 66639
+  },
+  "Shavian": {
+    "name": "Shavian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66640,
+    "lastCp": 66687
+  },
+  "Osmanya": {
+    "name": "Osmanya",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66688,
+    "lastCp": 66729
+  },
+  "Osage": {
+    "name": "Osage",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 66736,
+    "lastCp": 66811
+  },
+  "Elbasan": {
+    "name": "Elbasan",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66816,
+    "lastCp": 66855
+  },
+  "Caucasian_Albanian": {
+    "name": "Caucasian_Albanian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 66864,
+    "lastCp": 66927
+  },
+  "Vithkuqi": {
+    "name": "Vithkuqi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 66928,
+    "lastCp": 67004
+  },
+  "Todhri": {
+    "name": "Todhri",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67008,
+    "lastCp": 67059
+  },
+  "Linear_A": {
+    "name": "Linear_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67072,
+    "lastCp": 67431
+  },
+  "Latin_Ext_F": {
+    "name": "Latin_Ext_F",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lm",
+    "firstCp": 67456,
+    "lastCp": 67514
+  },
+  "Cypriot_Syllabary": {
+    "name": "Cypriot_Syllabary",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67584,
+    "lastCp": 67647
+  },
+  "Imperial_Aramaic": {
+    "name": "Imperial_Aramaic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67648,
+    "lastCp": 67679
+  },
+  "Palmyrene": {
+    "name": "Palmyrene",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67680,
+    "lastCp": 67711
+  },
+  "Nabataean": {
+    "name": "Nabataean",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67712,
+    "lastCp": 67759
+  },
+  "Hatran": {
+    "name": "Hatran",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67808,
+    "lastCp": 67839
+  },
+  "Phoenician": {
+    "name": "Phoenician",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67840,
+    "lastCp": 67871
+  },
+  "Lydian": {
+    "name": "Lydian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67872,
+    "lastCp": 67903
+  },
+  "Sidetic": {
+    "name": "Sidetic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67904,
+    "lastCp": 67929
+  },
+  "Meroitic_Hieroglyphs": {
+    "name": "Meroitic_Hieroglyphs",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 67968,
+    "lastCp": 67999
+  },
+  "Meroitic_Cursive": {
+    "name": "Meroitic_Cursive",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 68000,
+    "lastCp": 68095
+  },
+  "Kharoshthi": {
+    "name": "Kharoshthi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68096,
+    "lastCp": 68184
+  },
+  "Old_South_Arabian": {
+    "name": "Old_South_Arabian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68192,
+    "lastCp": 68223
+  },
+  "Old_North_Arabian": {
+    "name": "Old_North_Arabian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68224,
+    "lastCp": 68255
+  },
+  "Manichaean": {
+    "name": "Manichaean",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68288,
+    "lastCp": 68342
+  },
+  "Avestan": {
+    "name": "Avestan",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68352,
+    "lastCp": 68415
+  },
+  "Inscriptional_Parthian": {
+    "name": "Inscriptional_Parthian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68416,
+    "lastCp": 68447
+  },
+  "Inscriptional_Pahlavi": {
+    "name": "Inscriptional_Pahlavi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68448,
+    "lastCp": 68479
+  },
+  "Psalter_Pahlavi": {
+    "name": "Psalter_Pahlavi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68480,
+    "lastCp": 68527
+  },
+  "Old_Turkic": {
+    "name": "Old_Turkic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68608,
+    "lastCp": 68680
+  },
+  "Old_Hungarian": {
+    "name": "Old_Hungarian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 68736,
+    "lastCp": 68863
+  },
+  "Hanifi_Rohingya": {
+    "name": "Hanifi_Rohingya",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 68864,
+    "lastCp": 68921
+  },
+  "Garay": {
+    "name": "Garay",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 68928,
+    "lastCp": 69007
+  },
+  "Rumi": {
+    "name": "Rumi",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 69216,
+    "lastCp": 69246
+  },
+  "Yezidi": {
+    "name": "Yezidi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69248,
+    "lastCp": 69297
+  },
+  "Arabic_Ext_C": {
+    "name": "Arabic_Ext_C",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 69314,
+    "lastCp": 69375
+  },
+  "Old_Sogdian": {
+    "name": "Old_Sogdian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69376,
+    "lastCp": 69415
+  },
+  "Sogdian": {
+    "name": "Sogdian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69424,
+    "lastCp": 69465
+  },
+  "Old_Uyghur": {
+    "name": "Old_Uyghur",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69488,
+    "lastCp": 69513
+  },
+  "Chorasmian": {
+    "name": "Chorasmian",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69552,
+    "lastCp": 69579
+  },
+  "Elymaic": {
+    "name": "Elymaic",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69600,
+    "lastCp": 69622
+  },
+  "Brahmi": {
+    "name": "Brahmi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69632,
+    "lastCp": 69759
+  },
+  "Kaithi": {
+    "name": "Kaithi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69760,
+    "lastCp": 69837
+  },
+  "Sora_Sompeng": {
+    "name": "Sora_Sompeng",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69840,
+    "lastCp": 69881
+  },
+  "Chakma": {
+    "name": "Chakma",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69888,
+    "lastCp": 69959
+  },
+  "Mahajani": {
+    "name": "Mahajani",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 69968,
+    "lastCp": 70006
+  },
+  "Sharada": {
+    "name": "Sharada",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70016,
+    "lastCp": 70111
+  },
+  "Sinhala_Archaic_Numbers": {
+    "name": "Sinhala_Archaic_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 70113,
+    "lastCp": 70132
+  },
+  "Khojki": {
+    "name": "Khojki",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70144,
+    "lastCp": 70209
+  },
+  "Multani": {
+    "name": "Multani",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70272,
+    "lastCp": 70313
+  },
+  "Khudawadi": {
+    "name": "Khudawadi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70320,
+    "lastCp": 70393
+  },
+  "Grantha": {
+    "name": "Grantha",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70400,
+    "lastCp": 70516
+  },
+  "Tulu_Tigalari": {
+    "name": "Tulu_Tigalari",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70528,
+    "lastCp": 70626
+  },
+  "Newa": {
+    "name": "Newa",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70656,
+    "lastCp": 70753
+  },
+  "Tirhuta": {
+    "name": "Tirhuta",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 70784,
+    "lastCp": 70873
+  },
+  "Siddham": {
+    "name": "Siddham",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71040,
+    "lastCp": 71133
+  },
+  "Modi": {
+    "name": "Modi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71168,
+    "lastCp": 71257
+  },
+  "Mongolian_Sup": {
+    "name": "Mongolian_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 71264,
+    "lastCp": 71276
+  },
+  "Takri": {
+    "name": "Takri",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71296,
+    "lastCp": 71369
+  },
+  "Myanmar_Ext_C": {
+    "name": "Myanmar_Ext_C",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "Nd",
+    "firstCp": 71376,
+    "lastCp": 71395
+  },
+  "Ahom": {
+    "name": "Ahom",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71424,
+    "lastCp": 71494
+  },
+  "Dogra": {
+    "name": "Dogra",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71680,
+    "lastCp": 71739
+  },
+  "Warang_Citi": {
+    "name": "Warang_Citi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 71840,
+    "lastCp": 71935
+  },
+  "Dives_Akuru": {
+    "name": "Dives_Akuru",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 71936,
+    "lastCp": 72025
+  },
+  "Nandinagari": {
+    "name": "Nandinagari",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72096,
+    "lastCp": 72164
+  },
+  "Zanabazar_Square": {
+    "name": "Zanabazar_Square",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72192,
+    "lastCp": 72263
+  },
+  "Soyombo": {
+    "name": "Soyombo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72272,
+    "lastCp": 72354
+  },
+  "UCAS_Ext_A": {
+    "name": "UCAS_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72368,
+    "lastCp": 72383
+  },
+  "Pau_Cin_Hau": {
+    "name": "Pau_Cin_Hau",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72384,
+    "lastCp": 72440
+  },
+  "Devanagari_Ext_A": {
+    "name": "Devanagari_Ext_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Po",
+    "firstCp": 72448,
+    "lastCp": 72457
+  },
+  "Sharada_Sup": {
+    "name": "Sharada_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 72544,
+    "lastCp": 72551
+  },
+  "Sunuwar": {
+    "name": "Sunuwar",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72640,
+    "lastCp": 72697
+  },
+  "Bhaiksuki": {
+    "name": "Bhaiksuki",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72704,
+    "lastCp": 72812
+  },
+  "Marchen": {
+    "name": "Marchen",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 72816,
+    "lastCp": 72886
+  },
+  "Masaram_Gondi": {
+    "name": "Masaram_Gondi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 72960,
+    "lastCp": 73049
+  },
+  "Gunjala_Gondi": {
+    "name": "Gunjala_Gondi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 73056,
+    "lastCp": 73129
+  },
+  "Tolong_Siki": {
+    "name": "Tolong_Siki",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 73136,
+    "lastCp": 73193
+  },
+  "Makasar": {
+    "name": "Makasar",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 73440,
+    "lastCp": 73464
+  },
+  "Kawi": {
+    "name": "Kawi",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 73472,
+    "lastCp": 73562
+  },
+  "Tamil_Sup": {
+    "name": "Tamil_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 73664,
+    "lastCp": 73727
+  },
+  "Cuneiform": {
+    "name": "Cuneiform",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 73728,
+    "lastCp": 74649
+  },
+  "Cuneiform_Numbers": {
+    "name": "Cuneiform_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "Nl",
+    "firstCp": 74752,
+    "lastCp": 74868
+  },
+  "Early_Dynastic_Cuneiform": {
+    "name": "Early_Dynastic_Cuneiform",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 74880,
+    "lastCp": 75075
+  },
+  "Cypro_Minoan": {
+    "name": "Cypro_Minoan",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 77712,
+    "lastCp": 77810
+  },
+  "Egyptian_Hieroglyphs": {
+    "name": "Egyptian_Hieroglyphs",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 77824,
+    "lastCp": 78895
+  },
+  "Egyptian_Hieroglyph_Format_Controls": {
+    "name": "Egyptian_Hieroglyph_Format_Controls",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Cf",
+    "firstCp": 78896,
+    "lastCp": 78933
+  },
+  "Egyptian_Hieroglyphs_Ext_A": {
+    "name": "Egyptian_Hieroglyphs_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 78944,
+    "lastCp": 82938
+  },
+  "Anatolian_Hieroglyphs": {
+    "name": "Anatolian_Hieroglyphs",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 82944,
+    "lastCp": 83526
+  },
+  "Gurung_Khema": {
+    "name": "Gurung_Khema",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 90368,
+    "lastCp": 90425
+  },
+  "Bamum_Sup": {
+    "name": "Bamum_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 92160,
+    "lastCp": 92728
+  },
+  "Mro": {
+    "name": "Mro",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 92736,
+    "lastCp": 92783
+  },
+  "Tangsa": {
+    "name": "Tangsa",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 92784,
+    "lastCp": 92873
+  },
+  "Bassa_Vah": {
+    "name": "Bassa_Vah",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 92880,
+    "lastCp": 92917
+  },
+  "Pahawh_Hmong": {
+    "name": "Pahawh_Hmong",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 92928,
+    "lastCp": 93071
+  },
+  "Kirat_Rai": {
+    "name": "Kirat_Rai",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 93504,
+    "lastCp": 93561
+  },
+  "Medefaidrin": {
+    "name": "Medefaidrin",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 93760,
+    "lastCp": 93850
+  },
+  "Beria_Erfe": {
+    "name": "Beria_Erfe",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 93856,
+    "lastCp": 93907
+  },
+  "Miao": {
+    "name": "Miao",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 93952,
+    "lastCp": 94111
+  },
+  "Ideographic_Symbols": {
+    "name": "Ideographic_Symbols",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lm",
+    "firstCp": 94176,
+    "lastCp": 94198
+  },
+  "Tangut": {
+    "name": "Tangut",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 94208,
+    "lastCp": 100351
+  },
+  "Tangut_Components": {
+    "name": "Tangut_Components",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 100352,
+    "lastCp": 101119
+  },
+  "Khitan_Small_Script": {
+    "name": "Khitan_Small_Script",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 101120,
+    "lastCp": 101631
+  },
+  "Tangut_Sup": {
+    "name": "Tangut_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 101632,
+    "lastCp": 101662
+  },
+  "Tangut_Components_Sup": {
+    "name": "Tangut_Components_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 101760,
+    "lastCp": 101874
+  },
+  "Kana_Ext_B": {
+    "name": "Kana_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lm",
+    "firstCp": 110576,
+    "lastCp": 110590
+  },
+  "Kana_Sup": {
+    "name": "Kana_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 110592,
+    "lastCp": 110847
+  },
+  "Kana_Ext_A": {
+    "name": "Kana_Ext_A",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 110848,
+    "lastCp": 110882
+  },
+  "Small_Kana_Ext": {
+    "name": "Small_Kana_Ext",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 110898,
+    "lastCp": 110951
+  },
+  "Nushu": {
+    "name": "Nushu",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 110960,
+    "lastCp": 111355
+  },
+  "Duployan": {
+    "name": "Duployan",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 113664,
+    "lastCp": 113823
+  },
+  "Shorthand_Format_Controls": {
+    "name": "Shorthand_Format_Controls",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Cf",
+    "firstCp": 113824,
+    "lastCp": 113827
+  },
+  "Symbols_For_Legacy_Computing_Sup": {
+    "name": "Symbols_For_Legacy_Computing_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 117760,
+    "lastCp": 118463
+  },
+  "Misc_Symbols_Sup": {
+    "name": "Misc_Symbols_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 118464,
+    "lastCp": 118512
+  },
+  "Znamenny_Music": {
+    "name": "Znamenny_Music",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 118528,
+    "lastCp": 118723
+  },
+  "Byzantine_Music": {
+    "name": "Byzantine_Music",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 118784,
+    "lastCp": 119029
+  },
+  "Music": {
+    "name": "Music",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 119040,
+    "lastCp": 119274
+  },
+  "Ancient_Greek_Music": {
+    "name": "Ancient_Greek_Music",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 119296,
+    "lastCp": 119365
+  },
+  "Kaktovik_Numerals": {
+    "name": "Kaktovik_Numerals",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 119488,
+    "lastCp": 119507
+  },
+  "Mayan_Numerals": {
+    "name": "Mayan_Numerals",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 119520,
+    "lastCp": 119539
+  },
+  "Tai_Xuan_Jing": {
+    "name": "Tai_Xuan_Jing",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 119552,
+    "lastCp": 119638
+  },
+  "Counting_Rod": {
+    "name": "Counting_Rod",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 119648,
+    "lastCp": 119672
+  },
+  "Math_Alphanum": {
+    "name": "Math_Alphanum",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 119808,
+    "lastCp": 120831
+  },
+  "Sutton_SignWriting": {
+    "name": "Sutton_SignWriting",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 120832,
+    "lastCp": 121519
+  },
+  "Latin_Ext_G": {
+    "name": "Latin_Ext_G",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Ll",
+    "firstCp": 122624,
+    "lastCp": 122666
+  },
+  "Glagolitic_Sup": {
+    "name": "Glagolitic_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 122880,
+    "lastCp": 122922
+  },
+  "Cyrillic_Ext_D": {
+    "name": "Cyrillic_Ext_D",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lm",
+    "firstCp": 122928,
+    "lastCp": 123023
+  },
+  "Nyiakeng_Puachue_Hmong": {
+    "name": "Nyiakeng_Puachue_Hmong",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 123136,
+    "lastCp": 123215
+  },
+  "Toto": {
+    "name": "Toto",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 123536,
+    "lastCp": 123566
+  },
+  "Wancho": {
+    "name": "Wancho",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 123584,
+    "lastCp": 123647
+  },
+  "Nag_Mundari": {
+    "name": "Nag_Mundari",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 124112,
+    "lastCp": 124153
+  },
+  "Ol_Onal": {
+    "name": "Ol_Onal",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 124368,
+    "lastCp": 124415
+  },
+  "Tai_Yo": {
+    "name": "Tai_Yo",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 124608,
+    "lastCp": 124671
+  },
+  "Ethiopic_Ext_B": {
+    "name": "Ethiopic_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 124896,
+    "lastCp": 124926
+  },
+  "Mende_Kikakui": {
+    "name": "Mende_Kikakui",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 124928,
+    "lastCp": 125142
+  },
+  "Adlam": {
+    "name": "Adlam",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lu",
+    "firstCp": 125184,
+    "lastCp": 125279
+  },
+  "Indic_Siyaq_Numbers": {
+    "name": "Indic_Siyaq_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 126065,
+    "lastCp": 126132
+  },
+  "Ottoman_Siyaq_Numbers": {
+    "name": "Ottoman_Siyaq_Numbers",
+    "isLetter": false,
+    "isNumber": true,
+    "gc": "No",
+    "firstCp": 126209,
+    "lastCp": 126269
+  },
+  "Arabic_Math": {
+    "name": "Arabic_Math",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 126464,
+    "lastCp": 126705
+  },
+  "Mahjong": {
+    "name": "Mahjong",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 126976,
+    "lastCp": 127019
+  },
+  "Domino": {
+    "name": "Domino",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 127024,
+    "lastCp": 127123
+  },
+  "Playing_Cards": {
+    "name": "Playing_Cards",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 127136,
+    "lastCp": 127221
+  },
+  "Enclosed_Alphanum_Sup": {
+    "name": "Enclosed_Alphanum_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 127462,
+    "lastCp": 127487
+  },
+  "Enclosed_Ideographic_Sup": {
+    "name": "Enclosed_Ideographic_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 127488,
+    "lastCp": 127589
+  },
+  "Misc_Pictographs": {
+    "name": "Misc_Pictographs",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 127744,
+    "lastCp": 128511
+  },
+  "Emoticons": {
+    "name": "Emoticons",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 128512,
+    "lastCp": 128591
+  },
+  "Ornamental_Dingbats": {
+    "name": "Ornamental_Dingbats",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 128592,
+    "lastCp": 128639
+  },
+  "Transport_And_Map": {
+    "name": "Transport_And_Map",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 128640,
+    "lastCp": 128764
+  },
+  "Alchemical": {
+    "name": "Alchemical",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 128768,
+    "lastCp": 128895
+  },
+  "Geometric_Shapes_Ext": {
+    "name": "Geometric_Shapes_Ext",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 128896,
+    "lastCp": 129008
+  },
+  "Sup_Arrows_C": {
+    "name": "Sup_Arrows_C",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 129024,
+    "lastCp": 129240
+  },
+  "Sup_Symbols_And_Pictographs": {
+    "name": "Sup_Symbols_And_Pictographs",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 129280,
+    "lastCp": 129535
+  },
+  "Chess_Symbols": {
+    "name": "Chess_Symbols",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 129536,
+    "lastCp": 129645
+  },
+  "Symbols_And_Pictographs_Ext_A": {
+    "name": "Symbols_And_Pictographs_Ext_A",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 129648,
+    "lastCp": 129784
+  },
+  "Symbols_For_Legacy_Computing": {
+    "name": "Symbols_For_Legacy_Computing",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "So",
+    "firstCp": 129792,
+    "lastCp": 130042
+  },
+  "CJK_Ext_B": {
+    "name": "CJK_Ext_B",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 131072,
+    "lastCp": 173791
+  },
+  "CJK_Ext_C": {
+    "name": "CJK_Ext_C",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 173824,
+    "lastCp": 177983
+  },
+  "CJK_Ext_D": {
+    "name": "CJK_Ext_D",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 177984,
+    "lastCp": 178205
+  },
+  "CJK_Ext_E": {
+    "name": "CJK_Ext_E",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 178208,
+    "lastCp": 183981
+  },
+  "CJK_Ext_F": {
+    "name": "CJK_Ext_F",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 183984,
+    "lastCp": 191456
+  },
+  "CJK_Ext_I": {
+    "name": "CJK_Ext_I",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 191472,
+    "lastCp": 192093
+  },
+  "CJK_Compat_Ideographs_Sup": {
+    "name": "CJK_Compat_Ideographs_Sup",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 194560,
+    "lastCp": 195101
+  },
+  "CJK_Ext_G": {
+    "name": "CJK_Ext_G",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 196608,
+    "lastCp": 201546
+  },
+  "CJK_Ext_H": {
+    "name": "CJK_Ext_H",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 201552,
+    "lastCp": 205743
+  },
+  "CJK_Ext_J": {
+    "name": "CJK_Ext_J",
+    "isLetter": true,
+    "isNumber": false,
+    "gc": "Lo",
+    "firstCp": 205744,
+    "lastCp": 210041
+  },
+  "Tags": {
+    "name": "Tags",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Cf",
+    "firstCp": 917505,
+    "lastCp": 917631
+  },
+  "VS_Sup": {
+    "name": "VS_Sup",
+    "isLetter": false,
+    "isNumber": false,
+    "gc": "Mn",
+    "firstCp": 917760,
+    "lastCp": 917999
+  }
+}

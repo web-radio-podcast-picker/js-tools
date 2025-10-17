@@ -5,6 +5,7 @@
 import fs from 'fs'
 import readline from 'readline'
 
+import unicodeMap from '../output/unicode-map.json' assert {type: 'json'}
 import knownLangs from '../output/kown-langs-groups-names-referential.json' assert {type: 'json'}
 import { c_title, c_host, c_itunesAuthor, c_category1, c_language } from '../podcast-db-consts.js'
 
@@ -31,6 +32,9 @@ export default class BuildPodcastsLists {
         '!', '~'
     ]
     // TODO: check why see this � instead of emoji ?
+
+    letters = []
+    dumpFirstLetter = true
 
     separator = '📚|📚'
 
@@ -203,11 +207,22 @@ export default class BuildPodcastsLists {
         }
 
         //lst.items.push(row)   // don't keep that in memory :)
-        //var letter1 = name[0].toLowerCase()
-        var letter1 = this.util.getFirstLetter(name, this.skipSymbols)
+        const isL = this.util.getFirstLetter(name, unicodeMap, this.skipSymbols)
+        var letter1 = isL.letter
+        letter1 = letter1.toUpperCase()
+
+        if (this.dumpFirstLetter && !this.letters.includes(letter1)) {
+            this.letters.push(letter1)
+            console.log(letter1 + ' ' + isL.grp.name + ' (' + isL.grp.gc + ')')
+        }
         var origLetter1 = letter1
 
-        if (!this.util.isLetter(letter1)    // TODO: bad test
+        /*
+        console.error(letter1)
+        console.warn(name)
+        */
+
+        /*if (!this.util.isLetter(letter1)    // TODO: bad test
             && !this.util.isDigit(letter1)
         ) {
             // fix alphabet category. use a special letter
@@ -224,7 +239,7 @@ export default class BuildPodcastsLists {
                     console.error(origLetter1 + ' --> ' + letter1)
                 console.warn(name)
             }
-        }
+        }*/
 
         // tags groups
         tags.forEach(tag => {

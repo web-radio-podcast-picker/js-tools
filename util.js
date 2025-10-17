@@ -1,5 +1,7 @@
 // utilitaries functions
 
+import { isNumber, isLetter } from './unicode.js'
+
 export default class Util {
 
     normalizeName(s) {
@@ -56,17 +58,28 @@ export default class Util {
         return s
     }
 
-    isLetter(char) {
-        return char.toLowerCase() !== char.toUpperCase()
+    getUnicodeGroup(char, map) {
+        for (var grk in map) {
+            const grp = map[grk]
+            if (char >= grp.firstCp && char <= grp.lastCp)
+                return grp
+        }
+        return null
     }
 
-    isDigit(char) {
-        return char >= '0' && char <= '9'
+    isLetter(char, map) {
+        const grp = this.getUnicodeGroup(char, map)
+        if (grp == null) return false
+        return {
+            isLetter: isLetter(grp.gc),
+            grp: grp
+        };
     }
 
-    isAlphabet(char) {
-        return (char >= 'a' && char <= 'z')
-            || (char >= 'A' && char <= 'Z')
+    isDigit(char, map) {
+        const grp = this.getUnicodeGroup(char, map)
+        if (grp == null) return false
+        return isNumber(char, grp.gc)
     }
 
     normalizeTitle(title, excludeFirstChars, row) {
@@ -99,14 +112,23 @@ export default class Util {
         }
     }
 
-    getFirstLetter(s, skipChars) {
+    getFirstLetter(s, map, skipSymbols) {
         if (s == null || s === undefined || s == '' || s.length == 0) return null
-        var c = s[0].toLowerCase()
+        var c = null
+        var isL = null
         var i = 0
-        while (skipChars.includes(c) && i < s.length - 1) {
+        var end = false
+        while (!end && i < s.length) {
+            c = s[i]//.toUpperCase()
+            const cd = s.charCodeAt(i)
+            isL = this.isLetter(cd, map)
+            end = isL.isLetter &&
+                !skipSymbols.includes(c)
             i++
-            c = s[i].toLowerCase()
         }
-        return c
+        return {
+            letter: c,
+            grp: isL.grp
+        }
     }
 }

@@ -72,7 +72,7 @@ switch (com) {
     break
   case 'build-unicode-map':
     const buildUnicodeMap = new BuildUnicodeMap()
-    buildUnicodeMap.run()
+    buildUnicodeMap.run(new Util())
     break
   default:
     console.error('unknown command: ' + com)
