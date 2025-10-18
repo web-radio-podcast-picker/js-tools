@@ -12,9 +12,12 @@ import { c_title, c_host, c_itunesAuthor, c_category1, c_language } from '../pod
 
 export default class BuildPodcastsLists {
 
+    buildSplits = false
+
     langsFlatFilename = 'output/podcasts-lists-flat-langs.json'
     langsFilename = 'output/podcasts-lists-langs.json'
     listsFilename = 'output/podcasts-lists.json'
+    outputListsPath = 'output/lists/'
 
     //dbExportFilename = 'data/podcastindex_feeds.db.csv'
     //dbExportFilename = 'data/output.csv'
@@ -28,11 +31,12 @@ export default class BuildPodcastsLists {
     titleRemoveFirstChars = ['#', '.', ':', '*', '-', '@', '»', '&', '|', '©', '=',
         '®', '_'
     ]
+    // TODO: add symbols { }
     skipSymbols = ['’', '‘', '«', '“', '”', '"', "'", '《', '[', '[', '「', '¡', '(', '¿', '®',
         '$', '+', '/', '｜', '"', '【', '〈', '〉', '】', ']', ')', ' ', '•', '.', '<', '>', '‌',
         '!', '~', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
     ]
-    // TODO: check why see this � instead of emoji ?
+    // TODO: check why see this � instead of emoji ? == response: it's due to surrogate for UTF16 (non readable UTF8)
 
     letters = []
 
@@ -45,7 +49,7 @@ export default class BuildPodcastsLists {
         rowIndex: 0,
         rowCount: 0,
         addedRowCount: 0,
-        maxRows: 1000,
+        maxRows: null,//1000,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -90,11 +94,19 @@ export default class BuildPodcastsLists {
         if (this.dumpLists)
             this.dumpLists()
 
-        this.parseDbExportPass2()
+        if (this.buildSplits)
+            this.parseDbExportPass2()
+        else {
+            console.warn('SKIP BUILD SPLITS')
+            this.endProcess()
+        }
     }
 
     parseDbExportPass2() {
         console.log('parse db export [PASS 2]')
+
+        this.util.deleteAllFilesSync(this.outputListsPath)
+
         this.state.rowIndex = this.state.rowCount = 0
         const fileStream = fs.createReadStream(this.dbExportFilename)
         const reader = readline.createInterface({
@@ -293,13 +305,16 @@ export default class BuildPodcastsLists {
         tags.forEach(tag => {
             var tagList = lst.byTag[tag]
             var filename = isoLang + sep + tag
-            //console.warn(tagList)
+
             if (Object.getOwnPropertyNames(tagList.byAlph).length > 0) {
                 // with byAlph
                 filename += sep + letter1
             }
+            const hex = Buffer.from(filename, 'utf8').toString('hex')
+            //originalText = Buffer.from(hexString, 'hex').toString('utf8')
+
             //console.log(filename)
-            filename = 'output/lists/' + filename + '.txt'
+            filename = this.outputListsPath + hex + '.txt'
             if (!fs.existsSync(filename))
                 fs.writeFileSync(filename, row + '\n', 'utf8')
             else
@@ -343,7 +358,7 @@ export default class BuildPodcastsLists {
             }
             var aLst = tlst.byAlph[letter1]
             if (!aLst) {
-                aLst = tlst.byAlph[letter1] = { count: 0, items: [] }
+                aLst = tlst.byAlph[letter1] = { count: 0 /*, items: []*/ }
             }
             aLst.count++
             //aLst.items.push(name)     // JavaScript heap out of memory

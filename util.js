@@ -1,6 +1,8 @@
 // utilitaries functions
 
 import { isNumber, isLetter } from './unicode.js'
+import fs from 'fs'
+import path from 'path'
 
 export default class Util {
 
@@ -133,6 +135,17 @@ export default class Util {
             cd: cd,
             s: s,
             skipSymbol: skipSymbol
+        }
+    }
+
+    deleteAllFilesSync(directoryPath) {
+        try {
+            const files = fs.readdirSync(directoryPath);
+            //console.log(files)
+            files.forEach(file => fs.unlinkSync(path.join(directoryPath, file)));
+            console.log(`All files in ${directoryPath} have been deleted.`);
+        } catch (error) {
+            console.error(`Error deleting files: ${error.message}`);
         }
     }
 }
