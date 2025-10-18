@@ -325,7 +325,9 @@ export default class BuildPodcastsLists {
             var tagList = lst.byTag[tag]
             var filename = this.util.toHex(isoLang)
                 + sep
-                + ((tag == null || tag == '') ? this.unknownTag : this.util.toHex(tag))
+                + ((tag == null || tag == '') ?
+                    this.util.toHex(this.unknownTag) :
+                    this.util.toHex(tag))
 
             if (Object.getOwnPropertyNames(tagList.byAlph).length > 0) {
                 // with byAlph
