@@ -45,7 +45,7 @@ export default class BuildPodcastsLists {
         rowIndex: 0,
         rowCount: 0,
         addedRowCount: 0,
-        maxRows: 500,
+        maxRows: 1000,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -96,7 +96,6 @@ export default class BuildPodcastsLists {
     parseDbExportPass2() {
         console.log('parse db export [PASS 2]')
         this.state.rowIndex = this.state.rowCount = 0
-        //console.log(this.state.rowIndex)
         const fileStream = fs.createReadStream(this.dbExportFilename)
         const reader = readline.createInterface({
             input: fileStream,
@@ -285,27 +284,26 @@ export default class BuildPodcastsLists {
     }
 
     saveToListFile(row, isoLang, tags, name) {
-        const sep = '|'
+        const sep = '-'
         const s = this.state
         // lang
         var lst = s.lists[isoLang]
         const letter1 = this.getFirstLetter(name, unicodeMap, this.skipSymbols)
 
-        /*
-        console.log(this.state.rowIndex)
-        console.log(lst)
-        console.log(tags)
-        console.log(row)
-        */
-
         tags.forEach(tag => {
             var tagList = lst.byTag[tag]
             var filename = isoLang + sep + tag
+            //console.warn(tagList)
             if (Object.getOwnPropertyNames(tagList.byAlph).length > 0) {
                 // with byAlph
                 filename += sep + letter1
             }
-            console.log(filename)
+            //console.log(filename)
+            filename = 'output/lists/' + filename + '.txt'
+            if (!fs.existsSync(filename))
+                fs.writeFileSync(filename, row + '\n', 'utf8')
+            else
+                fs.appendFileSync(filename, row + '\n', 'utf8')
         })
     }
 
