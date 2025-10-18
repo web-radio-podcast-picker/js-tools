@@ -17,10 +17,15 @@ export default class BuildPodcastsListsLight {
     traceAddFolder = false
     currentStore = 1
     limitProcessFileCount = 200000
+    // max page length
     maxFilesPerDir = 1000
-    maxFilesPerStore = 100000
+    // max files per store
+    maxFilesPerStore = 20000
+    // max store size (bytes)
+    maxStoreSize = 1024 * 1024 * 1024 * 1024    // 1GO
+
     filterLang = '656e67'
-    // 656e672d61667465722d73686f7773
+    //filterLang = null
 
     run(util) {
         this.util = util
