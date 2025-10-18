@@ -214,7 +214,9 @@ export default class BuildPodcastsListsLight {
     makeTagDir(i, lang, tag) {
         const langFolder = this.util.toHex(lang) + '/'
         const tagFolder = this.util.toHex(tag)
-        const path = this.output(i) + langFolder + tagFolder
+        const path = this.output(i)
+            + langFolder
+            + tagFolder
         fs.mkdirSync(path, (err) => {
             if (err !== null) console.error(err)
         })
@@ -229,7 +231,10 @@ export default class BuildPodcastsListsLight {
         const langFolder = this.util.toHex(lang) + '/'
         const tagFolder = this.util.toHex(tag) + '/'
         const alphaFolder = this.util.toHex(alpha)
-        const path = this.output(i) + langFolder + tagFolder + alphaFolder
+        const path = this.output(i)
+            + langFolder
+            + tagFolder
+            + alphaFolder
         fs.mkdirSync(path, (err) => {
             if (err !== null) console.error(err)
         })
