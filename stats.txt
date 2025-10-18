@@ -3,3 +3,5 @@ duration = 7242.097 sec
 row count = 4632950
 added row count = 4632768
 no name count = 364
+
+178197 splits
