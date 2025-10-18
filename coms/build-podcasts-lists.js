@@ -19,9 +19,9 @@ export default class BuildPodcastsLists {
     listsFilename = 'output/podcasts-lists.json'
     outputListsPath = 'output/lists/'
 
-    //dbExportFilename = 'data/podcastindex_feeds.db.csv'
-    //dbExportFilename = 'data/output.csv'
-    dbExportFilename = 'data/output_all.csv'
+    //dbExportFilename = 'input/podcastindex_feeds.db.csv'
+    //dbExportFilename = 'input/output.csv'
+    dbExportFilename = 'input/output_all.csv'
     unknownLang = '?'
     maxListCountBeforeAlphabeticalSlice = 100
     traceNonLetterFirstTitleChar = false

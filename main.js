@@ -5,9 +5,9 @@ console.clear()
 import chalk from 'chalk'
 
 import ParseGenLangs from './coms/parse-gen-langs.js'
-const langs = (await import('./data/db-podcast-export-languages.js')).default
-import isoLangs from './data/iso-639-2.json' assert {type: 'json'}
-const langTrs = (await import('./data/langsTranslations.js')).default
+const langs = (await import('./input/db-podcast-export-languages.js')).default
+import isoLangs from './input/iso-639-2.json' assert {type: 'json'}
+const langTrs = (await import('./input/langsTranslations.js')).default
 import Util from './util.js'
 
 import BuildPodcastsLists from './coms/build-podcasts-lists.js'

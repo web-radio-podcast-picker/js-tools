@@ -1,0 +1,4 @@
+ git add . --dry-run | Out-Null
+
+ 12h38 -> 
+ 
