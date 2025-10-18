@@ -17,24 +17,26 @@ export default class BuildPodcastsLists {
     langsFlatFilename = 'output/podcasts-lists-flat-langs.json'
     langsFilename = 'output/podcasts-lists-langs.json'
     listsFilename = 'output/podcasts-lists.json'
-    outputListsPath = 'output/lists/'
+    outputListsPath = '../temp/lists/'
 
     //dbExportFilename = 'input/podcastindex_feeds.db.csv'
     //dbExportFilename = 'input/output.csv'
     dbExportFilename = 'input/output_all.csv'
     unknownLang = '?'
+    unknownTag = '?'
     maxListCountBeforeAlphabeticalSlice = 100
     traceNonLetterFirstTitleChar = false
     substSpecialCharacter = '*'
     dumpFirstCharFallback = false
+    filenameFieldSep = '-'
     dumpLists = false
     titleRemoveFirstChars = ['#', '.', ':', '*', '-', '@', '»', '&', '|', '©', '=',
         '®', '_'
     ]
-    // TODO: add symbols { }
+
     skipSymbols = ['’', '‘', '«', '“', '”', '"', "'", '《', '[', '[', '「', '¡', '(', '¿', '®',
         '$', '+', '/', '｜', '"', '【', '〈', '〉', '】', ']', ')', ' ', '•', '.', '<', '>', '‌',
-        '!', '~', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+        '!', '~', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '{', '}'
     ]
     // TODO: check why see this � instead of emoji ? == response: it's due to surrogate for UTF16 (non readable UTF8)
 
@@ -49,7 +51,7 @@ export default class BuildPodcastsLists {
         rowIndex: 0,
         rowCount: 0,
         addedRowCount: 0,
-        maxRows: null,//1000,
+        maxRows: 100000,//1000,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -89,8 +91,10 @@ export default class BuildPodcastsLists {
         reader.on('line', (line) => {
             this.processRow(line, 1)
             // limit rows for dev
-            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows)
+            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows) {
+                console.warn('break on maxRows reached: ' + this.maxRows)
                 reader.close()
+            }
         })
         reader.on('close', () => {
             fileStream.close()
@@ -128,8 +132,10 @@ export default class BuildPodcastsLists {
         reader.on('line', (line) => {
             this.processRow(line, 2)
             // limit rows for dev
-            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows)
+            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows) {
+                console.warn('break on maxRows reached: ' + this.maxRows)
                 reader.close()
+            }
         })
         reader.on('close', () => {
             fileStream.close()
@@ -141,7 +147,6 @@ export default class BuildPodcastsLists {
     arrangeLists() {
         console.log('arrange lists')
         const lists = this.state.lists
-        const sep = '-'
         for (const lang in lists) {
             const byTag = lists[lang].byTag
             for (const tag in byTag) {
@@ -149,12 +154,14 @@ export default class BuildPodcastsLists {
                 const byTagCount = cat.count
                 if (byTagCount <= this.maxListCountBeforeAlphabeticalSlice) {
                     cat.items = []
-                    for (const alpha in cat.byAlph) {
-                        const lst = cat.byAlph[alpha].items
-                        lst.forEach(x => {
-                            cat.items.push(x)
-                        })
-                    }
+                    if (cat.byAlph)
+                        for (const alpha in cat.byAlph) {
+                            const lst = cat.byAlph[alpha].items
+                            if (lst)
+                                lst.forEach(x => {
+                                    cat.items.push(x)
+                                })
+                        }
                     //    delete byTag[tag].byAlph
                     byTag[tag].byAlph = {}
                 }
@@ -164,7 +171,7 @@ export default class BuildPodcastsLists {
 
     dumpLists() {
         const lists = this.state.lists
-        const sep = '-'
+        const sep = this.filenameFieldSep
         for (const lang in lists) {
             const byTag = lists[lang].byTag
             console.log('----------- ' + lang + ' ----------- : ' + lists[lang].count)
@@ -308,7 +315,7 @@ export default class BuildPodcastsLists {
     }
 
     saveToListFile(row, isoLang, tags, name) {
-        const sep = '-'
+        const sep = this.filenameFieldSep
         const s = this.state
         // lang
         var lst = s.lists[isoLang]
@@ -316,17 +323,21 @@ export default class BuildPodcastsLists {
 
         tags.forEach(tag => {
             var tagList = lst.byTag[tag]
-            var filename = isoLang + sep + tag
+            var filename = this.util.toHex(isoLang)
+                + sep
+                + ((tag == null || tag == '') ? this.unknownTag : this.util.toHex(tag))
 
             if (Object.getOwnPropertyNames(tagList.byAlph).length > 0) {
                 // with byAlph
-                filename += sep + letter1
+                filename += sep
+                    + this.util.toHex(letter1)
             }
-            const hex = Buffer.from(filename, 'utf8').toString('hex')
-            //originalText = Buffer.from(hexString, 'hex').toString('utf8')
+            ////const hex = this.util.toHex(filename)
+            ////originalText = Buffer.from(hexString, 'hex').toString('utf8')
 
             //console.log(filename)
-            filename = this.outputListsPath + hex + '.txt'
+            filename = this.outputListsPath + filename + '.txt'
+
             if (!fs.existsSync(filename))
                 fs.writeFileSync(filename, row + '\n', 'utf8')
             else

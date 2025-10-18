@@ -140,12 +140,29 @@ export default class Util {
 
     deleteAllFilesSync(directoryPath) {
         try {
-            const files = fs.readdirSync(directoryPath);
+            const files = fs.readdirSync(directoryPath)
             //console.log(files)
-            files.forEach(file => fs.unlinkSync(path.join(directoryPath, file)));
-            console.log(`All files in ${directoryPath} have been deleted.`);
+            files.forEach(file => fs.unlinkSync(path.join(directoryPath, file)))
+            console.log(`All files in ${directoryPath} have been deleted.`)
         } catch (error) {
-            console.error(`Error deleting files: ${error.message}`);
+            console.error(`Error deleting files: ${error.message}`)
         }
+    }
+
+    deleteDirectory(directoryPath) {
+        fs.rmSync(directoryPath, { recursive: true, force: true })
+    }
+
+    dir(directoryPath) {
+        const files = fs.readdirSync(directoryPath)
+        files.forEach(file => console.log(file))
+    }
+
+    toHex(s) {
+        return Buffer.from(s, 'utf8').toString('hex')
+    }
+
+    fromHex(s) {
+        return Buffer.from(s, 'hex').toString('utf8')
     }
 }

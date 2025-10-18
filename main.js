@@ -10,6 +10,7 @@ import isoLangs from './input/iso-639-2.json' assert {type: 'json'}
 const langTrs = (await import('./input/langsTranslations.js')).default
 import Util from './util.js'
 
+import BuildPodcastsListsLight from './coms/build-podcasts-lists-light.js'
 import BuildPodcastsLists from './coms/build-podcasts-lists.js'
 import BuildUnicodeMap from './coms/build-unicode-map.js';
 
@@ -70,10 +71,15 @@ switch (com) {
     break
   case 'build-podcasts-lists':
     var opts = null
-    if (args.length == 4)
-      opts = args[4]
+    if (args.length == 4) {
+      opts = args[3]
+    }
     const buildPodcastsLists = new BuildPodcastsLists()
     buildPodcastsLists.run(opts, langs, langTrs, isoLangs, new Util())
+    break
+  case 'build-podcasts-lists-light':
+    const buildPodcastsListsLight = new BuildPodcastsListsLight()
+    buildPodcastsListsLight.run(new Util())
     break
   case 'build-unicode-map':
     const buildUnicodeMap = new BuildUnicodeMap()
