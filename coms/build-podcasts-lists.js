@@ -24,6 +24,7 @@ export default class BuildPodcastsLists {
     traceNonLetterFirstTitleChar = false
     substSpecialCharacter = '*'
     dumpFirstCharFallback = false
+    dumpLists = false
     titleRemoveFirstChars = ['#', '.', ':', '*', '-', '@', '»', '&', '|', '©', '=',
         '®', '_'
     ]
@@ -44,7 +45,7 @@ export default class BuildPodcastsLists {
         rowIndex: 0,
         rowCount: 0,
         addedRowCount: 0,
-        maxRows: 5000,
+        maxRows: 500,
         checkSeparator: false,
         lists: {},
         langs: {},
@@ -53,41 +54,65 @@ export default class BuildPodcastsLists {
     }
 
     run(langs, langTrs, isoLangs, util) {
-        console.log('> run')
         this.util = util
         this.langs = langs
         this.langTrs = langTrs
         this.isoLangs = isoLangs
-        this.parseDbExport()
+        this.parseDbExportPass1()
     }
 
-    parseDbExport() {
+    parseDbExportPass1() {
         this.state.startStamp = Date.now()
         const begin = new Date()
-        console.log('parse db export - ' + begin)
+        console.log('parse db export [PASS 1] - ' + begin)
         const fileStream = fs.createReadStream(this.dbExportFilename)
         const reader = readline.createInterface({
             input: fileStream,
             crlfDelay: Infinity
         })
         reader.on('line', (line) => {
-            this.processRow(line)
+            this.processRow(line, 1)
             // limit rows for dev
             if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows)
                 reader.close()
         })
         reader.on('close', () => {
-            this.postProcess()
+            fileStream.close()
+            reader.removeAllListeners()
+            this.postPass1()
         })
     }
 
-    postProcess() {
+    postPass1() {
 
         this.arrangeLists()
 
-        this.dumpLists()
+        if (this.dumpLists)
+            this.dumpLists()
 
-        this.endProcess()
+        this.parseDbExportPass2()
+    }
+
+    parseDbExportPass2() {
+        console.log('parse db export [PASS 2]')
+        this.state.rowIndex = this.state.rowCount = 0
+        //console.log(this.state.rowIndex)
+        const fileStream = fs.createReadStream(this.dbExportFilename)
+        const reader = readline.createInterface({
+            input: fileStream,
+            crlfDelay: Infinity
+        })
+        reader.on('line', (line) => {
+            this.processRow(line, 2)
+            // limit rows for dev
+            if (this.state.maxRows != null && this.state.rowCount >= this.state.maxRows)
+                reader.close()
+        })
+        reader.on('close', () => {
+            fileStream.close()
+            reader.removeAllListeners()
+            this.endProcess()
+        })
     }
 
     arrangeLists() {
@@ -190,20 +215,20 @@ export default class BuildPodcastsLists {
         return t
     }
 
-    processRow(row) {
+    processRow(row, pass) {
         if (this.state.rowIndex == 0) {
             // skip header
             this.state.rowIndex++
             return
         }
-        this.parseRow(row)
+        this.parseRow(row, pass)
         this.state.rowCount++
         this.state.rowIndex++
     }
 
-    parseRow(row) {
+    parseRow(row, pass) {
         // lookup for a valid separator
-        if (this.state.checkSeparator
+        if (pass == 1 && this.state.checkSeparator
             && row.includes(this.separator))
             console.warn(row)
 
@@ -217,7 +242,6 @@ export default class BuildPodcastsLists {
             //console.error('--> auth=' + auth + ' host=' + host)
             name ||= auth || host
             if (!name) {
-                console.error('no name found: ' + row)
                 this.state.noNameCount++
             }
         }
@@ -234,16 +258,17 @@ export default class BuildPodcastsLists {
         }
         // iso lang
         var isoLang = knownLangs.map[lang]
-        var det = ''
         if (isoLang === undefined) {
             isoLang = this.unknownLang
-            det = ' (' + lang + ')'
         }
-        //console.warn(isoLang + det + ' | ' + tags.join(','))
 
-        if (name) {
+        if (pass == 1 && name) {
             this.addList(isoLang, tags, name, row)
             this.addLang(isoLang)
+        }
+
+        if (pass == 2 && name) {
+            this.saveToListFile(row, isoLang, tags, name)
         }
     }
 
@@ -259,6 +284,31 @@ export default class BuildPodcastsLists {
         }
     }
 
+    saveToListFile(row, isoLang, tags, name) {
+        const sep = '|'
+        const s = this.state
+        // lang
+        var lst = s.lists[isoLang]
+        const letter1 = this.getFirstLetter(name, unicodeMap, this.skipSymbols)
+
+        /*
+        console.log(this.state.rowIndex)
+        console.log(lst)
+        console.log(tags)
+        console.log(row)
+        */
+
+        tags.forEach(tag => {
+            var tagList = lst.byTag[tag]
+            var filename = isoLang + sep + tag
+            if (Object.getOwnPropertyNames(tagList.byAlph).length > 0) {
+                // with byAlph
+                filename += sep + letter1
+            }
+            console.log(filename)
+        })
+    }
+
     addList(isoLang, tags, name, row) {
         const s = this.state
 
@@ -269,19 +319,8 @@ export default class BuildPodcastsLists {
         }
 
         //lst.items.push(row)   // don't keep that in memory :)
-        const isL = this.util.getFirstLetter(name, unicodeMap, this.skipSymbols)
-        var letter1 = isL.letter
-        letter1 = letter1.toUpperCase()
 
-        if (!isL.grp) {
-            // no letter found
-            this.state.titlesWithNonLetterChar++
-            if (this.dumpFirstCharFallback) {
-                isL.char0 = name[0]
-                console.error(isL)
-            }
-            letter1 = this.substSpecialCharacter
-        }
+        const letter1 = this.getFirstLetter(name, unicodeMap, this.skipSymbols)
 
         if (!this.letters.includes(letter1)) {
             this.letters.push(letter1)
@@ -309,9 +348,28 @@ export default class BuildPodcastsLists {
                 aLst = tlst.byAlph[letter1] = { count: 0, items: [] }
             }
             aLst.count++
-            aLst.items.push(name)
+            //aLst.items.push(name)     // JavaScript heap out of memory
         })
         lst.count++
         this.state.addedRowCount++
+    }
+
+    getFirstLetter(name, unicodeMap, skipSymbols, pass) {
+        const isL = this.util.getFirstLetter(name, unicodeMap, skipSymbols)
+        var letter1 = isL.letter
+        letter1 = letter1.toUpperCase()
+
+        if (!isL.grp) {
+            // no letter found
+            if (pass == 1) {
+                this.state.titlesWithNonLetterChar++
+                if (this.dumpFirstCharFallback) {
+                    isL.char0 = name[0]
+                    console.error(isL)
+                }
+            }
+            letter1 = this.substSpecialCharacter
+        }
+        return letter1
     }
 }

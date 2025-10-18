@@ -1,158 +1,74 @@
 {
   "?": {
     "code": "?",
-    "count": 68
-  },
-  "Afar": {
-    "code": "aar",
-    "count": 1
-  },
-  "Afrikaans": {
-    "code": "afr",
-    "count": 3
-  },
-  "Arabic": {
-    "code": "ara",
-    "count": 3
-  },
-  "Breton": {
-    "code": "bre",
-    "count": 1
-  },
-  "Catalan": {
-    "code": "cat",
-    "count": 5
+    "count": 7
   },
   "Chinese": {
     "code": "zho",
-    "count": 41
+    "count": 6
   },
   "Danish": {
     "code": "dan",
-    "count": 16
+    "count": 4
   },
   "Dutch": {
     "code": "nld",
-    "count": 19
+    "count": 3
   },
   "English": {
     "code": "eng",
-    "count": 4042
-  },
-  "Finnish": {
-    "code": "fin",
-    "count": 5
+    "count": 398
   },
   "French": {
     "code": "fra",
-    "count": 65
+    "count": 5
   },
   "German": {
     "code": "deu",
-    "count": 118
-  },
-  "Greek, Modern (1453-)": {
-    "code": "ell",
-    "count": 2
-  },
-  "Hausa": {
-    "code": "hau",
-    "count": 11
+    "count": 13
   },
   "Hebrew": {
     "code": "heb",
-    "count": 2
-  },
-  "Hindi": {
-    "code": "hin",
     "count": 1
-  },
-  "Hungarian": {
-    "code": "hun",
-    "count": 1
-  },
-  "Icelandic": {
-    "code": "isl",
-    "count": 2
-  },
-  "Indonesian": {
-    "code": "ind",
-    "count": 6
   },
   "Italian": {
     "code": "ita",
-    "count": 28
+    "count": 1
   },
   "Japanese": {
     "code": "jpn",
-    "count": 19
+    "count": 2
   },
   "Korean": {
     "code": "kor",
-    "count": 22
-  },
-  "Marathi": {
-    "code": "mar",
-    "count": 1
-  },
-  "Nepali": {
-    "code": "nep",
-    "count": 1
+    "count": 2
   },
   "Norwegian": {
     "code": "nor",
-    "count": 20
-  },
-  "Persian": {
-    "code": "fas",
-    "count": 3
-  },
-  "Polish": {
-    "code": "pol",
-    "count": 3
+    "count": 5
   },
   "Portuguese": {
     "code": "por",
-    "count": 109
+    "count": 9
   },
   "Romanian": {
     "code": "ron",
-    "count": 5
+    "count": 4
   },
   "Russian": {
     "code": "rus",
-    "count": 32
-  },
-  "Serbian": {
-    "code": "srp",
-    "count": 1
-  },
-  "Slovak": {
-    "code": "slk",
-    "count": 1
+    "count": 3
   },
   "Spanish": {
     "code": "spa",
-    "count": 265
-  },
-  "Swahili": {
-    "code": "swa",
-    "count": 1
+    "count": 30
   },
   "Swedish": {
     "code": "swe",
-    "count": 72
-  },
-  "Turkish": {
-    "code": "tur",
-    "count": 2
+    "count": 6
   },
   "Ukrainian": {
     "code": "ukr",
     "count": 1
-  },
-  "Vietnamese": {
-    "code": "vie",
-    "count": 2
   }
 }
