@@ -4,11 +4,11 @@ import fs from 'fs'
 
 export default class BuildPodcastsListsLight {
 
-    input = '../temp/podcasts-lists-full/'
+    input = '../temp/lists/'
     storePath = n => '../data' + n + '/'
     output = n => '../data' + n + '/podcasts-lists-light/'
     countsFilename = 'output/podcasts-lists-light-counts.json'
-    filenameFieldSep = '-'  // '📚|📚'
+    filenameFieldSep = '-'
 
     langs = {}      // { lang : { tag: [alpha] }}
     stores = []     // [n] = { folders: x , files: y, size: z }
@@ -115,17 +115,19 @@ export default class BuildPodcastsListsLight {
 
         const sep = this.filenameFieldSep
         const dsep = sep + sep
-        const fn = this.util.fromHex(file)
-        const t = fn.split(sep)
-        const lang = t[0]
-        const langPath = this.util.toHex(lang)
+        ////const fn = this.util.fromHex(file)        
+        const t = file.split(sep)
+
+        const lang = this.util.fromHex(t[0])
+        const langPath = t[0]
 
         if (this.filterLang != null && this.filterLang != langPath)
             return
 
-        const tag = t[1]
-        var alpha = t.length > 2 ? t[2] : null
-        if (fn.endsWith(dsep)) {
+        const tag = this.util.fromHex(t[1])
+        var alphaPath = t.length > 2 ? t[2] : null
+        var alpha = t.length > 2 ? this.util.fromHex(t[2]) : null
+        if (file.endsWith(dsep)) {
             console.error('error on ambiguous filename encoding: ' + fn)
             alpha = sep
         }
@@ -155,14 +157,13 @@ export default class BuildPodcastsListsLight {
 
         // process & save file
 
-        const tagPath = this.util.toHex(tag)
-        const alphaPath = alpha != null ? this.util.toHex(alpha) : ''
+        const tagPath = t[1]
         const outpath = this.output(storeNo)
             + langPath + '/'
             + tagPath + '/'
             + alphaPath
-        const counts = this.getStoreCount(store, langPath, tagPath, alphaPath)
-        this.incCount(store, langPath, tagPath, alphaPath)
+        const counts = this.getStoreCount(store, lang, tag, alpha)
+        this.incCount(store, lang, tag, alpha)
 
         this.filesCount++
         store.files++
