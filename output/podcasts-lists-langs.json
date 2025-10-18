@@ -374,5 +374,137 @@
   ],
   "snd": [
     "Sindhi"
+  ],
+  "hat": [
+    "Haitian",
+    "Haitian Creole"
+  ],
+  "tir": [
+    "Tigrinya"
+  ],
+  "tuk": [
+    "Turkmen"
+  ],
+  "ina": [
+    "Interlingua (International Auxiliary Language Association)"
+  ],
+  "bod": [
+    "Tibetan"
+  ],
+  "kal": [
+    "Kalaallisut",
+    "Greenlandic"
+  ],
+  "kur": [
+    "Kurdish"
+  ],
+  "bam": [
+    "Bambara"
+  ],
+  "run": [
+    "Rundi"
+  ],
+  "lin": [
+    "Lingala"
+  ],
+  "mlt": [
+    "Maltese"
+  ],
+  "ast": [
+    "Asturian",
+    "Bable",
+    "Leonese",
+    "Asturleonese"
+  ],
+  "mlg": [
+    "Malagasy"
+  ],
+  "luo": [
+    "Luo (Kenya and Tanzania)"
+  ],
+  "bis": [
+    "Bislama"
+  ],
+  "grn": [
+    "Guarani"
+  ],
+  "ipk": [
+    "Inupiaq"
+  ],
+  "ido": [
+    "Ido"
+  ],
+  "ewo": [
+    "Ewondo"
+  ],
+  "nbl": [
+    "Ndebele, South",
+    "South Ndebele"
+  ],
+  "kik": [
+    "Kikuyu",
+    "Gikuyu"
+  ],
+  "cos": [
+    "Corsican"
+  ],
+  "lao": [
+    "Lao"
+  ],
+  "uig": [
+    "Uighur",
+    "Uyghur"
+  ],
+  "gsw": [
+    "Swiss German",
+    "Alemannic",
+    "Alsatian"
+  ],
+  "din": [
+    "Dinka"
+  ],
+  "ceb": [
+    "Cebuano"
+  ],
+  "haw": [
+    "Hawaiian"
+  ],
+  "nde": [
+    "Ndebele, North",
+    "North Ndebele"
+  ],
+  "ang": [
+    "English, Old (ca.450-1100)"
+  ],
+  "xho": [
+    "Xhosa"
+  ],
+  "yid": [
+    "Yiddish"
+  ],
+  "bak": [
+    "Bashkir"
+  ],
+  "kam": [
+    "Kamba"
+  ],
+  "kir": [
+    "Kirghiz",
+    "Kyrgyz"
+  ],
+  "sot": [
+    "Sotho, Southern"
+  ],
+  "mri": [
+    "Maori"
+  ],
+  "tat": [
+    "Tatar"
+  ],
+  "abk": [
+    "Abkhazian"
+  ],
+  "cor": [
+    "Cornish"
   ]
 }

@@ -51,7 +51,7 @@ export default class BuildPodcastsLists {
         rowIndex: 0,
         rowCount: 0,
         addedRowCount: 0,
-        maxRows: 100000,//1000,
+        maxRows: 500000,//1000,
         checkSeparator: false,
         lists: {},
         langs: {},

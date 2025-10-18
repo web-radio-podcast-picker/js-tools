@@ -10,8 +10,8 @@ export default class BuildPodcastsListsLight {
     countsFilename = 'output/podcasts-lists-light-counts.json'
     filenameFieldSep = '-'
 
-    langs = {}      // { lang : { tag: [alpha] }}
-    stores = []     // [n] = { folders: x , files: y, size: z }
+    langs = {}   // { lang : { tag: [alpha] }}
+    stores = []
     foldersCount = 0
     filesCount = 0
     traceAddFolder = false
@@ -24,8 +24,8 @@ export default class BuildPodcastsListsLight {
     // max store size (bytes)
     maxStoreSize = 1024 * 1024 * 1024 * 1024    // 1GO
 
-    filterLang = '656e67'
-    //filterLang = null
+    //filterLang = '656e67'
+    filterLang = null
 
     run(util) {
         this.util = util
@@ -168,10 +168,16 @@ export default class BuildPodcastsListsLight {
             + tagPath + '/'
             + alphaPath
         const counts = this.getStoreCount(store, lang, tag, alpha)
-        this.incCount(store, lang, tag, alpha)
+        this.rebuildFile(file, outpath, store, lang, tag, alpha)
 
         this.filesCount++
         store.files++
+    }
+
+    rebuildFile(file, outpath, store, lang, tag, alpha) {
+        const data = fs.readFileSync(this.input + file, 'utf8')
+        const lines = data.split('\n')
+        this.incCount(store, lang, tag, alpha, lines.length)
     }
 
     getStoreCount(store, langPath, tagPath, alphaPath) {
@@ -191,15 +197,15 @@ export default class BuildPodcastsListsLight {
         return cntp
     }
 
-    incCount(store, langPath, tagPath, alphaPath) {
+    incCount(store, langPath, tagPath, alphaPath, n) {
         this.getStoreCount(store, langPath, tagPath, alphaPath)
         if (alphaPath != null && alphaPath != '') {
             store.counts[langPath][tagPath][alphaPath].count
-                = store.counts[langPath][tagPath][alphaPath].count + 1
+                = store.counts[langPath][tagPath][alphaPath].count + n
         }
         else {
             store.counts[langPath][tagPath].count =
-                store.counts[langPath][tagPath].count + 1
+                store.counts[langPath][tagPath].count + n
         }
     }
 
