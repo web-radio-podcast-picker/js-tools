@@ -57,7 +57,15 @@ export default class BuildPodcastsLists {
         titlesWithNonLetterChar: 0
     }
 
-    run(langs, langTrs, isoLangs, util) {
+    run(opts, langs, langTrs, isoLangs, util) {
+        if (opts != null) {
+            if (opts == '--build-splits')
+                this.buildSplits = true
+            else {
+                console.error('invalid argument: ' + opts)
+                return
+            }
+        }
         this.util = util
         this.langs = langs
         this.langTrs = langTrs
@@ -69,6 +77,10 @@ export default class BuildPodcastsLists {
         this.state.startStamp = Date.now()
         const begin = new Date()
         console.log('parse db export [PASS 1] - ' + begin)
+        if (this.buildSplits)
+            console.warn('BUILD SPLIT ENABLED')
+        else
+            console.warn('build split disabled')
         const fileStream = fs.createReadStream(this.dbExportFilename)
         const reader = readline.createInterface({
             input: fileStream,

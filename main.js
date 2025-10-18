@@ -29,14 +29,16 @@ const usage = function () {
 
     commands can be:
 
-    parse-gen-langs :      db-podcast-export-languages.js
+    parse-gen-langs :      input/db-podcast-export-languages.js
                             -->
                                output/unknown-langs.json
                                output/known-langs.json
                                output/unkown-langs-groups-names-referential.json
                                output/kown-langs-groups-names-referential.json
 
-    build-podcasts-lists :  podcastindex_feeds.db.csv
+    build-podcasts-lists [--build-splits] :
+        
+                            input/podcastindex_feeds.db.csv
                             output/known-langs.json
                             output/unkown-langs-groups-names-referential.json
                             output/kown-langs-groups-names-referential.json
@@ -45,7 +47,7 @@ const usage = function () {
                               output/podcasts-lists-lang.json
                               output/podcasts-lists-flat-langs.json
                               
-    build-unicode-map :     ucd.all.grouped.xml
+    build-unicode-map :     input/ucd.all.grouped.xml
                               -->
                                 output/unicode-map.json
   `
@@ -54,8 +56,8 @@ const usage = function () {
 }
 
 // checks args
-if (args.length != 3) {
-  console.error('only one argument can be accepted. 1 argument required')
+if (args.length < 3) {
+  console.error('com argument required')
   usage()
 }
 const com = args[2]
@@ -67,8 +69,11 @@ switch (com) {
     parseGenLangs.run(langs, langTrs, isoLangs, new Util())
     break
   case 'build-podcasts-lists':
+    var opts = null
+    if (args.length == 4)
+      opts = args[4]
     const buildPodcastsLists = new BuildPodcastsLists()
-    buildPodcastsLists.run(langs, langTrs, isoLangs, new Util())
+    buildPodcastsLists.run(opts, langs, langTrs, isoLangs, new Util())
     break
   case 'build-unicode-map':
     const buildUnicodeMap = new BuildUnicodeMap()

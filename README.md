@@ -4,19 +4,23 @@ helps you manage the wrpp datas sets
 ---
 
 ```
+  js-tools helps you manage the wrpp datas sets
+
   usage:
     main <command>
 
     commands can be:
 
-    parse-gen-langs :      db-podcast-export-languages.js
+    parse-gen-langs :      input/db-podcast-export-languages.js
                             -->
                                output/unknown-langs.json
                                output/known-langs.json
                                output/unkown-langs-groups-names-referential.json
                                output/kown-langs-groups-names-referential.json
 
-    build-podcasts-lists :  podcastindex_feeds.db.csv
+    build-podcasts-lists [--build-splits] :
+        
+                            input/podcastindex_feeds.db.csv
                             output/known-langs.json
                             output/unkown-langs-groups-names-referential.json
                             output/kown-langs-groups-names-referential.json
@@ -24,8 +28,14 @@ helps you manage the wrpp datas sets
                               output/podcasts-lists.json
                               output/podcasts-lists-lang.json
                               output/podcasts-lists-flat-langs.json
+                              
+    build-podcasts-lists-light :
 
-    build-unicode-map :     ucd.all.grouped.xml
+                            ../temp/podcasts-lists-full/
+                              -->
+                              ../data/podcasts-lists-light
+
+    build-unicode-map :     input/ucd.all.grouped.xml
                               -->
                                 output/unicode-map.json
 ```

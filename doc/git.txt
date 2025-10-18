@@ -1,4 +1,22 @@
- git add . --dry-run | Out-Null
+disable fix eol:
+----------------
 
- 12h38 -> 
- 
+git config --global core.autocrlf false
+
+publish db pods splits:
+-----------------------
+
+ git add . | Out-Null
+
+ 12h38 -> 15h59     21 min !!!!!
+
+git commit -a -m "add db-splits"
+
+...Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Enumerating objects: 128177, done.
+Counting objects: 100% (128177/128177), done.
+Delta compression using up to 12 threads
+Compressing objects:  60% (77116/128174)
+
+13h --> abandon
